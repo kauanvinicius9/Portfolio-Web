@@ -13,3 +13,5 @@ app.include_router(contacts.router, prefix="/contacts", tags=["Contacts"])
 @app.get("/")
 def read_root():
     return {"status": "ok"}
+
+# Comando principal, onde testamos a API e ver se está rodando
