@@ -10,6 +10,6 @@ router = APIRouter()
 def create_project(project: ProjectCreate, db: Session = Depends(get_db)):
     return crud.create_project(db, project)
 
-@router.get("/", response, model=list[ProjectResponse])
+@router.get("/", response_model=list[ProjectResponse])
 def list_projects(db: Session=Depends(get_db)):
     return crud.get_projects(db)
