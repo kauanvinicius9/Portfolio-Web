@@ -3,6 +3,7 @@ from app.core.database import Base, engine
 from app.models import project, contact
 from app.routers import projects, contacts
 
+# Alterações na documentação oficial do FastAPI
 app = FastAPI(title="Portifólio Pessoal")
 
 Base.metadata.create_all(bind=engine)
