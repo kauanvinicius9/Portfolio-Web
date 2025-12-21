@@ -25,4 +25,4 @@ db.close()
 
 print("Seu banco de dados foi populado.")
 
-# Salvando os dados co SQLAlchemy
+# Salvando os dados com SQLAlchemy
