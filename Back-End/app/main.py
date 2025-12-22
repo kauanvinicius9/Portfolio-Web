@@ -3,6 +3,7 @@ from app.core.database import Base, engine
 from app.models import project, contact
 from app.routers import projects, contacts
 
+# Alterações na documentação oficial do FastAPI
 app = FastAPI(title="Portifólio Pessoal")
 
 Base.metadata.create_all(bind=engine)
@@ -13,3 +14,5 @@ app.include_router(contacts.router, prefix="/contacts", tags=["Contacts"])
 @app.get("/")
 def read_root():
     return {"status": "ok"}
+
+# Comando principal, onde testamos a API e ver se está rodando
