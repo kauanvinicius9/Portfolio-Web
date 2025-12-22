@@ -47,6 +47,19 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+###
+```
+http://127.0.0.1:8000/docs
+```
+
+###
+
+**<h2>Swagger UI</h2>**
+
+###
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a8754b5f-0dfa-4770-945b-24129a12ed27" />
+
 ---
 
 | CATEGORY | TECHNOLOGIES |
