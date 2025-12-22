@@ -49,18 +49,18 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-| Category | Technologies |
+| CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | <div align="center"><img src="https://cdn.simpleicons.org/html5/E34F26" height="35"/> <img src="https://cdn.simpleicons.org/react/61DAFB" height="35"/> <img src="https://cdn.simpleicons.org/typescript/3178C6" height="35"/> <img src="https://cdn.simpleicons.org/bootstrap/7952B3" height="35"/> <br/>`axios`</div> |
-| **Back-End** | <div align="center"><img src="https://cdn.simpleicons.org/fastapi/009688" height="35"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35"/> <br/>`REST` `JSON` `HTTPS`</div> |
-| **Database** | <div align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" height="35"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="35"/></div> |
-| **ORM / Data Access** | <div align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" height="35"/></div> |
-| **UI / UX** | <div align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="35"/></div> |
-| **Version Control** | <div align="center"><img src="https://cdn.simpleicons.org/git/F05032" height="35"/></div> |
-| **Repository & Documentation** | <div align="center"><img src="https://skillicons.dev/icons?i=github" height="35"/> <img src="https://skillicons.dev/icons?i=md" height="35"/></div> |
-| **CI / CD** | <div align="center"><img src="https://skillicons.dev/icons?i=github" height="35"/></div> |
-| **DevOps / Deployment** | <div align="center"><img src="https://cdn.simpleicons.org/docker/2496ED" height="35"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="35"/> <br/>`Render`</div> |
-| **API Testing** | <div align="center"><img src="https://cdn.simpleicons.org/insomnia/5E00D3" height="35"/></div> |
-| **Development Environment** | <div align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="35"/></div> |
-| **Scripting & Automation** | <div align="center"><img src="https://skillicons.dev/icons?i=powershell" height="35"/></div> |
-| **Project Organization** | <div align="center"><img src="https://skillicons.dev/icons?i=github" height="35"/> <img src="https://cdn.simpleicons.org/docker/2496ED" height="35"/></div> |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` |
+| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTPS` |
+| **Database** | `MYSQL` `SQLITE`|
+| **ORM / Data Access** | `SQLALCHEMY` |
+| **UI / UX** | `FIGMA` |
+| **Version Control** | `GIT` |
+| **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
+| **CI / CD** | `GITHUB` `INSOMNIA` |
+| **DevOps / Deployment** | `DOCKER` `AZURE` `RENDER` |
+| **API Testing** | `INSOMNIA` |
+| **Development Environment** | `VISUAL STUDIO CODE` |
+| **Scripting & Automation** | `POWERSHELL` |
+| **Project Organization** | `GITHUB` `DOCKER` |
