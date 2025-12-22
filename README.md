@@ -59,7 +59,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `AZURE` `RENDER` |
+| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` |
 | **API Testing** | `INSOMNIA` |
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
