@@ -212,9 +212,6 @@ npm i
 
 ###
 
-## 🎨 UI/UX with Figma
-
-###
 ```t
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -259,7 +256,14 @@ If using `JS` components (`modal`, `dropdown`):
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 ```
 
+- Bootstrap WebSite: [https://getbootstrap.com/](https://getbootstrap.com/ "Click Here").
+  
 ---
+
+
+## 🎨 UI/UX with Figma
+
+###
 
 <h6>Developing...</h6>
 
