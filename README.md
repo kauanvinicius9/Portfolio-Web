@@ -204,9 +204,62 @@ npm i
 
 ###
 
+**<h2>How to Install and Use Bootstrap?</h2>**
+
+###
+
+`Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code.
+
+###
+
 ## 🎨 UI/UX with Figma
 
 ###
+```t
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-react-app"/>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" alt="Bootstrap"> <!-- HERE -->
+    <link rel="icon" type="image/png" href="/">
+    <title>Your Title</title>
+  </head>
+  
+  <body>
+    <div id="root"></div>
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>> <!-- HERE -->
+  </body>
+</html>
+
+<!-- Front-End Base -->
+```
+
+###
+```powershell
+npm install bootstrap
+```
+
+###
+
+`main.tsx`
+
+###
+```typescript
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+If using `JS` components (`modal`, `dropdown`):
+
+###
+```typescript
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+```
+
+---
 
 <h6>Developing...</h6>
 
