@@ -1,5 +1,30 @@
 <h6>🚧 Building... | 20/12/2025 - 01/01/2026</h6>
 
+# 💻 My Official Portfolio
+
+###
+
+- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zPk6DzvLledCTULYSvPQkBMbtvROHSsv/view?usp=drive_link)
+
+###
+
+`ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
+
+###
+```
+app/
+ ├── core/
+ ├── models/
+ ├── schemas/
+ ├── crud/
+ ├── routers/
+ └── main.py
+```
+
+###
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -47,10 +72,108 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+---
+
+**<h2>Data-Base</h2>**
+
 ###
+
+- **Type:** Relational;
+- **Data-Base:** SQLite;
+- **ORM:** SQLAlchemy.
+
+###
+
+**<h2>Virtual Env</h2>**
+
+###
+```powershell
+python -m venv env
 ```
-http://127.0.0.1:8000/docs
+
+###
+```powershell
+env\Scripts\activate
 ```
+
+###
+
+**<h2>Install FastAPI</h2>**
+
+###
+```powershell
+pip install fastapi uvicorn sqlalchemy psycopg2-binary
+```
+
+<h6>Run the Back-End</h6>
+
+###
+```powershell
+uvicorn app.main:app --reload
+```
+
+###
+
+<h6>Output</h6>
+
+###
+```python
+Uvicorn running on http://127.0.0.1:8000
+```
+
+###
+
+**URL BASE:** `http://127.0.0.1:8000`
+
+###
+
+**URL DOCUMENTATION SWAGGER UI:** `http://127.0.0.1:8000/docs`
+
+###
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET`  | `/` | API Status |
+| `GET`  | `projects` | Projects List |
+| `POST`  | `projects` | Create a New Project |
+| `POST`  | `contacts` | Send a Contact Message |
+
+---
+
+<h6>Run the Front-End</h6>
+
+###
+```powershell
+npm install —save-dev @types/react @types/react-dom
+```
+
+###
+```powershell
+npm install 
+```
+
+Or
+
+###
+```powershell
+npm i
+```
+
+###
+
+**OBS.:** Installation `REACT` with `TYPESCRIPT`
+
+---
+
+**<h2>SQL Completed</h2>**
+
+###
+
+- Models Created;
+- Automatic Tables;
+- CRUD Working;
+- Session Closing Correctly;
+- Documented `API`.
 
 ###
 
@@ -77,3 +200,24 @@ http://127.0.0.1:8000/docs
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
 | **Project Organization** | `GITHUB` `DOCKER` |
+
+###
+
+# 🎨 UI/UX with Figma
+
+###
+
+<h6>Developing...</h6>
+
+Acess to my prototipe with Figma on the image below:
+
+###
+
+<a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
+  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7049be9a-f86e-4923-b6c1-955ed807d80b" title="Access the Prototype Here"/>
+</a>
+
+
+<div align="right">
+  <h6>© 2026 — Kauan Vinícius</h6>
+</div>
