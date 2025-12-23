@@ -1,4 +1,4 @@
-<h6>🚧 Building... | 20/12/2025 - 01/01/2026</h6>
+<h6>🚧 Building...</h6>
 
 # 💻 My Official Portfolio
 
