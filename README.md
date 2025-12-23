@@ -203,7 +203,7 @@ npm i
 
 ###
 
-# 🎨 UI/UX with Figma
+## 🎨 UI/UX with Figma
 
 ###
 
