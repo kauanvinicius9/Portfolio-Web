@@ -1,4 +1,29 @@
-<h6>🚧 Building... | 20/12/2025 - 01/01/2026</h6>
+<h6>🚧 Building...</h6>
+
+# 💻 My Official Portfolio
+
+###
+
+- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zPk6DzvLledCTULYSvPQkBMbtvROHSsv/view?usp=drive_link)
+
+###
+
+`ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
+
+###
+```
+app/
+ ├── core/
+ ├── models/
+ ├── schemas/
+ ├── crud/
+ ├── routers/
+ └── main.py
+```
+
+###
+
+---
 
 # Getting Started with Create React App
 
@@ -49,6 +74,117 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
+**<h2>Data-Base</h2>**
+
+###
+
+- **Type:** Relational;
+- **Data-Base:** SQLite;
+- **ORM:** SQLAlchemy.
+
+###
+
+**<h2>Virtual Env</h2>**
+
+###
+```powershell
+python -m venv env
+```
+
+###
+```powershell
+env\Scripts\activate
+```
+
+###
+
+**<h2>Install FastAPI</h2>**
+
+###
+```powershell
+pip install fastapi uvicorn sqlalchemy psycopg2-binary
+```
+
+<h6>Run the Back-End</h6>
+
+###
+```powershell
+uvicorn app.main:app --reload
+```
+
+###
+
+<h6>Output</h6>
+
+###
+```python
+Uvicorn running on http://127.0.0.1:8000
+```
+
+###
+
+**URL BASE:** `http://127.0.0.1:8000`
+
+###
+
+**URL DOCUMENTATION SWAGGER UI:** `http://127.0.0.1:8000/docs`
+
+###
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET`  | `/` | API Status |
+| `GET`  | `projects` | Projects List |
+| `POST`  | `projects` | Create a New Project |
+| `POST`  | `contacts` | Send a Contact Message |
+
+---
+
+<h6>Run the Front-End</h6>
+
+###
+```powershell
+npm install —save-dev @types/react @types/react-dom
+```
+
+###
+```powershell
+npm install 
+```
+
+Or
+
+###
+```powershell
+npm i
+```
+
+###
+
+**OBS.:** Installation `REACT` with `TYPESCRIPT`
+
+---
+
+**<h2>SQL Completed</h2>**
+
+###
+
+- Models Created;
+- Automatic Tables;
+- CRUD Working;
+- Session Closing Correctly;
+- Documented `API`.
+
+###
+
+**<h2>Swagger UI</h2>**
+
+###
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a8754b5f-0dfa-4770-945b-24129a12ed27" />
+
+---
+
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
 | **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` |
@@ -64,3 +200,78 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
 | **Project Organization** | `GITHUB` `DOCKER` |
+| **Operation System** | `WINDOWS 11` |
+
+###
+
+**<h2>How to Install and Use Bootstrap?</h2>**
+
+###
+
+`Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code.
+
+###
+
+## 🎨 UI/UX with Figma
+
+###
+```t
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-react-app"/>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" alt="Bootstrap"> <!-- HERE -->
+    <link rel="icon" type="image/png" href="/">
+    <title>Your Title</title>
+  </head>
+  
+  <body>
+    <div id="root"></div>
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>> <!-- HERE -->
+  </body>
+</html>
+
+<!-- Front-End Base -->
+```
+
+###
+```powershell
+npm install bootstrap
+```
+
+###
+
+`main.tsx`
+
+###
+```typescript
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+If using `JS` components (`modal`, `dropdown`):
+
+###
+```typescript
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+```
+
+---
+
+<h6>Developing...</h6>
+
+Acess to my prototipe with Figma on the image below:
+
+###
+
+<a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
+  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7049be9a-f86e-4923-b6c1-955ed807d80b" title="Access the Prototype Here"/>
+</a>
+
+
+<div align="right">
+  <h6>© 2026 — Kauan Vinícius</h6>
+</div>
