@@ -200,6 +200,7 @@ npm i
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
 | **Project Organization** | `GITHUB` `DOCKER` |
+| **Operation System** | `WINDOWS 11` |
 
 ###
 
