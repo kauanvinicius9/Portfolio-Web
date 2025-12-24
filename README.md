@@ -4,21 +4,31 @@
 
 ###
 
-- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zPk6DzvLledCTULYSvPQkBMbtvROHSsv/view?usp=drive_link)
+- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zcErRfr6-73xM3jVl7SV0HgL5yvmhDSe/view?usp=drive_link)
 
 ###
 
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
-```
-app/
- ├── core/
- ├── models/
- ├── schemas/
- ├── crud/
- ├── routers/
- └── main.py
+```txt
+port/
+├─ front-end/
+│  ├─ src/
+│  │  ├─ services/
+│  │  ├─ pages/
+│  │  ├─ components/
+│  │  └─ types/
+│  └─ .env
+│
+├─ back-end/
+│  ├─ app/
+│  │  ├─ main.py
+│  │  ├─ routes/
+│  │  ├─ schemas/
+│  │  ├─ services/
+│  │  └─ models/
+│  └─ requirements.txt
 ```
 
 ###
@@ -160,6 +170,33 @@ npm i
 ```
 
 ###
+```powershell
+npm create vite@latest . -- --template vanilla-ts
+```
+
+###
+```json
+{
+  "name": "port",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vite": "^5.0.0"
+  }
+}
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
@@ -212,9 +249,6 @@ npm i
 
 ###
 
-## 🎨 UI/UX with Figma
-
-###
 ```t
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -224,14 +258,14 @@ npm i
     <meta name="description" content="Web site created using create-react-app"/>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" alt="Bootstrap"> <!-- HERE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- HERE -->
     <link rel="icon" type="image/png" href="/">
     <title>Your Title</title>
   </head>
   
   <body>
     <div id="root"></div>
-    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>> <!-- HERE -->
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- HERE -->
   </body>
 </html>
 
@@ -259,7 +293,14 @@ If using `JS` components (`modal`, `dropdown`):
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 ```
 
+- Bootstrap WebSite: [https://getbootstrap.com/](https://getbootstrap.com/ "Click Here").
+  
 ---
+
+
+## 🎨 UI/UX with Figma
+
+###
 
 <h6>Developing...</h6>
 
@@ -268,7 +309,7 @@ Acess to my prototipe with Figma on the image below:
 ###
 
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
-  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/7049be9a-f86e-4923-b6c1-955ed807d80b" title="Access the Prototype Here"/>
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/46dbd194-4e4e-4c3c-b813-236a75650743" />
 </a>
 
 
