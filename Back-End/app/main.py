@@ -1,18 +1,20 @@
 from fastapi import FastAPI
-from app.core.database import Base, engine
-from app.models import project, contact
-from app.routers import projects, contacts
+from fastapi.middleware.cors import CORSMiddleware
 
-# Alterações na documentação oficial do FastAPI
-app = FastAPI(title="Portifólio Pessoal")
+app = FastAPI()
 
-Base.metadata.create_all(bind=engine)
+# Integração com Front-End REACT
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 
-app.include_router(projects.router, prefix="/projects", tags=["Projects"])
-app.include_router(contacts.router, prefix="/contacts", tags=["Contacts"])
+)
 
-@app.get("/")
-def read_root():
+@app.get("/health")
+def health():
     return {"status": "ok"}
 
 # Comando principal, onde testamos a API e ver se está rodando
