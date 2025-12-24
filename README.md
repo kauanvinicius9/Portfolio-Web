@@ -11,14 +11,24 @@
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
-```
-app/
- ├── core/
- ├── models/
- ├── schemas/
- ├── crud/
- ├── routers/
- └── main.py
+```txt
+port/
+├─ front-end/
+│  ├─ src/
+│  │  ├─ services/
+│  │  ├─ pages/
+│  │  ├─ components/
+│  │  └─ types/
+│  └─ .env
+│
+├─ back-end/
+│  ├─ app/
+│  │  ├─ main.py
+│  │  ├─ routes/
+│  │  ├─ schemas/
+│  │  ├─ services/
+│  │  └─ models/
+│  └─ requirements.txt
 ```
 
 ###
