@@ -160,6 +160,33 @@ npm i
 ```
 
 ###
+```powershell
+npm create vite@latest . -- --template vanilla-ts
+```
+
+###
+```json
+{
+  "name": "port",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vite": "^5.0.0"
+  }
+}
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
