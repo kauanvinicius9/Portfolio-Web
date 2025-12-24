@@ -248,7 +248,7 @@ npm create vite@latest . -- --template vanilla-ts
     <meta name="description" content="Web site created using create-react-app"/>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" alt="Bootstrap"> <!-- HERE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- HERE -->
     <link rel="icon" type="image/png" href="/">
     <title>Your Title</title>
   </head>
