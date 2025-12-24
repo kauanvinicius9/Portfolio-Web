@@ -197,6 +197,11 @@ npm create vite@latest . -- --template vanilla-ts
 ```
 
 ###
+```powershell
+npm install axios
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
