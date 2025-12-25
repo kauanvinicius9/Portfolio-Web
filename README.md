@@ -234,7 +234,7 @@ npm install react-router-dom
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS`, `CSS` |
 | **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTPS` |
 | **Database** | `MYSQL` `SQLITE`|
 | **ORM / Data Access** | `SQLALCHEMY` |
