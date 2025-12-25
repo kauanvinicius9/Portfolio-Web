@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function Home() {
   return (
     <>
@@ -25,7 +27,7 @@ export function Home() {
       {/* Sobre mim */}
       <section className="py-5">
         <div className="container">
-          <h2 className="mb-4">Sobre mim</h2>
+          <h2 className="mb-4 text-center">Sobre mim</h2>
 
           {/* Precisei aplicar um CSS nessa linha, pois o BOOTSTRAP não permite mais a função TEXT-JUSTIFY */}
           <p className="text-muted" style={{ textAlign: 'justify' }}>
@@ -47,7 +49,7 @@ export function Home() {
       {/* Meus projetos */}
       <section id="projects" className="bg-light py-5">
         <div className="container">
-          <h2 className="mb-4">Projetos</h2>
+          <h2 className="mb-4 text-center">Projetos</h2>
 
           <div className="row g-4">
             <div className="col-md-4">
@@ -57,9 +59,7 @@ export function Home() {
                   <p className="card-text">
                     Portifólio desenvolvido no SENAI com mais de 30 exercícios para praticar.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                  <Link to="/fastapi.tsx" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -71,9 +71,19 @@ export function Home() {
                   <p className="card-text">
                     Livraria com autenticação via JWT e consumo de API.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                  <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="card h-100 shadow-sm">
+                <div className="card-body">
+                  <h5 className="card-title">Cidade Inteligente</h5>
+                  <p className="card-text">
+                    Projeto Full-Stack com autenticação via JWT.
+                  </p>
+                  <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -85,9 +95,7 @@ export function Home() {
                   <p className="card-text">
                    Formulário de cadastro onde os usuários serão guardados no banco de dados SQLite.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                  <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -99,9 +107,7 @@ export function Home() {
                   <p className="card-text">
                    Consumo de API desenvolvido em Node JavaScript.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                  <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -113,9 +119,7 @@ export function Home() {
                   <p className="card-text">
                    Comando de voz da Google com Python puro.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                  <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -127,9 +131,7 @@ export function Home() {
                   <p className="card-text">
                    Conceitos básicos de FastAPI com HTML integrado.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                  <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -141,9 +143,7 @@ export function Home() {
                   <p className="card-text">
                     Um pequeno tradutor criado em React e TailwindCSS.
                   </p>
-                  <a href="#" className="btn btn-sm btn-primary">
-                    Ver projeto
-                  </a>
+                   <Link to="/fastapi" className="btn btn-primary">Ver projeto</Link>
                 </div>
               </div>
             </div>
@@ -151,10 +151,24 @@ export function Home() {
         </div>
       </section>
 
+      {/* Tecnologias que uso frequentemente e que conheço */}
+      <section id="technologies" className="bg-light py-5">
+         <div className="container">
+          <h2 className="mb-4 text-center">Tecnologias</h2>
+         </div>
+      </section>
+
+      {/* Contato */}
+      <section id="contacts" className="bg-light py-5">
+         <div className="container">
+          <h2 className="mb-4 text-center">Contato</h2>
+         </div>
+      </section>
+
       {/* Footer */}
-      <footer id="contact" className="bg-dark text-ligh/t py-4">
+      <footer id="footer" className="bg-dark text-light py-3">
         <div className="container text-center">
-          <p className="mb-1">© 2026 Kauan Vinícius</p>
+          <p className="mb-0">&copy; Portifólio 2026 Kauan Vinícius</p>
         </div>
       </footer>
     </>
