@@ -202,6 +202,11 @@ npm install axios
 ```
 
 ###
+```powershell
+npm install react-router-dom
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
