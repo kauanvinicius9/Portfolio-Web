@@ -248,6 +248,7 @@ npm install react-router-dom
 | **Scripting & Automation** | `POWERSHELL` |
 | **Project Organization** | `GITHUB` `DOCKER` |
 | **Operation System** | `WINDOWS 11` |
+| **Browser** | `Google Chrome` `Google Edge`  |
 
 ###
 
