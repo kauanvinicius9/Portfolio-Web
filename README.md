@@ -208,6 +208,11 @@ npm install react-router-dom
 ```
 
 ###
+```powershell
+npm install emailjs-com
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
