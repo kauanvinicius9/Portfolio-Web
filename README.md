@@ -142,8 +142,6 @@ npm install —save-dev @types/react @types/react-dom
 npm install 
 ```
 
-Or
-
 ###
 ```powershell
 npm i
@@ -206,14 +204,6 @@ npm install emailjs-com
 - CRUD Working;
 - Session Closing Correctly;
 - Documented `API`.
-
-###
-
-**<h2>Swagger UI</h2>**
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a8754b5f-0dfa-4770-945b-24129a12ed27" />
 
 ---
 
