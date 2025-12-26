@@ -4,7 +4,8 @@
 
 ###
 
-- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zcErRfr6-73xM3jVl7SV0HgL5yvmhDSe/view?usp=drive_link)
+- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zcErRfr6-73xM3jVl7SV0HgL5yvmhDSe/view?usp=drive_link);
+- SVG Icones: [https://simpleicons.org](https://simpleicons.org/).
 
 ###
 
