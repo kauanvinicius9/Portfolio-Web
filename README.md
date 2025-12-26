@@ -301,8 +301,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 <h6>Developing...</h6>
 
-Acess to my prototipe with Figma on the image below:
-
 ###
 
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
