@@ -12,27 +12,6 @@
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
-```txt
-port/
-├─ front-end/
-│  ├─ src/
-│  │  ├─ services/
-│  │  ├─ pages/
-│  │  ├─ components/
-│  │  └─ types/
-│  └─ .env
-│
-├─ back-end/
-│  ├─ app/
-│  │  ├─ main.py
-│  │  ├─ routes/
-│  │  ├─ schemas/
-│  │  ├─ services/
-│  │  └─ models/
-│  └─ requirements.txt
-```
-
-###
 
 ---
 
