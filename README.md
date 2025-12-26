@@ -299,7 +299,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ###
 
-<h6>Developing...</h6>
+<h6>🚧 Developing...</h6>
 
 ###
 
