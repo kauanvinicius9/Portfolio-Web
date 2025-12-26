@@ -4,32 +4,12 @@
 
 ###
 
-- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zcErRfr6-73xM3jVl7SV0HgL5yvmhDSe/view?usp=drive_link)
+- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zcErRfr6-73xM3jVl7SV0HgL5yvmhDSe/view?usp=drive_link);
+- SVG Icones: [https://simpleicons.org](https://simpleicons.org/).
 
 ###
 
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
-
-###
-```txt
-port/
-├─ front-end/
-│  ├─ src/
-│  │  ├─ services/
-│  │  ├─ pages/
-│  │  ├─ components/
-│  │  └─ types/
-│  └─ .env
-│
-├─ back-end/
-│  ├─ app/
-│  │  ├─ main.py
-│  │  ├─ routes/
-│  │  ├─ schemas/
-│  │  ├─ services/
-│  │  └─ models/
-│  └─ requirements.txt
-```
 
 ###
 
@@ -207,6 +187,11 @@ npm install react-router-dom
 ```
 
 ###
+```powershell
+npm install emailjs-com
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
@@ -234,7 +219,7 @@ npm install react-router-dom
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS`|
 | **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTPS` |
 | **Database** | `MYSQL` `SQLITE`|
 | **ORM / Data Access** | `SQLALCHEMY` |
@@ -248,6 +233,7 @@ npm install react-router-dom
 | **Scripting & Automation** | `POWERSHELL` |
 | **Project Organization** | `GITHUB` `DOCKER` |
 | **Operation System** | `WINDOWS 11` |
+| **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
 
 ###
 
@@ -275,7 +261,8 @@ npm install react-router-dom
   
   <body>
     <div id="root"></div>
-    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- HERE -->
+    <script type="module" src="/src/main.tsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- HERE -->
   </body>
 </html>
 
@@ -319,7 +306,7 @@ Acess to my prototipe with Figma on the image below:
 ###
 
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
-  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/46dbd194-4e4e-4c3c-b813-236a75650743" />
+ <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/79750f26-a277-47dc-9177-441385591306" />
 </a>
 
 
