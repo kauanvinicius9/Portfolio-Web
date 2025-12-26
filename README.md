@@ -306,7 +306,7 @@ Acess to my prototipe with Figma on the image below:
 ###
 
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
-  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/46dbd194-4e4e-4c3c-b813-236a75650743" />
+ <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/79750f26-a277-47dc-9177-441385591306" />
 </a>
 
 
