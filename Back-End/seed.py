@@ -5,7 +5,7 @@ db = SessionLocal()
 
 projects=[
     Project(
-        title="Portifólio Pessoa",
+        title="Portifólio",
         description="Back-End utilizando FastAPI",
         technologies="FastAPI, Python, SQL",
         github_url="https://github.com/kauanvinicius9/Portfolio-V2",
