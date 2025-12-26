@@ -294,7 +294,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 ###
 
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?m=auto&t=CxO3NhlfgGPffmHC-6">
- <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/79750f26-a277-47dc-9177-441385591306" />
+ <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/79750f26-a277-47dc-9177-441385591306" />
 </a>
 
 
