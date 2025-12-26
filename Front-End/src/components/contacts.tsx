@@ -33,35 +33,15 @@ export function Contact() {
   return (
     <form onSubmit={sendEmail}>
       <div className="mb-3">
-        <input
-          className="form-control"
-          placeholder="Nome"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          required
-        />
+        <input className="form-control" placeholder="Nome" value={name} onChange={(e) => setName(e.target.value)} required/>
       </div>
 
       <div className="mb-3">
-        <input
-          className="form-control"
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
+        <input className="form-control"type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value) required/>
       </div>
 
       <div className="mb-3">
-        <textarea
-          className="form-control"
-          placeholder="Mensagem"
-          rows={4}
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          required
-        />
+        <textarea className="form-control" placeholder="Mensagem" rows={4} value={message} onChange={(e) => setMessage(e.target.value)} required/>
       </div>
 
       <button className="btn btn-primary" type="submit" disabled={loading}>
