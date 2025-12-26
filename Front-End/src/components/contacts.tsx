@@ -37,7 +37,7 @@ export function Contact() {
       </div>
 
       <div className="mb-3">
-        <input className="form-control"type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value) required/>
+        <input className="form-control"type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
       </div>
 
       <div className="mb-3">
