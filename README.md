@@ -13,6 +13,8 @@
 
 ###
 
+This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
+
 ---
 
 # Getting Started with Create React App
