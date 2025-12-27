@@ -73,7 +73,7 @@ Simulation for **color blindness** applied to the website.
 | Protanopia | Red |
 | Deuteranopia | Green | 
 | Tritanopia | Blue | 
-| Acromatopsia | Gray (No Color) |
+| Achromatopsia | Gray (No Color) |
 
 ###
 
