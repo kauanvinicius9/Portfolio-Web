@@ -66,6 +66,21 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
+Simulation for **color blindness** applied to the website.
+
+| TYPE | MAIN DIFFICULTY |
+|------|-----------------|
+| Protanopia | Red |
+| Deuteranopia | Green | 
+| Tritanopia | Blue | 
+| Acromatopsia | Gray (No Color) |
+
+###
+
+**100%** developed autocontrast system.
+
+---
+
 **<h2>Data-Base</h2>**
 
 ###
@@ -123,7 +138,7 @@ Uvicorn running on http://127.0.0.1:8000
 
 ###
 
-| Method | Endpoint | Description |
+| METHOD | ENDPOINT | DESCRIPTION |
 |--------|----------|-------------|
 | `GET`  | `/` | API Status |
 | `GET`  | `projects` | Projects List |
