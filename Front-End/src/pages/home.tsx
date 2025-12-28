@@ -1,22 +1,6 @@
 import { Link } from "react-router-dom";
 import { Contact } from "../components/contacts"; 
 
-// Imagens e logos
-import html from "../../assets/html5.svg";
-import css from "../../assets/css.svg";
-import bootstrap from "../../assets/bootstrap.svg";
-import django from "../../assets/django.svg";
-import docker from "../../assets/docker.svg";
-import fastapi from "../../assets/fastapi.svg";
-import insomnia from "../../assets/insomnia.svg";
-import js from "../../assets/javascript.svg";
-import db from "../../assets/mysql.svg";
-import python from "../../assets/python.svg";
-import react from "../../assets/react.svg";
-import ruby from  "../../assets/ruby.svg";
-import tail from "../../assets/tailwindcss.svg";
-import ts from "../../assets/typescript.svg";
-
 export function Home() {
   return (
     <>
@@ -196,98 +180,96 @@ export function Home() {
           <div className="row text-center g-4">
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={html} alt="HTML" height="50" className="mb-2" />
                 <p className="fw-semibold">HTML5</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={css} alt="CSS" height="50" className="mb-2" />
                 <p className="fw-semibold">CSS3</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={js} alt="JavaScript" height="50" className="mb-2" />
                 <p className="fw-semibold">JavaScript</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={react} alt="React" height="50" className="mb-2" />
                 <p className="fw-semibold">React</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={fastapi} alt="FastAPI" height="50" className="mb-2" />
                 <p className="fw-semibold">FastAPI</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={python} alt="Python" height="50" className="mb-2" />
                 <p className="fw-semibold">Python</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={db} alt="SQL" height="50" className="mb-2" />
                 <p className="fw-semibold">SQL</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={insomnia} alt="Insomnia" height="50" className="mb-2" />
                 <p className="fw-semibold">Insomnia</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={ts} alt="TypeScript" height="50" className="mb-2" />
                 <p className="fw-semibold">TypeScript</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={django} alt="Django" height="50" className="mb-2" />
                 <p className="fw-semibold">Django</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={docker} alt="Docker" height="50" className="mb-2" />
                 <p className="fw-semibold">Docker</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={bootstrap} alt="Boostrap" height="50" className="mb-2" />
+                <p className="fw-semibold">Microsoft Azure</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
                 <p className="fw-semibold">Bootstrap</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={tail} alt="TailwindCSS" height="50" className="mb-2" />
                 <p className="fw-semibold">TailwindCSS</p>
               </div>
             </div>
 
             <div className="col-6 col-md-3">
               <div className="p-3">
-                <img src={ruby} alt="Ruby" height="50" className="mb-2" />
+                <p className="fw-semibold">Java</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
                 <p className="fw-semibold">Ruby</p>
               </div>
             </div>
