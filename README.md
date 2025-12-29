@@ -129,6 +129,11 @@ python app/seed.py
 ```
 
 ###
+```powershell
+python -m app.seed
+```
+
+###
 
 <h6>Output</h6>
 
