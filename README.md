@@ -311,9 +311,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 ###
 
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?m=auto&t=CxO3NhlfgGPffmHC-6">
- <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/79750f26-a277-47dc-9177-441385591306" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="80" alt="figma logo" totle="Figma"/>
 </a>
 
+###
 
 <div align="right">
   <h6>© 2026 — Kauan Vinícius</h6>
