@@ -121,6 +121,15 @@ uvicorn app.main:app --reload
 
 ###
 
+<h6>Population DB</h6>
+
+###
+```powershell
+python app/seed.py
+```
+
+###
+
 <h6>Output</h6>
 
 ###
