@@ -318,10 +318,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ###
 
-<h6>🚧 Developing...</h6>
-
-###
-
 <a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0">
   <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="80" alt="figma logo" totle="Figma"/>
 </a>
