@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Contact } from "../components/contacts";
 
+<<<<<<< HEAD
 const technologies = [
   "HTML5",
   "CSS3",
@@ -59,6 +60,8 @@ const educations = [
   },
 ];
 
+=======
+>>>>>>> a20f152e067bf812d2afc539f1d85cc33fcdb4b8
 export function Home() {
   return (
     <>
@@ -293,6 +296,7 @@ export function Home() {
           <div className="container">
             <h2 className="mb-4 text-center">Tecnologias</h2>
 
+<<<<<<< HEAD
             <div className="row text-center g-4">
               {technologies.map((tech) => (
                 <div key={tech} className="col-6 col-md-3">
@@ -303,6 +307,103 @@ export function Home() {
                   </div>
                 </div>
               ))}
+=======
+          <div className="row text-center g-4">
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">HTML5</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">CSS3</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">JavaScript</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">React</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">FastAPI</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Python</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">SQL</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Insomnia</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">TypeScript</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Django</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Docker</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Microsoft Azure</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Bootstrap</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">TailwindCSS</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Java</p>
+              </div>
+            </div>
+
+            <div className="col-6 col-md-3">
+              <div className="p-3">
+                <p className="fw-semibold">Ruby</p>
+              </div>
+>>>>>>> a20f152e067bf812d2afc539f1d85cc33fcdb4b8
             </div>
           </div>
         </section>

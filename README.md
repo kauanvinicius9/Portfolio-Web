@@ -4,14 +4,16 @@
 
 ###
 
-- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/1zcErRfr6-73xM3jVl7SV0HgL5yvmhDSe/view?usp=drive_link);
-- SVG Icones: [https://simpleicons.org](https://simpleicons.org/).
+- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/17Eg0MuptWMU6lFB7GrnePiYqjlO6bjg6/view?usp=drive_link);
+- Official URL: [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br).
 
 ###
 
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
+
+This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
 
 ---
 
@@ -64,6 +66,21 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
+Simulation for **color blindness** applied to the website.
+
+| TYPE | MAIN DIFFICULTY |
+|------|-----------------|
+| Protanopia | Red |
+| Deuteranopia | Green | 
+| Tritanopia | Blue | 
+| Achromatopsia | Gray (No Color) |
+
+###
+
+**100%** developed autocontrast system.
+
+---
+
 **<h2>Data-Base</h2>**
 
 ###
@@ -104,6 +121,20 @@ uvicorn app.main:app --reload
 
 ###
 
+<h6>Population DB</h6>
+
+###
+```powershell
+python app/seed.py
+```
+
+###
+```powershell
+python -m app.seed
+```
+
+###
+
 <h6>Output</h6>
 
 ###
@@ -121,7 +152,7 @@ Uvicorn running on http://127.0.0.1:8000
 
 ###
 
-| Method | Endpoint | Description |
+| METHOD | ENDPOINT | DESCRIPTION |
 |--------|----------|-------------|
 | `GET`  | `/` | API Status |
 | `GET`  | `projects` | Projects List |
@@ -141,8 +172,6 @@ npm install —save-dev @types/react @types/react-dom
 ```powershell
 npm install 
 ```
-
-Or
 
 ###
 ```powershell
@@ -207,14 +236,6 @@ npm install emailjs-com
 - Session Closing Correctly;
 - Documented `API`.
 
-###
-
-**<h2>Swagger UI</h2>**
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/a8754b5f-0dfa-4770-945b-24129a12ed27" />
-
 ---
 
 | CATEGORY | TECHNOLOGIES |
@@ -241,7 +262,7 @@ npm install emailjs-com
 
 ###
 
-`Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code.
+`Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code. But it's **limited** with some **actions** and **styles**.
 
 ###
 
@@ -299,16 +320,15 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ###
 
-<h6>Developing...</h6>
-
-Acess to my prototipe with Figma on the image below:
+<h6>🚧 Developing...</h6>
 
 ###
 
-<a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio-Pessoal?node-id=0-1&p=f&t=IwZ7xHPH5qCz6oq0-0">
- <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/79750f26-a277-47dc-9177-441385591306" />
+<a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="80" alt="figma logo" totle="Figma"/>
 </a>
 
+###
 
 <div align="right">
   <h6>© 2026 — Kauan Vinícius</h6>
