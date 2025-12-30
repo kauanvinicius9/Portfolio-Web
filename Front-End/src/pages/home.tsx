@@ -1,21 +1,63 @@
 import { Link } from "react-router-dom";
-import { Contact } from "../components/contacts"; 
+import { Contact } from "../components/contacts";
 
-// Imagens e logos
-import html from "../../assets/html5.svg";
-import css from "../../assets/css.svg";
-import bootstrap from "../../assets/bootstrap.svg";
-import django from "../../assets/django.svg";
-import docker from "../../assets/docker.svg";
-import fastapi from "../../assets/fastapi.svg";
-import insomnia from "../../assets/insomnia.svg";
-import js from "../../assets/javascript.svg";
-import db from "../../assets/mysql.svg";
-import python from "../../assets/python.svg";
-import react from "../../assets/react.svg";
-import ruby from  "../../assets/ruby.svg";
-import tail from "../../assets/tailwindcss.svg";
-import ts from "../../assets/typescript.svg";
+const technologies = [
+  "HTML5",
+  "CSS3",
+  "JavaScript",
+  "React",
+  "FastAPI",
+  "Python",
+  "SQL",
+  "Insomnia",
+  "TypeScript",
+  "Django",
+  "Docker",
+  "Microsoft Azure",
+  "Bootstrap",
+  "TailwindCSS",
+  "Java",
+  "Ruby",
+];
+
+const educations = [
+  {
+    course: "Desenvolvimento de Sistemas",
+    institution: "SENAI Roberto Mange",
+    duration: "1 ano e 6 meses",
+    attendance: "100%",
+  },
+  {
+    course: "Computação",
+    institution: "ONG Fundação Eufraten",
+    duration: "11 meses",
+    attendance: "95%",
+  },
+  {
+    course: "Artítsica",
+    institution: "ONG Fundação Eufraten",
+    duration: "11 meses",
+    attendance: "90%",
+  },
+  {
+    course: "Programação para Hardware",
+    institution: "SESI Santos Dumont",
+    duration: "7 meses",
+    attendance: "95% - Aluno Diamante",
+  },
+  {
+    course: "Pacote Office",
+    institution: "Fundação Bradesco",
+    duration: "1 ano",
+    attendance: "100%",
+  },
+  {
+    course: "Inglês",
+    institution: "Cidadão Pro Mundo",
+    duration: "5 anos",
+    attendance: "100%",
+  },
+];
 
 export function Home() {
   return (
@@ -51,7 +93,8 @@ export function Home() {
             Campinas - São Paulo. Atuo na empresa Robert Bosch como Jovem
             Aprendiz cursando o terceiro semestre de Desenvolvimento de Sistemas
             na escola técnica SENAI (Serviço Nacional da Indústria) Roberto
-            Mange.
+            Mange e sou estudante do 3° ano da Escola Estadual Dom Barreto no período
+            noturno.
           </p>
 
           <p className="text-muted" style={{ textAlign: "justify" }}>
@@ -60,8 +103,40 @@ export function Home() {
             adaptar perfeitamente em projetos em equipe, e possuo um pouco de
             experiência em liderança, desenvolvimento de documentações
             profissionais para TCC e tabelas muito bem elaboradas para qualquer
-            tipo de ocasião.
+            tipo de ocasião. Possuo inglês intermediário estudando atualmente na
+            CPM (Cidadão Pro Mundo) com 5 ano de duração em parceria com a
+            Univerdiade Presbiteriana Mackenzie.
           </p>
+        </div>
+      </section>
+
+      {/* Formações */}
+      <section className="bg-light py-5">
+        <div className="container">
+          <h2 className="mb-4 text-center">Formações</h2>
+
+          <div className="row g-4">
+            {educations.map((edu, index) => (
+              <div key={index} className="col-md-6">
+                <div className="card h-100 shadow-sm">
+                  <div className="card-body d-flex gap-3">
+                    {/* Medalha */}
+                    <div className="fs-3 text-warning">🏅</div>
+
+                    {/* Conteúdo */}
+                    <div>
+                      <h5 className="card-title mb-1">{edu.course}</h5>
+                      <p className="mb-1 text-muted">{edu.institution}</p>
+
+                      <small className="text-secondary">
+                        Duração: {edu.duration} • Presença: {edu.attendance}
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -79,7 +154,10 @@ export function Home() {
                     Portifólio desenvolvido no SENAI com mais de 30 exercícios
                     para praticar.
                   </p>
-                  <Link to="/fastapi.tsx" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/Portfolio-SENAI"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -93,7 +171,10 @@ export function Home() {
                   <p className="card-text">
                     Livraria com autenticação via JWT e consumo de API.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/BookStore"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -107,7 +188,10 @@ export function Home() {
                   <p className="card-text">
                     Projeto Full-Stack com autenticação via JWT.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/IP-SmartCity"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -122,7 +206,10 @@ export function Home() {
                     Formulário de cadastro onde os usuários serão guardados no
                     banco de dados SQLite.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/Back-End"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -136,7 +223,10 @@ export function Home() {
                   <p className="card-text">
                     Consumo de API desenvolvido em Node JavaScript.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/Serverless-NODE.JS"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -150,7 +240,10 @@ export function Home() {
                   <p className="card-text">
                     Comando de voz da Google com Python puro.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/Voice-Command"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -164,7 +257,10 @@ export function Home() {
                   <p className="card-text">
                     Conceitos básicos de FastAPI com HTML integrado.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/FastAPI"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -178,7 +274,10 @@ export function Home() {
                   <p className="card-text">
                     Um pequeno tradutor criado em React e TailwindCSS.
                   </p>
-                  <Link to="/fastapi" className="btn btn-primary">
+                  <Link
+                    to="https://github.com/kauanvinicius9/R-Translator"
+                    className="btn btn-primary"
+                  >
                     Ver projeto
                   </Link>
                 </div>
@@ -190,109 +289,23 @@ export function Home() {
 
       {/* Tecnologias que uso frequentemente e que conheço */}
       <section id="technologies" className="bg-light py-5">
-        <div className="container">
-          <h2 className="mb-4 text-center">Tecnologias</h2>
+        <section id="technologies" className="bg-light py-5">
+          <div className="container">
+            <h2 className="mb-4 text-center">Tecnologias</h2>
 
-          <div className="row text-center g-4">
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={html} alt="HTML" height="50" className="mb-2" />
-                <p className="fw-semibold">HTML5</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={css} alt="CSS" height="50" className="mb-2" />
-                <p className="fw-semibold">CSS3</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={js} alt="JavaScript" height="50" className="mb-2" />
-                <p className="fw-semibold">JavaScript</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={react} alt="React" height="50" className="mb-2" />
-                <p className="fw-semibold">React</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={fastapi} alt="FastAPI" height="50" className="mb-2" />
-                <p className="fw-semibold">FastAPI</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={python} alt="Python" height="50" className="mb-2" />
-                <p className="fw-semibold">Python</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={db} alt="SQL" height="50" className="mb-2" />
-                <p className="fw-semibold">SQL</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={insomnia} alt="Insomnia" height="50" className="mb-2" />
-                <p className="fw-semibold">Insomnia</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={ts} alt="TypeScript" height="50" className="mb-2" />
-                <p className="fw-semibold">TypeScript</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={django} alt="Django" height="50" className="mb-2" />
-                <p className="fw-semibold">Django</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={docker} alt="Docker" height="50" className="mb-2" />
-                <p className="fw-semibold">Docker</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={bootstrap} alt="Boostrap" height="50" className="mb-2" />
-                <p className="fw-semibold">Bootstrap</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={tail} alt="TailwindCSS" height="50" className="mb-2" />
-                <p className="fw-semibold">TailwindCSS</p>
-              </div>
-            </div>
-
-            <div className="col-6 col-md-3">
-              <div className="p-3">
-                <img src={ruby} alt="Ruby" height="50" className="mb-2" />
-                <p className="fw-semibold">Ruby</p>
-              </div>
+            <div className="row text-center g-4">
+              {technologies.map((tech) => (
+                <div key={tech} className="col-6 col-md-3">
+                  <div className="card shadow-sm h-100">
+                    <div className="card-body d-flex align-items-center justify-content-center">
+                      <p className="fw-semibold mb-0">{tech}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-        </div>
+        </section>
       </section>
 
       {/* Contato */}
@@ -302,12 +315,6 @@ export function Home() {
 
           <div className="row g-4">
             <div className="col-md-5">
-              <p className="text-muted" style={{ textAlign: "justify" }}>
-                Sinta-se à vontade caso precise entrar em contato para
-                esclarecimento de dúvidas, contribuições para projetos,
-                ou sugestões de melhorias!
-              </p>
-
               <ul className="list-unstyled">
                 <li className="mb-2">
                   <strong>Email:</strong> saleskauan308@gmail.com
@@ -323,7 +330,7 @@ export function Home() {
 
             {/* Formulário */}
             <div className="col-md-7">
-              <Contact/>
+              <Contact />
             </div>
           </div>
         </div>
