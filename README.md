@@ -66,8 +66,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-Simulation for **color blindness** applied to the website.
-
 | TYPE | MAIN DIFFICULTY |
 |------|-----------------|
 | Protanopia | Red |
