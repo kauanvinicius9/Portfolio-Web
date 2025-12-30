@@ -1,5 +1,3 @@
-<h6>🚧 Building...</h6>
-
 # 💻 My Official Portfolio
 
 ###
