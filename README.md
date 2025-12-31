@@ -1,5 +1,3 @@
-<h6>🚧 Building...</h6>
-
 # 💻 My Official Portfolio
 
 ###
@@ -66,7 +64,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-Simulation for **color blindness** applied to the website.
+All `endpoints` were tested and returned all the **necessary information**. Each message received will be **automatically** stored in the `database`.
+
+###
 
 | TYPE | MAIN DIFFICULTY |
 |------|-----------------|
@@ -317,10 +317,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 ## 🎨 UI/UX with Figma
-
-###
-
-<h6>🚧 Developing...</h6>
 
 ###
 
