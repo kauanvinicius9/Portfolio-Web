@@ -65,6 +65,18 @@ With:
 
 This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
 
+###
+
+**<h2>Features</h2>**
+
+###
+
+- Sending messages via `contact form`;
+- **Validation** of required fields;
+- Integration with `external service` for actual `email` sending;
+- **Visual** feedback during message delivery;
+- Communication with `back-end` `API` for contact registration.
+
 ---
 
 # Getting Started with Create React App
@@ -287,8 +299,8 @@ npm install react-router-dom
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS`|
-| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTPS` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS` |
+| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` |
 | **Database** | `MYSQL` `SQLITE`|
 | **ORM / Data Access** | `SQLALCHEMY` |
 | **UI / UX** | `FIGMA` |
