@@ -1,16 +1,16 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class EducationBase(BaseModel):
+class EducationsBase(BaseModel):
     course: str
     institution: str
     duration: str
     attendance: str
 
-class EducationCreate(EducationBase):
+class EducationsCreate(EducationsBase):
     pass
 
-class Education(EducationBase):
+class Educations(EducationsBase):
     id: int
     created_at: datetime
 

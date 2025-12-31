@@ -1,13 +1,13 @@
 from sqlalchemy.orm import Session
-from app.models.education import Education
-from app.schemas.education import EducationCreate
+from app.models.education import Educations
+from app.schemas.education import EducationsCreate
 
-def create_education(db: Session, education: EducationCreate):
-    db_education = Education(**education.model_dump())
+def create_education(db: Session, educations: EducationsCreate):
+    db_education = Educations(**educations.model_dump())
     db.add(db_education)
     db.commit()
     db.refresh(db_education)
     return db_education
 
 def get_educations(db: Session):
-    return db.query(Education).all()
+    return db.query(Educations).all()

@@ -3,5 +3,5 @@ from fastapi import APIRouter, Depends
 router = APIRouter()
 
 @router.get("/")
-def list_educations():
-    return {"msg": "educations ok"}
+def list_contacts():
+    return {"msg": "contacts ok"}

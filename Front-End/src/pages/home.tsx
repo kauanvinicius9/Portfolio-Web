@@ -66,7 +66,7 @@ export function Home() {
         <div className="container text-center">
           <h1 className="display-4 fw-bold">Kauan Vinícius</h1>
           <p className="lead mt-3">
-            Desenvolvedor Full-Stack Júnior • Bosch Brasil • ETS Campinas
+            Desenvolvedor Full-Stack Júnior
           </p>
 
           <div className="mt-4">
@@ -185,12 +185,7 @@ export function Home() {
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.desc}</p>
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-primary"
-                    >
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                       Ver projeto
                     </a>
                   </div>

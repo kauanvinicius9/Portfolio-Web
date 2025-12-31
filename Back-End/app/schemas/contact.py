@@ -1,12 +1,12 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class ContactCreate(BaseModel):
+class ContactsCreate(BaseModel):
     name: str
     email: str
     message: str
 
-class ContactResponse(ContactCreate):
+class ContactsResponse(ContactsCreate):
     id: int
     created_at: datetime
 

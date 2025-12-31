@@ -1,13 +1,13 @@
 from sqlalchemy.orm import Session
-from app.models.project import Project
-from app.schemas.project import ProjectCreate
+from app.models.project import Projects
+from app.schemas.project import ProjectsCreate
 
-def create_project(db: Session, project: ProjectCreate):
-    db_project = Project(**project.dict())
+def create_project(db: Session, projects: ProjectsCreate):
+    db_project = Projects(**projects.dict())
     db.add(db_project)
     db.commit()
     db.refresh(db_project)
     return db_project
 
 def get_projects(db: Session):
-    return db.query(Project).all()
+    return db.query(Projects).all()

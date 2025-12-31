@@ -1,14 +1,14 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class ProjectCreate(BaseModel):
+class ProjectsCreate(BaseModel):
     title: str
     description: str | None = None
     technologies: str | None = None
     github_url: str | None = None
     demo_url: str | None = None
 
-class ProjectResponse(ProjectCreate):
+class ProjectsResponse(ProjectsCreate):
     id: int
     created_at: datetime
 

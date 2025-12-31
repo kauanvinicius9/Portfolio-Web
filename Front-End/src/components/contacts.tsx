@@ -10,24 +10,41 @@ export function Contact() {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false); 
 
-  function sendEmail(e: React.FormEvent<HTMLFormElement>) {
+  async function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send("SERVICE_ID", "TEMPLATE_ID", { name, email, message }, "PUBLIC_KEY")
-      .then(() => {
-        alert("Mensagem enviada!");
-        setName("");
-        setEmail("");
-        setMessage("");
-      })
-      .catch(() => {
-        alert("Erro ao enviar");
-      })
-      .finally(() => {
-        setLoading(false);
+    try {
+      const res = await fetch("http://127.0.0.1:8000/contacts/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+        }),
       });
+
+      await emailjs.send(
+        "SERVICE_ID",
+        "TEMPLATE_ID",
+        { name, email, message },
+        "PUBLIC_KEY"
+      );
+
+      alert("Mensagem enviada");
+      setName("");
+      setEmail("");
+      setMessage("");
+
+    } catch {
+      alert("Erro ao enviar")
+      
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
