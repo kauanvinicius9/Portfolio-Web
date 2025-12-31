@@ -64,6 +64,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
+All `endpoints` were tested and returned all the **necessary information**. Each message received will be **automatically** stored in the `database`.
+
+###
+
 | TYPE | MAIN DIFFICULTY |
 |------|-----------------|
 | Protanopia | Red |
