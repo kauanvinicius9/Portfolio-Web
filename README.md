@@ -3,9 +3,61 @@
 ###
 
 - Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/17Eg0MuptWMU6lFB7GrnePiYqjlO6bjg6/view?usp=drive_link);
+- EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
+- EmailJS Services: [https://dashboard.emailjs.com](https://dashboard.emailjs.com/admin);
+- EmailJS Templates: [https://dashboard.emailjs.com](https://dashboard.emailjs.com/admin/templates/hp7m4vc);
 - Official URL: [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br).
 
 ###
+
+The **official EmailJS website** is automatically integrated into the `React` code through the `EmailJS` installation provided by `React` via the command:
+
+###
+```powershell
+npm install emailjs
+```
+
+###
+
+Simply log in to the website and enter the **commands** used in the code into your devices.
+
+###
+
+When you install it, you gain access to:
+
+###
+```ts
+emailjs.send(serviceID, templateID, params)
+```
+
+###
+
+He does:
+
+###
+
+- An `HTTP` request to:
+
+###
+```powershell
+https://api.emailjs.com/api/v1.0/email/send
+```
+
+###
+
+With:
+
+###
+
+- Your **service**;
+- Your **template**;
+- The **form** data.
+
+###
+
+✅ This **without revealing** any `passwords`.
+
+---
 
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
