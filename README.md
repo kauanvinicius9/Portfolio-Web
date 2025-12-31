@@ -14,7 +14,7 @@ The **official EmailJS website** is automatically integrated into the `React` co
 
 ###
 ```powershell
-npm install emailjs
+npm install @emailjs/browser
 ```
 
 ###
@@ -265,11 +265,6 @@ npm install axios
 ###
 ```powershell
 npm install react-router-dom
-```
-
-###
-```powershell
-npm install emailjs-com
 ```
 
 ###
