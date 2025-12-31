@@ -10,6 +10,15 @@
 
 ###
 
+The **official EmailJS website** is automatically integrated into the `React` code through the `EmailJS` installation provided by `React` via the command:
+
+###
+```powershell
+npm install emailjs
+```
+
+###
+
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
