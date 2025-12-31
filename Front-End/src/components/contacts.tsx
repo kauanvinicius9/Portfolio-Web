@@ -4,6 +4,9 @@ ao meu e-mail pessoal */
 import { useState } from "react";
 import emailjs from "emailjs-com";
 
+// Inicialização do email
+emailjs.init("AbCdEfGhIjKl");
+
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -15,23 +18,24 @@ export function Contact() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/contacts/", {
+      const res = await fetch("http://127.0.0.1:8000/contacts", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, message }),
       });
 
+      if (!res.ok) {
+        throw new Error("Erro no Back-End");
+      }
+
       await emailjs.send(
-        "SERVICE_ID",
-        "TEMPLATE_ID",
-        { name, email, message },
-        "PUBLIC_KEY"
+        "service_xxxxx",
+        "template_yyyyy",
+        { 
+          from_name: name,
+          reply_to: email,
+          message: message, 
+        }
       );
 
       alert("Mensagem enviada");
