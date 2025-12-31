@@ -3,6 +3,7 @@
 ###
 
 - Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/17Eg0MuptWMU6lFB7GrnePiYqjlO6bjg6/view?usp=drive_link);
+- EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
 - Official URL: [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br).
 
 ###
