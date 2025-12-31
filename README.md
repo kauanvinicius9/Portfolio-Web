@@ -23,6 +23,42 @@ Simply log in to the website and enter the **commands** used in the code into yo
 
 ###
 
+When you install it, you gain access to:
+
+###
+```ts
+emailjs.send(serviceID, templateID, params)
+```
+
+###
+
+He does:
+
+###
+
+- An `HTTP` request to:
+
+###
+```powershell
+https://api.emailjs.com/api/v1.0/email/send
+```
+
+###
+
+With:
+
+###
+
+- Your **service**;
+- Your **template**;
+- The **form** data.
+
+###
+
+✅ This **without revealing** any `passwords`.
+
+---
+
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
