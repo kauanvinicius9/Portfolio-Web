@@ -19,6 +19,10 @@ npm install emailjs
 
 ###
 
+Simply log in to the website and enter the **commands** used in the code into your devices.
+
+###
+
 `ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
 
 ###
