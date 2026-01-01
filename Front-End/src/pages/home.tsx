@@ -1,4 +1,5 @@
 import { Contact } from "../components/contacts";
+import image from "../assets/Img.jpg";
 
 const technologies = [
   "HTML5",
@@ -61,40 +62,52 @@ const educations = [
 export function Home() {
   return (
     <>
-      {/* Hero */}
-      <section className="bg-dark text-light py-5">
-        <div className="container text-center">
-          <h1 className="display-4 fw-bold">Kauan Vinícius</h1>
-          <p className="lead mt-3">
-            Desenvolvedor Full-Stack Júnior
-          </p>
+      <section className="py-5 bg-body-tertiary border-bottom">
+        <div className="container">
+          <div className="d-flex flex-column align-items-center text-center">
 
-          <div className="mt-4">
-            <a href="#projects" className="btn btn-primary btn-lg me-2">
-              Ver Projetos
-            </a>
-            <a href="#contact" className="btn btn-outline-light btn-lg">
-              Contato
-            </a>
+            {/* Avatar */}
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" alt="Meu avatar" style={{ width: 150, height: 150 }}/>
+
+            {/* Texto */}
+            <h1 className="fw-bold mb-1" style={{ fontSize: "1.9rem" }}>
+              Kauan Vinícius
+            </h1>
+
+            {/* Habilidade */}
+            <p className="text-body-secondary fs-5 mb-4">
+              Desenvolvedor Full-Stack Júnior
+            </p>
+
+            {/* Botões */}
+            <div className="d-flex gap-2">
+              <a href="#projects" className="btn btn-primary">
+                Ver Projetos
+              </a>
+
+              <a href="#contact" className="btn btn-outline-secondary">
+                Contato
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Sobre mim */}
-      <section className="py-5">
+      <section className="py-5 bg-body">
         <div className="container">
           <h2 className="mb-4 text-center">Sobre</h2>
 
-          <p className="text-muted" style={{ textAlign: "justify" }}>
+          <p className="text-body-secondary" style={{ textAlign: "justify" }}>
             Meu nome é Kauan Vinícius, tenho 17 anos, nascido em Itapira no
             interior do estado de São Paulo e morando atualmente em Campinas.
-            Atuo na empresa Robert Bosch como Jovem Aprendiz, cursando o terceiro
-            semestre de Desenvolvimento de Sistemas no SENAI Roberto Mange e sou
-            estudante do 3º ano da Escola Estadual Dom Barreto no período
-            noturno.
+            Atuo na empresa Robert Bosch como Jovem Aprendiz, cursando o
+            terceiro semestre de Desenvolvimento de Sistemas no SENAI Roberto
+            Mange e sou estudante do 3º ano da Escola Estadual Dom Barreto no
+            período noturno.
           </p>
 
-          <p className="text-muted" style={{ textAlign: "justify" }}>
+          <p className="text-body-secondary" style={{ textAlign: "justify" }}>
             Prezo pelo desenvolvimento de código limpo, organização,
             planejamento e prototipação de projetos. Sou comunicativo, trabalho
             bem em equipe e possuo experiência em liderança e documentação
@@ -106,7 +119,7 @@ export function Home() {
       </section>
 
       {/* Formações */}
-      <section className="bg-light py-5">
+      <section className="py-5 bg-body-tertiary">
         <div className="container">
           <h2 className="mb-4 text-center">Formações</h2>
 
@@ -115,12 +128,14 @@ export function Home() {
               <div key={index} className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <div className="card-body d-flex gap-3">
-                    <div className="fs-3 text-warning">🏅</div>
+                    <div className="fs-3">🏅</div>
 
                     <div>
                       <h5 className="card-title mb-1">{edu.course}</h5>
-                      <p className="mb-1 text-muted">{edu.institution}</p>
-                      <small className="text-secondary">
+                      <p className="mb-1 text-body-secondary">
+                        {edu.institution}
+                      </p>
+                      <small className="text-body-secondary">
                         Duração: {edu.duration} • Presença: {edu.attendance}
                       </small>
                     </div>
@@ -133,7 +148,7 @@ export function Home() {
       </section>
 
       {/* Projetos */}
-      <section id="projects" className="bg-light py-5">
+      <section id="projects" className="py-5 bg-body">
         <div className="container">
           <h2 className="mb-4 text-center">Projetos</h2>
 
@@ -197,7 +212,7 @@ export function Home() {
       </section>
 
       {/* Tecnologias */}
-      <section id="technologies" className="bg-light py-5">
+      <section id="technologies" className="py-5 bg-body-tertiary">
         <div className="container">
           <h2 className="mb-4 text-center">Tecnologias</h2>
 
@@ -216,7 +231,7 @@ export function Home() {
       </section>
 
       {/* Contato */}
-      <section id="contact" className="py-5">
+      <section id="contact" className="py-5 bg-body">
         <div className="container">
           <h2 className="mb-4 text-center">Contato</h2>
 
@@ -243,9 +258,11 @@ export function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-dark text-light py-3">
+      <footer className="py-3 bg-body-tertiary border-top">
         <div className="container text-center">
-          <p className="mb-0">&copy; Kauan Vinícius - Todos os direitos reservados 2026</p>
+          <p className="mb-0 text-body-secondary">
+            &copy; Kauan Vinícius - Todos os direitos reservados 2026
+          </p>
         </div>
       </footer>
     </>

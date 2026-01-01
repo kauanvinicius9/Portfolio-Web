@@ -1,3 +1,6 @@
+/* Componentização do botão de tema claro e escuro. O boostrap já altera automaticamente
+as cores quando o botão é clicado */
+
 import { useTheme } from "../hooks/useTheme";
 
 export function ThemeToggle() {
