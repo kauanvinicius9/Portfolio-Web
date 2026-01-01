@@ -2,10 +2,7 @@
 
 ###
 
-- Formal Documentation: [https://drive.google.com](https://drive.google.com/file/d/17Eg0MuptWMU6lFB7GrnePiYqjlO6bjg6/view?usp=drive_link);
 - EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
-- EmailJS Services: [https://dashboard.emailjs.com](https://dashboard.emailjs.com/admin);
-- EmailJS Templates: [https://dashboard.emailjs.com](https://dashboard.emailjs.com/admin/templates/hp7m4vc);
 - Official URL: [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br).
 
 ###
