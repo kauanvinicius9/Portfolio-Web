@@ -2,10 +2,7 @@
 ao meu e-mail pessoal */
 
 import { useState } from "react";
-import emailjs from "emailjs-com";
-
-// Inicialização do email
-emailjs.init("AbCdEfGhIjKl");
+import emailjs from "@emailjs/browser";
 
 export function Contact() {
   const [name, setName] = useState("");
@@ -28,14 +25,16 @@ export function Contact() {
         throw new Error("Erro no Back-End");
       }
 
+      // Formulário de email, conectada ao site do EmailJS
       await emailjs.send(
-        "service_xxxxx",
-        "template_yyyyy",
+        "service_bu2b5bx",
+        "template_mganp5c",
         { 
-          from_name: name,
-          reply_to: email,
-          message: message, 
-        }
+          name: "Teste",
+          email: "teste@teste.com",
+          message: "Mensagem de teste", 
+        },
+        "UDeyd973nxgS5hG4l" // Chave pública
       );
 
       alert("Mensagem enviada");
@@ -43,8 +42,9 @@ export function Contact() {
       setEmail("");
       setMessage("");
 
-    } catch {
-      alert("Erro ao enviar")
+    } catch (err) {
+      console.log("EMAILJS ERROR:", err);
+      alert("Erro ao enviar");
       
     } finally {
       setLoading(false);
