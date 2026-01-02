@@ -164,6 +164,13 @@ env\Scripts\activate
 pip install fastapi uvicorn sqlalchemy psycopg2-binary
 ```
 
+###
+```powershell
+pip install email-validator
+```
+
+###
+
 <h6>Run the Back-End</h6>
 
 ###
@@ -362,7 +369,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
   
 ---
 
-# Docker
+## Docker
 
 ###
 
@@ -391,6 +398,26 @@ docker compose up --build
 ```
 
 ###
+```powershell
+docker build -t backend .
+```
+
+###
+```powershell
+docker run -d -p 8000:8000 backend
+```
+
+###
+```powershell
+docker build -t frontend .
+```
+
+###
+```powershell
+docker run -d -p 5173:80 frontend
+```
+
+###
 
 <h6>Output</h6>
 
@@ -410,13 +437,27 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ---
 
-## 🎨 UI/UX with Figma
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/777e8f52-52d1-4b83-bab7-9d33690cf9da" />
 
 ###
 
-<a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="80" alt="figma logo" totle="Figma"/>
-</a>
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/e199889c-b379-426c-ac70-baa0d1c023b5" />
+
+###
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/8d8455c9-d19d-49b3-93f5-8d01b55d5bf2" />
+
+###
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/318ec12b-70b1-4d37-ab0e-5b307097799f" />
+
+###
+
+## UI/UX
+
+###
+
+- Figma: [https://www.figma.com](https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0" "Click Here")
 
 ###
 
