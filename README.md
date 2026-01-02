@@ -129,15 +129,6 @@ All `endpoints` were tested and returned all the **necessary information**. Each
 
 ###
 
-| TYPE | MAIN DIFFICULTY |
-|------|-----------------|
-| Protanopia | Red |
-| Deuteranopia | Green | 
-| Tritanopia | Blue | 
-| Achromatopsia | Gray (No Color) |
-
-###
-
 **100%** developed autocontrast system.
 
 ---
@@ -304,11 +295,11 @@ npm install react-router-dom
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` |
+| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` `NGINX` |
 | **API Testing** | `INSOMNIA` |
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
-| **Project Organization** | `GITHUB` `DOCKER` |
+| **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
 | **Operation System** | `WINDOWS 11` |
 | **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
 
@@ -371,6 +362,53 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
   
 ---
 
+# Docker
+
+###
+
+This portfolio uses `Docker` for environment **standardization** and **handling** during production deployment.
+
+###
+
+The application is divided into **two** containers:
+
+###
+
+- **Front-End**: `React` (`Vite`) compiled and served with `Nginx`;
+- **Back-End**: `API` developed in `FastAPI` running with `Uvicorn`.
+
+###
+
+With `Docker`, the entire project can be run **without** the need to manually install dependencies like `Node.js` or Python, ensuring that the application functions the same way in **any environment**.
+
+---
+
+With `Docker` installed, simply run the command below in the project root:
+
+###
+```powershell
+docker compose up --build
+```
+
+###
+
+<h6>Output</h6>
+
+###
+```powershell
+Front-End: http://localhost:3000
+```
+
+###
+```powershell
+Back-End (Swagger): http://localhost:8000/docs
+```
+
+###
+
+- Docker WebSite: [https://www.docker.com](https://www.docker.com/products/docker-desktop/)
+
+---
 
 ## 🎨 UI/UX with Figma
 
