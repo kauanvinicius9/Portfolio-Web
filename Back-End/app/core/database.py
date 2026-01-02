@@ -4,8 +4,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 DATABASE_URL = "sqlite:///./portfolio.db"
 
 engine = create_engine(
-    DATABASE_URL,
-    connect_args={"check_same_thread": False}
+    DATABASE_URL, connect_args={"check_same_thread": False}
 )
 
 SessionLocal = sessionmaker(
@@ -14,6 +13,17 @@ SessionLocal = sessionmaker(
     bind=engine
 )
 
+# Define a base
 Base = declarative_base()
 
-# Coração do SQL
+# Cria as tabelas que ainda não existem
+Base.metadata.create_all(bind=engine)
+
+def get_db():
+    db = SessionLocal()
+
+    try:
+        yield db
+
+    finally:
+        db.close()

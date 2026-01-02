@@ -1,14 +1,20 @@
-/* Componentização do botão de tema claro e escuro. O boostrap já altera automaticamente
-as cores quando o botão é clicado */
-
-import { useTheme } from "../hooks/useTheme";
+import { useState, useEffect } from "react";
 
 export function ThemeToggle() {
-    const { theme, setTheme } = useTheme();
+  const [theme, setTheme] = useState<"light" | "dark">("light");
 
-    return (
-        <button className="btn btn-outline-secondary mb-4" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-            {theme === "dark" ? "Tema claro" : "Tema escuro"}
-        </button>
-    );
+  // Sincronização da classe do body ao tema
+  useEffect(() => {
+    if (theme === "dark") {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [theme]);
+
+  return (
+    <button className="btn btn-outline-secondary mb-4" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+      {theme === "dark" ? "Tema claro" : "Tema escuro"}
+    </button>
+  );
 }

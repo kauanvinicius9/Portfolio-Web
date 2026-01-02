@@ -1,9 +1,9 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 from datetime import datetime
 
 class ContactsCreate(BaseModel):
     name: str
-    email: str
+    email: EmailStr
     message: str
 
 class ContactsResponse(ContactsCreate):

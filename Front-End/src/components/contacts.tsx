@@ -15,7 +15,7 @@ export function Contact() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/contacts", {
+      const res = await fetch("http://localhost:8000/contacts/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),
@@ -30,9 +30,9 @@ export function Contact() {
         "service_bu2b5bx",
         "template_mganp5c",
         { 
-          name: "Teste",
-          email: "teste@teste.com",
-          message: "Mensagem de teste", 
+          name: name,
+          email: email,
+          message: message, 
         },
         "UDeyd973nxgS5hG4l" // Chave pública
       );

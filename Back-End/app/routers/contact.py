@@ -1,22 +1,25 @@
 from fastapi import APIRouter, Depends
-from pydantic import BaseModel
+from sqlalchemy.orm import Session
+
+from app.schemas.contact import ContactsCreate
+from app.models.contact import Contacts
+from app.core.database import get_db
 
 router = APIRouter()
 
-class ContactsCreate(BaseModel):
-    name: str
-    email: str
-    message: str
-
-# Método GET
-@router.get("/")
-def list_contacts():
-    return {"msg": "contacts ok"}
-
-# Método POST
 @router.post("/")
-def create_contacts(contacts: ContactsCreate):
-    return {
-        "message": "Contato recebido",
-        "data": contacts
-    }
+def create_contact(
+    contact: ContactsCreate,
+    db: Session = Depends(get_db)
+):
+    new_contact = Contacts(
+        name=contact.name,
+        email=contact.email,
+        message=contact.message,
+    )
+
+    db.add(new_contact)
+    db.commit()
+    db.refresh(new_contact)
+    
+    return new_contact 

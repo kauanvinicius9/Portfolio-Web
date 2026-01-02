@@ -1,4 +1,5 @@
 from sqlalchemy import Column, Integer, String, Text, DateTime
+from sqlalchemy.sql import func
 from datetime import datetime
 from app.core.database import Base
 
@@ -9,6 +10,6 @@ class Contacts(Base):
     name=Column(String,nullable=False)
     email=Column(String,nullable=False)
     message=Column(Text,nullable=False)
-    created_at=Column(DateTime, default=datetime.utcnow)
+    created_at=Column(DateTime(timezone=True),server_default=func.now())
 
     # SQL real abstraído
