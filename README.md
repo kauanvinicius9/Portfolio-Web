@@ -398,6 +398,26 @@ docker compose up --build
 ```
 
 ###
+```powershell
+docker build -t backend .
+```
+
+###
+```powershell
+docker run -d -p 8000:8000 backend
+```
+
+###
+```powershell
+docker build -t frontend .
+```
+
+###
+```powershell
+docker run -d -p 5173:80 frontend
+```
+
+###
 
 <h6>Output</h6>
 
