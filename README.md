@@ -369,7 +369,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
   
 ---
 
-# Docker
+## Docker
 
 ###
 
@@ -417,13 +417,19 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ---
 
-## 🎨 UI/UX with Figma
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/777e8f52-52d1-4b83-bab7-9d33690cf9da" />
 
 ###
 
-<a href="https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="80" alt="figma logo" totle="Figma"/>
-</a>
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/e199889c-b379-426c-ac70-baa0d1c023b5" />
+
+###
+
+## UI/UX
+
+###
+
+- Figma: [https://www.figma.com](https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0" "Click Here")
 
 ###
 
