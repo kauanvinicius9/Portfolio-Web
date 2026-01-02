@@ -164,6 +164,13 @@ env\Scripts\activate
 pip install fastapi uvicorn sqlalchemy psycopg2-binary
 ```
 
+###
+```powershell
+pip install email-validator
+```
+
+###
+
 <h6>Run the Back-End</h6>
 
 ###
