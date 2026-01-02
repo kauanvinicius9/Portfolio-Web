@@ -295,11 +295,11 @@ npm install react-router-dom
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` |
+| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` `NGINX` |
 | **API Testing** | `INSOMNIA` |
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
-| **Project Organization** | `GITHUB` `DOCKER` |
+| **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
 | **Operation System** | `WINDOWS 11` |
 | **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
 
