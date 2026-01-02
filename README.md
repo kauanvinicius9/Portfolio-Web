@@ -129,15 +129,6 @@ All `endpoints` were tested and returned all the **necessary information**. Each
 
 ###
 
-| TYPE | MAIN DIFFICULTY |
-|------|-----------------|
-| Protanopia | Red |
-| Deuteranopia | Green | 
-| Tritanopia | Blue | 
-| Achromatopsia | Gray (No Color) |
-
-###
-
 **100%** developed autocontrast system.
 
 ---
