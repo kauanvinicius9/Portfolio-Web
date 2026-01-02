@@ -1,5 +1,5 @@
 import { Contact } from "../components/contacts";
-import image from "../assets/Img.jpg";
+import image from "../assets/Img.webp";
 
 const technologies = [
   "HTML5",
@@ -67,10 +67,17 @@ export function Home() {
           <div className="d-flex flex-column align-items-center text-center">
 
             {/* Avatar */}
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" alt="Meu avatar" style={{ width: 150, height: 150 }}/>
+            <img src={image} 
+                    className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" 
+                    alt="Meu avatar" 
+                    style={{ width: 150, height: 150 }}
+                    loading="eager"
+                    decoding="async"
+                    fetchPriority="high"
+            />
 
             {/* Texto */}
-            <h1 className="fw-bold mb-1" style={{ fontSize: "1.9rem" }}>
+           <h1 className="fw-bold mb-1 title-name">
               Kauan Vinícius
             </h1>
 
@@ -200,7 +207,7 @@ export function Home() {
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.desc}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer"  aria-label={`Abrir projeto ${project.title} no GitHub`} className="btn btn-primary">
                       Ver projeto
                     </a>
                   </div>
@@ -237,7 +244,7 @@ export function Home() {
 
           <div className="row g-4">
             <div className="col-md-5">
-              <ul className="list-unstyled">
+              <ul className="list-unstyled" aria-label="Informações de contato">
                 <li className="mb-2">
                   <strong>Email:</strong> saleskauan308@gmail.com
                 </li>
