@@ -406,7 +406,7 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ###
 
-- Docker website: [https://www.docker.com](https://www.docker.com/products/docker-desktop/)
+- Docker WebSite: [https://www.docker.com](https://www.docker.com/products/docker-desktop/)
 
 ---
 
