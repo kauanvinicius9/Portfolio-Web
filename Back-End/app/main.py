@@ -10,7 +10,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
+        "https://kauanvinicius-onrender-com-wvfo.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
