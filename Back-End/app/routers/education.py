@@ -4,4 +4,4 @@ router = APIRouter()
 
 @router.get("/")
 def list_educations():
-    return {"msg": "educations ok"}
+    return {"message": "educations ok"}

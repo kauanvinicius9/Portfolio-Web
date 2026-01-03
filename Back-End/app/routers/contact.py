@@ -7,6 +7,10 @@ from app.core.database import get_db
 
 router = APIRouter()
 
+@router.get("/")
+def list_educations():
+    return {"message": "contacts ok"}
+
 @router.post("/")
 def create_contact(
     contact: ContactsCreate,
