@@ -301,7 +301,7 @@ npm install react-router-dom
 | **ORM / Data Access** | `SQLALCHEMY` |
 | **UI / UX** | `FIGMA` |
 | **Version Control** | `GIT` |
-| **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
+| **Repository & Documentation** | `GITHUB` `MARKDOWN` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
 | **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` |
 | **API Testing** | `INSOMNIA` |
