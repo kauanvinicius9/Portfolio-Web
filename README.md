@@ -3,7 +3,7 @@
 ###
 
 - EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
-- Official URL: [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br).
+- Official URL: [https://kauanvinicius.onrender.com](https://kauanvinicius.onrender.com/).
 
 ###
 
