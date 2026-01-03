@@ -4,7 +4,7 @@
 
 - EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
 - The portfolio is running in the `Render`: [https://render.com](https://render.com/);
-- Official URL: [https://kauanvinicius.onrender.com](https://kauanvinicius.onrender.com/).
+- Official URL: [https://kauanvinicius.onrender.com](https://kauanvinicius-onrender-com-br.onrender.com/).
 
 ###
 
@@ -451,6 +451,10 @@ Back-End (Swagger): http://localhost:8000/docs
 ###
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/318ec12b-70b1-4d37-ab0e-5b307097799f" />
+
+###
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/7538535b-b6a8-4603-8cd3-0e920e46c3a8" />
 
 ###
 
