@@ -294,7 +294,7 @@ npm install react-router-dom
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS` `CSS` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS` |
 | **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` |
 | **Database** | `MYSQL` `SQLITE`|
 | **ORM / Data Access** | `SQLALCHEMY` |
@@ -302,7 +302,7 @@ npm install react-router-dom
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` `NGINX` |
+| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` |
 | **API Testing** | `INSOMNIA` |
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
