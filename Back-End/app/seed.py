@@ -23,42 +23,42 @@ projects = [
         github_url="https://github.com/kauanvinicius9/BookStore",
         demo_url=None
     ),
-       Project(
+    Project(
         title="Cidade Inteligente",
         description="Projeto Full-Stack com autenticação via JWT.",
         technologies="Python, Django, Node, JWT",
         github_url="https://github.com/kauanvinicius9/IP-SmartCity",
         demo_url=None
     ),
-       Project(
+    Project(
         title="Banco de Dados",
         description="Formulário de cadastro onde os usuários serão guardados no banco de dados SQLite.",
         technologies="Python, Django, HTML, TailwindCSS, Bootstrap, SQL",
         github_url="https://github.com/kauanvinicius9/Back-End",
         demo_url=None
     ),
-       Project(
+    Project(
         title="API com NODE.JS",
         description="Consumo de API desenvolvido em Node JavaScript.",
         technologies="Node.JS",
         github_url="https://github.com/kauanvinicius9/Serverless-NODE.JS",
         demo_url=None
     ),
-       Project(
+    Project(
         title="Comando de Voz",
         description="Comando de voz da Google com Python puro.",
         technologies="Python",
         github_url="https://github.com/kauanvinicius9/Voice-Command",
         demo_url=None
     ),
-       Project(
+    Project(
         title="FastAPI",
         description="Conceitos básicos de FastAPI com HTML integrado.",
         technologies="Python, HTML, TailwindCSS FastAPI",
         github_url="https://github.com/kauanvinicius9/FastAPI",
         demo_url=None
     ),
-       Project(
+    Project(
         title="Tradutor",
         description="Um pequeno tradutor criado em React e TailwindCSS.",
         technologies="React, HTML, TailwindCSS",
