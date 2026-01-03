@@ -302,7 +302,7 @@ npm install react-router-dom
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` `GOOGLE DOCS` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `MICROSOFT AZURE` `RENDER` `NGINX` |
+| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` |
 | **API Testing** | `INSOMNIA` |
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
