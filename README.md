@@ -454,6 +454,10 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ###
 
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/7538535b-b6a8-4603-8cd3-0e920e46c3a8" />
+
+###
+
 ## UI/UX
 
 ###
