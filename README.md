@@ -3,7 +3,8 @@
 ###
 
 - EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
-- Official URL: [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br).
+- The portfolio is running in the `Render`: [https://render.com](https://render.com/);
+- Official URL: [https://kauanvinicius.onrender.com](https://kauanvinicius.onrender.com/).
 
 ###
 
