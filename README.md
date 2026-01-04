@@ -438,10 +438,6 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ---
 
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/777e8f52-52d1-4b83-bab7-9d33690cf9da" />
-
-###
-
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/e199889c-b379-426c-ac70-baa0d1c023b5" />
 
 ###
