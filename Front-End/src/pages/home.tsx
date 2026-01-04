@@ -272,7 +272,7 @@ export function Home() {
       <footer className="py-3 bg-body-tertiary border-top">
         <div className="container text-center">
           <p className="mb-0 text-body-secondary">
-            &copy; Kauan Vinícius - Todos os direitos reservados 2026
+            &copy; {new Date().getFullYear()} Todos os direitos reservados
           </p>
         </div>
       </footer>
