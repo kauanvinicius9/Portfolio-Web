@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.sql import func
-from app.core.database import Base
+from app.cors.database import Base
 
-class Educations(Base):
+class Education(Base):
     __tablename__ = "educations"
 
     id = Column(Integer, primary_key=True, index=True)

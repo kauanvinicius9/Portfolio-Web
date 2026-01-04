@@ -1,6 +1,5 @@
 # Evita vazamentos de conexão
-
-from app.core.database import SessionLocal
+from app.cors.database import SessionLocal
 from fastapi import Depends
 
 def get_db():

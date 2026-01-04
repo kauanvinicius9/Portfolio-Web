@@ -13,7 +13,7 @@ const technologies = [
   "TypeScript",
   "Django",
   "Docker",
-  "Microsoft Azure",
+  "Cloud Render",
   "Bootstrap",
   "TailwindCSS",
   "Java",
@@ -29,13 +29,13 @@ const educations = [
   },
   {
     course: "Computação",
-    institution: "ONG Fundação Eufraten",
+    institution: "Fundação Eufraten",
     duration: "11 meses",
     attendance: "95%",
   },
   {
     course: "Artística",
-    institution: "ONG Fundação Eufraten",
+    institution: "Fundação Eufraten",
     duration: "11 meses",
     attendance: "90%",
   },
@@ -70,14 +70,14 @@ export function Home() {
             <img src={image} 
                     className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" 
                     alt="Meu avatar" 
-                    style={{ width: 150, height: 150 }}
+                    style={{ width: 160, height: 160 }}
                     loading="eager"
                     decoding="async"
                     fetchPriority="high"
             />
 
             {/* Texto */}
-           <h1 className="fw-bold mb-1 title-name">
+           <h1 className="fw-bold mb-1 title-name mt-3">
               Kauan Vinícius
             </h1>
 
@@ -87,7 +87,7 @@ export function Home() {
             </p>
 
             {/* Botões */}
-            <div className="d-flex gap-2">
+            <div className="d-flex gap-2 mt-2">
               <a href="#projects" className="btn btn-primary">
                 Ver Projetos
               </a>
@@ -207,7 +207,11 @@ export function Home() {
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.desc}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer"  aria-label={`Abrir projeto ${project.title} no GitHub`} className="btn btn-primary">
+                    <a href={project.link} 
+                         target="_blank" 
+                         rel="noopener noreferrer"  
+                         className="btn btn-primary"
+                      >
                       Ver projeto
                     </a>
                   </div>

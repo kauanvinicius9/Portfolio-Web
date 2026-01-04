@@ -9,13 +9,17 @@ export function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false); 
+  
 
   async function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-
     try {
-      const res = await fetch("http://localhost:8000/contacts/", {
+      // URL do Back-End do .env
+      const API_URL = process.env.REACT_APP_API_URL;
+      if (!API_URL) throw new Error("REACT_APP_API_URL não foi definida");
+      
+      const res = await fetch(`${API_URL}/contacts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, message }),

@@ -1,9 +1,9 @@
 from sqlalchemy import Column, Integer, String, Text, DateTime
 from sqlalchemy.sql import func
 from datetime import datetime
-from app.core.database import Base
+from app.cors.database import Base
 
-class Contacts(Base):
+class Contact(Base):
     __tablename__ = "contacts"
 
     id=Column(Integer,primary_key=True,index=True)

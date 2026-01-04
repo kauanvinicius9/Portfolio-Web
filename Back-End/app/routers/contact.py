@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from app.schemas.contact import ContactsCreate
 from app.models.contact import Contacts
-from app.core.database import get_db
+from app.cors.database import get_db
 
 router = APIRouter()
 

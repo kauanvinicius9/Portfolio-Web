@@ -1,4 +1,4 @@
-from app.core.database import SessionLocal, Base, engine
+from app.cors.database import SessionLocal, Base, engine
 from app.models.project import Project
 from app.models.contact import Contact
 from app.models.education import Education
@@ -10,8 +10,8 @@ db = SessionLocal()
 # Projetos tipados
 projects = [
     Project(
-        title="Portifólio + Exercícios",
-        description="Portifólio desenvolvido no SENAI com mais de 30 exercícios para praticar.",
+        title="Portfólio + Exercícios",
+        description="Portfólio desenvolvido no SENAI com mais de 30 exercícios para praticar.",
         technologies="HTML, CSS JavaScript",
         github_url="https://github.com/kauanvinicius9/Portfolio-SENAI",
         demo_url=None
@@ -87,13 +87,13 @@ educations = [
     ),
     Education(
         course="Computação",
-        institution="ONG Fundação Eufraten",
+        institution="Fundação Eufraten",
         duration="11 meses",
         attendance="95%"
     ),
     Education(
         course="Artítsica",
-        institution="ONG Fundação Eufraten",
+        institution="Fundação Eufraten",
         duration="11 meses",
         attendance="90%"
     ),
