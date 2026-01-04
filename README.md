@@ -438,6 +438,14 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ---
 
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/b1da9926-448e-4531-8550-2fd36c4f3ef8" />
+
+###
+
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/29490b08-5853-4331-8290-7b4554157ba6" />
+
+###
+
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/e199889c-b379-426c-ac70-baa0d1c023b5" />
 
 ###
@@ -450,7 +458,7 @@ Back-End (Swagger): http://localhost:8000/docs
 
 ###
 
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/7538535b-b6a8-4603-8cd3-0e920e46c3a8" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/597d2756-cbce-4e83-a210-805e4e6bdbb0" />
 
 ###
 
