@@ -3,7 +3,7 @@ from sqlalchemy.sql import func
 from datetime import datetime
 from app.cors.database import Base
 
-class Contact(Base):
+class Contacts(Base):
     __tablename__ = "contacts"
 
     id=Column(Integer,primary_key=True,index=True)
