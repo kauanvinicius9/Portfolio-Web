@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const api = axios.create({
-    baseURL: "https://back-end.onrender.com",
+    baseURL: "https://portfolio-v2-qsxb.onrender.com",
 });
 
 // Cliente HTTP Axios

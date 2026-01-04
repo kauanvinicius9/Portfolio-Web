@@ -4,6 +4,9 @@ ao meu e-mail pessoal */
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
+// URL do Back-End em produção
+const API_URL = "https://portfolio-v2-qsxb.onrender.com";
+
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -15,10 +18,6 @@ export function Contact() {
     e.preventDefault();
     setLoading(true);
     try {
-      // URL do Back-End do .env
-      const API_URL = process.env.REACT_APP_API_URL;
-      if (!API_URL) throw new Error("REACT_APP_API_URL não foi definida");
-      
       const res = await fetch(`${API_URL}/contacts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
