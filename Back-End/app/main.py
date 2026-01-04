@@ -11,7 +11,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173", # Para desenvolvimento
-        "https://portfolio-im1j.onrender.com/", # Para deploy
+        "https://portfolio-im1j.onrender.com", # Para deploy
     ],
     allow_credentials=True,
     allow_methods=["*"],
