@@ -276,6 +276,16 @@ npm install react-router-dom
 ```
 
 ###
+```powershell
+npm install zod
+```
+
+###
+```powershell
+npm install express-rate-limit express
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
@@ -295,7 +305,7 @@ npm install react-router-dom
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS`, `CSS` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS` `CSS` `ZOD` |
 | **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` |
 | **Database** | `MYSQL` `POSTGREESQL`|
 | **ORM / Data Access** | `SQLALCHEMY` |
