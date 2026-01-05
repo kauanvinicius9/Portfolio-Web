@@ -308,8 +308,8 @@ npm install -D @types/express
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS` `CSS` `ZOD` |
-| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
+| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` `NODEJS`|
 | **Database** | `MYSQL` `POSTGREESQL`|
 | **ORM / Data Access** | `SQLALCHEMY` |
 | **UI / UX** | `FIGMA` |
@@ -324,7 +324,7 @@ npm install -D @types/express
 | **Operation System** | `WINDOWS 11` |
 | **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
 | **Web Security** | `CORS` |
-| **API** | `EXPRESS` |
+| **API** | `EXPRESS` `NODEJS`  |
 
 ###
 
