@@ -4,7 +4,7 @@ import { Technologies } from "./technologies";
 import { Educations } from "./educations";
 import { projects } from "../data/projects";
 
-import image from "../assets/Img.webp";
+import image from "../assets/Img.jpg";
 import "../styles/home.css";
 
 export function Home() {
@@ -101,26 +101,28 @@ export function Home() {
           <h2 className="mb-4 text-center">Projetos</h2>
 
           <div className="row g-4">
-            {projects.map((projects) => (
-              <ProjectCard key={projects.id} project={projects} />
+            {projects.map((project) => (
+              <ProjectCard key={project.id} project={project} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Tecnologias */}
+      {/* Tecnologias que uso frequentemente */}
       <section id="technologies" className="py-5 bg-body-tertiary">
         <div className="container">
           <h2 className="mb-4 text-center">Tecnologias</h2>
 
-          <div className="row text-center g-4">
+          <div className="row g-4">
             {Technologies.map((tech) => (
               <div key={tech.name} className="col-6 col-md-3">
                 <div className="card shadow-sm h-100 tech-card">
-                  <div className="card-body d-flex align-items-center justify-content-center gap-2 flex-row">
+                  <div className="card-body d-flex  gap-2 flex-row">
+                    <div className="tech-icon">
 
                     {/* Imagem com as tecnologias */}
-                    <img src={tech.logo} alt={tech.name} style={{ width: 25, height: 25 }}/>
+                    <img src={tech.logo} alt={tech.name}/>
+                    </div>
                     <p className="fw-semibold mb-0">{tech.name}</p>
                   </div>
                 </div>

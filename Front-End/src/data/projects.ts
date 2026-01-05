@@ -1,7 +1,7 @@
 //  Dados dos projetos
-import { projects } from "../types/projects";
+import type { Projects } from "../types/projects";
 
-export const project: projects[] = [
+export const projects: Projects[] = [
 	{
     id: "portfolio-SENAI",
 		title: "Portfólio + Exercícios",

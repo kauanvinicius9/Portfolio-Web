@@ -1,6 +1,6 @@
 // Tipo de projeto
 
-export interface projects {
+export interface Projects {
   id: string;
   title: string;
   desc: string;
