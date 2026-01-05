@@ -276,6 +276,11 @@ npm install react-router-dom
 ```
 
 ###
+```powershell
+npm install zod
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
