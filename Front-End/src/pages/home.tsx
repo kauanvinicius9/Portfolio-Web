@@ -240,8 +240,8 @@ export function Home() {
           <div className="row text-center g-4">
             {technologies.map((tech) => (
               <div key={tech.name} className="col-6 col-md-3">
-                <div className="card shadow-sm h-100">
-                  <div className="card-body d-flex align-items-center justify-content-center">
+                <div className="card shadow-sm h-100 tech-card">
+                  <div className="card-body d-flex align-items-center justify-content-center gap-2 flex-row">
 
                     {/* Imagem com as tecnologias */}
                     <img src={tech.logo} alt={tech.name} style={{ width: 25, height: 25 }}/>
