@@ -1,24 +1,39 @@
 import { Contact } from "../components/contacts";
 import image from "../assets/Img.webp";
-import style 
+
+import html from "../assets/HTML.svg";
+import boostrap from "../assets/Bootstrap.svg";
+import css from "../assets/CSS.svg";
+import django from "../assets/Django.svg";
+import docker from "../assets/Docker.svg";
+import fastapi from "../assets/FastAPI.svg";
+import java from "../assets/Java-Dark.svg";
+import javascript from "../assets/JavaScript.svg";
+import sql from "../assets/MySQL-Dark.svg";
+import python from "../assets/Python-Dark.svg";
+import react from "../assets/React-Dark.svg";
+import ruby from "../assets/Ruby.svg";
+import tailwind from "../assets/TailwindCSS-Dark.svg";
+import typescript from "../assets/TypeScript.svg";
 
 const technologies = [
-  "HTML5",
-  "CSS3",
-  "JavaScript",
-  "React",
-  "FastAPI",
-  "Python",
-  "SQL",
-  "Insomnia",
-  "TypeScript",
-  "Django",
-  "Docker",
-  "Cloud Render",
-  "Bootstrap",
-  "TailwindCSS",
-  "Java",
-  "Ruby",
+ { name: "HTML5", logo: html},
+ { name: "CSS3", logo: css},
+ { name: "JavaScript", logo: javascript},
+ { name: "React", logo: react},
+ { name: "FastAPI", logo: fastapi},
+ { name: "Python", logo: python},
+ { name: "SQL", logo: sql },
+//  { name: "Insomnia", logo: insomnia },
+ { name: "TypeScript", logo: typescript },
+ { name: "Django", logo: django },
+ { name: "Docker", logo: docker },
+//  { name: "Cloud Render", logo: render },
+ { name: "Bootstrap", logo: boostrap },
+ { name: "TailwindCSS", logo: tailwind },
+ { name: "Java", logo: java },
+ { name: "Ruby", logo: ruby },
+
 ];
 
 const educations = [
@@ -230,10 +245,13 @@ export function Home() {
 
           <div className="row text-center g-4">
             {technologies.map((tech) => (
-              <div key={tech} className="col-6 col-md-3">
+              <div key={tech.name} className="col-6 col-md-3">
                 <div className="card shadow-sm h-100">
                   <div className="card-body d-flex align-items-center justify-content-center">
-                    <p className="fw-semibold mb-0">{tech}</p>
+
+                    {/* Imagem com as tecnologias */}
+                    <img src={tech.logo} alt={tech.name} style={{ width: "25px", height: "25px" }}/>
+                    <p className="fw-semibold mb-0">{tech.name}</p>
                   </div>
                 </div>
               </div>
