@@ -15,8 +15,6 @@ import typescript from "../assets/TypeScript.svg";
 import postman from "../assets/Postman.svg";
 import node from "../assets/NodeJS-Dark.svg"
 
-
-
 export const Technologies = [
  { name: "HTML5", logo: html},
  { name: "CSS3", logo: css},
