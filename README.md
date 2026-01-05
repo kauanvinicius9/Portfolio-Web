@@ -281,6 +281,11 @@ npm install zod
 ```
 
 ###
+```powershell
+npm install express-rate-limit express
+```
+
+###
 
 **OBS.:** Installation `REACT` with `TYPESCRIPT`
 
