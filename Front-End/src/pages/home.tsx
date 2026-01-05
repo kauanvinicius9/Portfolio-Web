@@ -1,6 +1,7 @@
 import { Contact } from "../components/contacts";
 import image from "../assets/Img.webp";
 
+// Logos
 import html from "../assets/HTML.svg";
 import boostrap from "../assets/Bootstrap.svg";
 import css from "../assets/CSS.svg";
@@ -83,14 +84,7 @@ export function Home() {
           <div className="d-flex flex-column align-items-center text-center">
 
             {/* Avatar */}
-            <img src={image} 
-                    className="rounded-circle object-fit-cover border border-3 border-primary mt-n5"
-                    alt="Meu avatar"
-                    style={{ width: 160, height: 160 }}
-                    loading="eager"
-                    decoding="async"
-                    fetchPriority="high"
-            />
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" alt="Meu avatar" style={{ width: 160, height:160 }}/>
 
             {/* Texto */}
            <h1 className="fw-bold mb-1 title-name mt-3">
@@ -250,7 +244,7 @@ export function Home() {
                   <div className="card-body d-flex align-items-center justify-content-center">
 
                     {/* Imagem com as tecnologias */}
-                    <img src={tech.logo} alt={tech.name} style={{ width: "25px", height: "25px" }}/>
+                    <img src={tech.logo} alt={tech.name} style={{ width: 25, height: 25 }}/>
                     <p className="fw-semibold mb-0">{tech.name}</p>
                   </div>
                 </div>
