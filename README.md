@@ -300,7 +300,7 @@ npm install zod
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS`, `CSS`, `ZOD` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODE.JS` `EMAILJS` `CSS` `ZOD` |
 | **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` |
 | **Database** | `MYSQL` `POSTGREESQL`|
 | **ORM / Data Access** | `SQLALCHEMY` |
