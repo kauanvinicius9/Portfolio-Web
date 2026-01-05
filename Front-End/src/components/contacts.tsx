@@ -68,7 +68,7 @@ export function Contact() {
         <textarea className="form-control" placeholder="Mensagem" rows={4} value={message} onChange={(e) => setMessage(e.target.value)} required/>
       </div>
 
-      <button className="btn btn-primary" type="submit" disabled={loading}>
+      <button className="btn btn-primary btn-size" type="submit" disabled={loading}>
         {loading ? "Enviando..." : "Enviar"}
       </button>
     </form>

@@ -1,0 +1,18 @@
+// ZOD: Usamos para validaçãod de formulários / + segurança
+import { z } from "zod";
+
+export const contactSchema = z.object({
+    email: z
+        .string()
+        .email("Email inválido")
+        .max(255),
+
+    message: z
+        .string()
+        .min(5)
+        .max(1000)
+});
+
+// Evita playload malicioso;
+// Evita lixo banco ou logs;
+// Evita spam.
