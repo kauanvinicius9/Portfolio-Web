@@ -3,6 +3,7 @@ import { ProjectCard } from "../components/projectsCards";
 import { Technologies } from "./technologies";
 import { Educations } from "./educations";
 import { projects } from "../data/projects";
+import type { Projects } from "../types/projects";
 
 import image from "../assets/Img.jpg";
 import "../styles/home.css";
@@ -46,7 +47,7 @@ export function Home() {
         <div className="container">
           <h2 className="mb-4 text-center">Sobre</h2>
 
-          <p className="text-body-secondary" style={{ textAlign: "justify" }}>
+          <p className="text-body-secondary text-about">
             Meu nome é Kauan Vinícius, tenho 17 anos, nascido em Itapira no
             interior do estado de São Paulo e morando atualmente em Campinas.
             Atuo na empresa Robert Bosch como Jovem Aprendiz, cursando o
@@ -55,7 +56,7 @@ export function Home() {
             período noturno.
           </p>
 
-          <p className="text-body-secondary" style={{ textAlign: "justify" }}>
+          <p className="text-body-secondary text-about">
             Prezo pelo desenvolvimento de código limpo, organização,
             planejamento e prototipação de projetos. Sou comunicativo, trabalho
             bem em equipe e possuo experiência em liderança e documentação
@@ -101,7 +102,7 @@ export function Home() {
           <h2 className="mb-4 text-center">Projetos</h2>
 
           <div className="row g-4">
-            {projects.map((project) => (
+            {projects.map((project: Projects) => (
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>

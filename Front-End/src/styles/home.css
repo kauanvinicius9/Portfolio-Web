@@ -38,4 +38,11 @@
 .tech-name {
   margin: 0;
   font-weight: 600;
+
+}
+
+/* Texto sobre mim */
+.text-about {
+  justify-content: center;
+
 }

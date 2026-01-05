@@ -1,7 +1,7 @@
-import type { projects } from "../types/projects";
+import type { Projects } from "../types/projects";
 
 interface Props {
-  project: projects;
+  project: Projects;
 
 }
 
