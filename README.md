@@ -75,6 +75,16 @@ This portfolio is **responsive**, adapting to any **screen size** for a better v
 - **Visual** feedback during message delivery;
 - Communication with `back-end` `API` for contact registration.
 
+**<h2>Non-functional requirements</h2>**
+
+###
+
+- Spam **protection**;
+- Protection against **malicious payloads**;
+- Predictable `API`;
+- **Clean** code;
+- `Stack` used in **real** production.
+
 ---
 
 # Getting Started with Create React App
@@ -230,6 +240,16 @@ npm install —save-dev @types/react @types/react-dom
 
 ###
 ```powershell
+npm install cors
+```
+
+###
+```powershell
+npm install -D @types/cors
+```
+
+###
+```powershell
 npm install 
 ```
 
@@ -241,28 +261,6 @@ npm i
 ###
 ```powershell
 npm create vite@latest . -- --template vanilla-ts
-```
-
-###
-```json
-{
-  "name": "port",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.8"
-  },
-  "devDependencies": {
-    "typescript": "^5.4.0",
-    "vite": "^5.0.0"
-  }
-}
 ```
 
 ###
@@ -283,6 +281,11 @@ npm install zod
 ###
 ```powershell
 npm install express-rate-limit express
+```
+
+###
+```powershell
+npm install -D @types/express
 ```
 
 ###
@@ -320,6 +323,8 @@ npm install express-rate-limit express
 | **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
 | **Operation System** | `WINDOWS 11` |
 | **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
+| **Web Security** | `CORS` |
+| **API** | `EXPRESS` |
 
 ###
 
