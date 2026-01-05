@@ -1,5 +1,6 @@
 import { Contact } from "../components/contacts";
 import image from "../assets/Img.webp";
+import "../styles/home.css";
 
 // Logos
 import html from "../assets/HTML.svg";
@@ -16,6 +17,8 @@ import react from "../assets/React-Dark.svg";
 import ruby from "../assets/Ruby.svg";
 import tailwind from "../assets/TailwindCSS-Dark.svg";
 import typescript from "../assets/TypeScript.svg";
+import postman from "../assets/Postman.svg";
+import node from "../assets/NodeJS-Dark.svg"
 
 const technologies = [
  { name: "HTML5", logo: html},
@@ -25,11 +28,11 @@ const technologies = [
  { name: "FastAPI", logo: fastapi},
  { name: "Python", logo: python},
  { name: "SQL", logo: sql },
-//  { name: "Insomnia", logo: insomnia },
+ { name: "Node JS", logo: node },
  { name: "TypeScript", logo: typescript },
  { name: "Django", logo: django },
  { name: "Docker", logo: docker },
-//  { name: "Cloud Render", logo: render },
+ { name: "Postman", logo: postman },
  { name: "Bootstrap", logo: boostrap },
  { name: "TailwindCSS", logo: tailwind },
  { name: "Java", logo: java },
@@ -143,7 +146,7 @@ export function Home() {
           <div className="row g-4">
             {educations.map((edu, index) => (
               <div key={index} className="col-md-6">
-                <div className="card h-100 shadow-sm">
+                <div className="card h-100 shadow-sm tech-card">
                   <div className="card-body d-flex gap-3">
                     <div className="fs-3">🏅</div>
 
@@ -213,15 +216,11 @@ export function Home() {
               },
             ].map((project, index) => (
               <div key={index} className="col-md-4">
-                <div className="card h-100 shadow-sm">
+                <div className="card h-100 shadow-sm tech-card">
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.desc}</p>
-                    <a href={project.link} 
-                         target="_blank" 
-                         rel="noopener noreferrer"  
-                         className="btn btn-primary"
-                      >
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                       Ver projeto
                     </a>
                   </div>
