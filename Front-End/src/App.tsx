@@ -6,12 +6,18 @@ import { Home } from "./pages/home";
 export function App() {
   const [dark, setDark] = useState(false);
 
+  // Persistindo o tema
+  useEffect(() => {
+    const saved = localStorage.getItem("theme");
+    if (saved) setDark(saved === "dark");
+  }, []);
+
   useEffect(() => {
     document.documentElement.setAttribute(
       "data-bs-theme",
       dark ? "dark" : "light"
-
     );
+    localStorage.setItem("theme", dark ? "dark" : "light");
   }, [dark]);
 
   return (

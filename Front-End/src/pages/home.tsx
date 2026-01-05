@@ -1,83 +1,11 @@
 import { Contact } from "../components/contacts";
+import { ProjectCard } from "../components/projectsCards";
+import { Technologies } from "./technologies";
+import { Educations } from "./educations";
+import { projects } from "../data/projects";
+
 import image from "../assets/Img.webp";
 import "../styles/home.css";
-
-// Logos
-import html from "../assets/HTML.svg";
-import boostrap from "../assets/Bootstrap.svg";
-import css from "../assets/CSS.svg";
-import django from "../assets/Django.svg";
-import docker from "../assets/Docker.svg";
-import fastapi from "../assets/FastAPI.svg";
-import java from "../assets/Java-Dark.svg";
-import javascript from "../assets/JavaScript.svg";
-import sql from "../assets/MySQL-Dark.svg";
-import python from "../assets/Python-Dark.svg";
-import react from "../assets/React-Dark.svg";
-import ruby from "../assets/Ruby.svg";
-import tailwind from "../assets/TailwindCSS-Dark.svg";
-import typescript from "../assets/TypeScript.svg";
-import postman from "../assets/Postman.svg";
-import node from "../assets/NodeJS-Dark.svg"
-
-const technologies = [
- { name: "HTML5", logo: html},
- { name: "CSS3", logo: css},
- { name: "JavaScript", logo: javascript},
- { name: "React", logo: react},
- { name: "FastAPI", logo: fastapi},
- { name: "Python", logo: python},
- { name: "SQL", logo: sql },
- { name: "Node JS", logo: node },
- { name: "TypeScript", logo: typescript },
- { name: "Django", logo: django },
- { name: "Docker", logo: docker },
- { name: "Postman", logo: postman },
- { name: "Bootstrap", logo: boostrap },
- { name: "TailwindCSS", logo: tailwind },
- { name: "Java", logo: java },
- { name: "Ruby", logo: ruby },
-
-];
-
-const educations = [
-  {
-    course: "Desenvolvimento de Sistemas",
-    institution: "SENAI Roberto Mange",
-    duration: "1 ano e 6 meses",
-    attendance: "100%",
-  },
-  {
-    course: "Computação",
-    institution: "Fundação Eufraten",
-    duration: "11 meses",
-    attendance: "95%",
-  },
-  {
-    course: "Artística",
-    institution: "Fundação Eufraten",
-    duration: "11 meses",
-    attendance: "90%",
-  },
-  {
-    course: "Programação para Hardware",
-    institution: "SESI Santos Dumont",
-    duration: "7 meses",
-    attendance: "95% - Aluno Diamante",
-  },
-  {
-    course: "Pacote Office",
-    institution: "Fundação Bradesco",
-    duration: "1 ano",
-    attendance: "100%",
-  },
-  {
-    course: "Inglês",
-    institution: "Cidadão Pro Mundo",
-    duration: "5 anos",
-    attendance: "100%",
-  },
-];
 
 export function Home() {
   return (
@@ -144,7 +72,7 @@ export function Home() {
           <h2 className="mb-4 text-center">Formações</h2>
 
           <div className="row g-4">
-            {educations.map((edu, index) => (
+            {Educations.map((edu, index) => (
               <div key={index} className="col-md-6">
                 <div className="card h-100 shadow-sm tech-card">
                   <div className="card-body d-flex gap-3">
@@ -173,59 +101,8 @@ export function Home() {
           <h2 className="mb-4 text-center">Projetos</h2>
 
           <div className="row g-4">
-            {[
-              {
-                title: "Portfólio + Exercícios",
-                desc: "Portfólio desenvolvido no SENAI com mais de 30 exercícios.",
-                link: "https://github.com/kauanvinicius9/Portfolio-SENAI",
-              },
-              {
-                title: "Livraria",
-                desc: "Livraria com autenticação via JWT e consumo de API.",
-                link: "https://github.com/kauanvinicius9/BookStore",
-              },
-              {
-                title: "Cidade Inteligente",
-                desc: "Projeto Full-Stack com autenticação via JWT.",
-                link: "https://github.com/kauanvinicius9/IP-SmartCity",
-              },
-              {
-                title: "Banco de Dados",
-                desc: "Cadastro de usuários com SQLite.",
-                link: "https://github.com/kauanvinicius9/Back-End",
-              },
-              {
-                title: "API com Node.js",
-                desc: "Consumo de API em Node JavaScript.",
-                link: "https://github.com/kauanvinicius9/Serverless-NODE.JS",
-              },
-              {
-                title: "Comando de Voz",
-                desc: "Comando de voz do Google com Python puro.",
-                link: "https://github.com/kauanvinicius9/Voice-Command",
-              },
-              {
-                title: "FastAPI",
-                desc: "Conceitos básicos de FastAPI com HTML.",
-                link: "https://github.com/kauanvinicius9/FastAPI",
-              },
-              {
-                title: "Tradutor",
-                desc: "Tradutor em React e TailwindCSS.",
-                link: "https://github.com/kauanvinicius9/R-Translator",
-              },
-            ].map((project, index) => (
-              <div key={index} className="col-md-4">
-                <div className="card h-100 shadow-sm tech-card">
-                  <div className="card-body">
-                    <h5 className="card-title">{project.title}</h5>
-                    <p className="card-text">{project.desc}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                      Ver projeto
-                    </a>
-                  </div>
-                </div>
-              </div>
+            {projects.map((projects) => (
+              <ProjectCard key={projects.id} project={projects} />
             ))}
           </div>
         </div>
@@ -237,7 +114,7 @@ export function Home() {
           <h2 className="mb-4 text-center">Tecnologias</h2>
 
           <div className="row text-center g-4">
-            {technologies.map((tech) => (
+            {Technologies.map((tech) => (
               <div key={tech.name} className="col-6 col-md-3">
                 <div className="card shadow-sm h-100 tech-card">
                   <div className="card-body d-flex align-items-center justify-content-center gap-2 flex-row">
