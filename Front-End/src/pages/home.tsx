@@ -1,5 +1,6 @@
 import { Contact } from "../components/contacts";
 import image from "../assets/Img.webp";
+import style 
 
 const technologies = [
   "HTML5",
@@ -68,8 +69,8 @@ export function Home() {
 
             {/* Avatar */}
             <img src={image} 
-                    className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" 
-                    alt="Meu avatar" 
+                    className="rounded-circle object-fit-cover border border-3 border-primary mt-n5"
+                    alt="Meu avatar"
                     style={{ width: 160, height: 160 }}
                     loading="eager"
                     decoding="async"

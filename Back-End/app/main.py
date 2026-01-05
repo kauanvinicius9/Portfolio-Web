@@ -5,13 +5,13 @@ from app.routers.contact import router as contacts_router
 from app.routers.projects import router as projects_router
 from app.routers.education import router as educations_router
 
-app = FastAPI()
+app = FastAPI(title="Documentação")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173", # Para desenvolvimento
-        "https://portfolio-im1j.onrender.com", # Para deploy
+        "https://portfolio-im1j.onrender.com", # Para deploy, Onde o Back-End chama o Front-End
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -30,5 +30,5 @@ def health():
 def root():
     return {
         "message:": "Back-End funcionando",
-        "documentação": "http://127.0.0.1:8000/docs"
+        "acesse a documentação": "http://127.0.0.1:8000/docs"
     }
