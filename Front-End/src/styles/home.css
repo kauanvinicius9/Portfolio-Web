@@ -38,3 +38,10 @@
   margin-top: 5px;
 
 }
+
+.avatar img {
+  width: 160;
+  height:160;
+  object-fit: cover;
+  
+}
