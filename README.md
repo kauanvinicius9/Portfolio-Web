@@ -328,6 +328,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ---
 
+**<h2>Skills</h2>**
+
+###
+
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
 | **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
@@ -396,10 +400,6 @@ docker build -t frontend .
 ```powershell
 docker run -d -p 5173:80 frontend
 ```
-
-###
-
-<h6>Output</h6>
 
 ###
 ```powershell
