@@ -14,5 +14,5 @@ export const contactSchema = z.object({
 });
 
 // Evita playload malicioso;
-// Evita lixo banco ou logs;
+// Evita lixo no banco ou logs;
 // Evita spam.
