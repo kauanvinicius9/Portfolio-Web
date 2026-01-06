@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "../src/styles/app.css";
 
 // Importe de função
 import { Home } from "./pages/home";
