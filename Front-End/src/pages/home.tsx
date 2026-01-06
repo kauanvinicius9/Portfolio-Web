@@ -16,7 +16,7 @@ export function Home() {
           <div className="d-flex flex-column align-items-center text-center">
 
             {/* Avatar */}
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar" style={{ with: 100, height: 100 }}/>
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar" style={{ width: 160, height: 160 }}/>
 
             {/* Texto */}
            <h1 className="fw-bold mb-1 title-name mt-3">
@@ -25,7 +25,7 @@ export function Home() {
 
             {/* Habilidade */}
             <p className="text-body-secondary fs-5 mb-4">
-              Desenvolvedor Full-Stack Júnior
+              Full-Stack | Bosch Brasil
             </p>
 
             {/* Botões */}
