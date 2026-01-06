@@ -117,14 +117,14 @@ export function Home() {
           <div className="row g-4">
             {Technologies.map((tech) => (
               <div key={tech.name} className="col-6 col-md-3">
-                <div className="card shadow-sm h-100 tech-card">
+                <div className="card shadow-sm h-100">
                   <div className="card-body d-flex  gap-2 flex-row">
                     <div className="tech-icon">
 
                     {/* Imagem com as tecnologias */}
                     <img src={tech.logo} alt={tech.name}/>
                     </div>
-                    <p className="fw-semibold mb-0">{tech.name}</p>
+                    <p className="fw-semibold mb-0 text-size">{tech.name}</p>
                   </div>
                 </div>
               </div>

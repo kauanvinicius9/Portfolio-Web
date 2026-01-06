@@ -43,10 +43,16 @@
 
 /* Texto sobre mim */
 .text-about {
-  justify-content: center;
+  text-align: justify;
 
 }
 
 .btn-size {
   width: 100%;
+
+}
+
+.text-size {
+  margin-top: 5px;
+
 }
