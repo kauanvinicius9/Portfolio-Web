@@ -1,5 +1,6 @@
-import { project } from "../data/projects";
+import { projects } from "../data/projects";
 import { ProjectCard } from "./projectsCards";
+import type { Projects } from "../types/projects";
 
 export function ProjectsSection() {
   return (
@@ -8,7 +9,7 @@ export function ProjectsSection() {
         <h2 className="mb-4 text-center">Projetos</h2>
 
         <div className="row g-4">
-          {project.map((project) => (
+          {projects.map((project: Projects) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>

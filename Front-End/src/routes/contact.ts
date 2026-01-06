@@ -9,7 +9,7 @@ router.post(
     "/contact",
     contactLimiter,
     validate(contactSchema),
-    async (req, res) => {
+    async (_, res) => {
         return res.status(200).json({
             message: "Mensagem enviada"
         });
