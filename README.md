@@ -474,17 +474,3 @@ Back-End (Swagger): http://localhost:8000/docs
 ###
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/597d2756-cbce-4e83-a210-805e4e6bdbb0" />
-
-###
-
-## UI/UX
-
-###
-
-- Figma: [https://www.figma.com](https://www.figma.com/design/xkSJMolrZycia4O8Or12tI/Portif%C3%B3lio?node-id=1-11&p=f&t=NOi58zYfOh7oZfdz-0" "Click Here")
-
-###
-
-<div align="right">
-  <h6>© 2026 — Kauan Vinícius</h6>
-</div>
