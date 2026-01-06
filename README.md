@@ -2,58 +2,8 @@
 
 ###
 
-- EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
 - The portfolio is running in the `Render`: [https://render.com](https://render.com/);
 - Official URL: [https://portfolio-im1j.onrender.com](https://portfolio-im1j.onrender.com/).
-
-###
-
-The **official EmailJS website** is automatically integrated into the `React` code through the `EmailJS` installation provided by `React` via the command:
-
-###
-```powershell
-npm install @emailjs/browser
-```
-
-###
-
-Simply log in to the website and enter the **commands** used in the code into your devices.
-
-###
-
-When you install it, you gain access to:
-
-###
-```ts
-emailjs.send(serviceID, templateID, params)
-```
-
-###
-
-He does:
-
-###
-
-- An `HTTP` request to:
-
-###
-```powershell
-https://api.emailjs.com/api/v1.0/email/send
-```
-
-###
-
-With:
-
-###
-
-- Your **service**;
-- Your **template**;
-- The **form** data.
-
-###
-
-✅ This **without revealing** any `passwords`.
 
 ---
 
@@ -140,10 +90,6 @@ All `endpoints` were tested and returned all the **necessary information**. Each
 
 ###
 
-**100%** developed autocontrast system.
-
----
-
 **<h2>Data-Base</h2>**
 
 ###
@@ -154,7 +100,29 @@ All `endpoints` were tested and returned all the **necessary information**. Each
 
 ###
 
-**<h2>Virtual Env</h2>**
+- Models **Created**;
+- **Automatic** Tables;
+- `CRUD` Working;
+- Session **Closing** Correctly;
+- Documented `API`.
+
+###
+```powershell
+python app/seed.py
+```
+
+###
+```powershell
+python -m app.seed
+```
+
+---
+
+**<h2>Back-End</h2>**
+
+###
+
+For the `Back-End` to function correctly, the following dependencies need to be installed:
 
 ###
 ```powershell
@@ -167,10 +135,6 @@ env\Scripts\activate
 ```
 
 ###
-
-**<h2>Install FastAPI</h2>**
-
-###
 ```powershell
 pip install fastapi uvicorn sqlalchemy psycopg2-binary
 ```
@@ -181,31 +145,9 @@ pip install email-validator
 ```
 
 ###
-
-<h6>Run the Back-End</h6>
-
-###
 ```powershell
 uvicorn app.main:app --reload
 ```
-
-###
-
-<h6>Population DB</h6>
-
-###
-```powershell
-python app/seed.py
-```
-
-###
-```powershell
-python -m app.seed
-```
-
-###
-
-<h6>Output</h6>
 
 ###
 ```python
@@ -220,22 +162,74 @@ Uvicorn running on http://127.0.0.1:8000
 
 **URL DOCUMENTATION SWAGGER UI:** `http://127.0.0.1:8000/docs`
 
-###
-
-| METHOD | ENDPOINT | DESCRIPTION |
-|--------|----------|-------------|
-| `GET`  | `/` | API Status |
-| `GET`  | `projects` | Projects List |
-| `POST`  | `projects` | Create a New Project |
-| `POST`  | `contacts` | Send a Contact Message |
-
 ---
 
-<h6>Run the Front-End</h6>
+**<h2>Front-End</h2>**
+
+###
+
+For the **Front-End** to function correctly, the following dependencies need to be installed:
+
+###
+
+**100%** developed autocontrast system.
+
+###
+
+- EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
+
+###
+
+The **official EmailJS website** is automatically integrated into the `React` code through the `EmailJS` installation provided by `React` via the command:
+
+###
+
+Simply log in to the website and enter the **commands** used in the code into your devices.
 
 ###
 ```powershell
-npm install —save-dev @types/react @types/react-dom
+npm install emailjs
+```
+
+###
+
+When you install it, you gain **access** to:
+
+###
+```ts
+emailjs.send(serviceID, templateID, params)
+```
+
+###
+
+He does:
+
+###
+```powershell
+https://api.emailjs.com/api/v1.0/email/send
+```
+
+###
+
+With:
+
+###
+
+✅ This **without revealing** any `passwords`.
+
+###
+
+- Your **service**;
+- Your **template**;
+- The **form** data.
+
+###
+
+- An `HTTP` request to:
+
+###
+```powershell
+npm install 
 ```
 
 ###
@@ -250,17 +244,7 @@ npm install -D @types/cors
 
 ###
 ```powershell
-npm install 
-```
-
-###
-```powershell
-npm i
-```
-
-###
-```powershell
-npm create vite@latest . -- --template vanilla-ts
+npm install -D @types/express
 ```
 
 ###
@@ -284,53 +268,6 @@ npm install express-rate-limit express
 ```
 
 ###
-```powershell
-npm install -D @types/express
-```
-
-###
-
-**OBS.:** Installation `REACT` with `TYPESCRIPT`
-
----
-
-**<h2>SQL Completed</h2>**
-
-###
-
-- Models Created;
-- Automatic Tables;
-- CRUD Working;
-- Session Closing Correctly;
-- Documented `API`.
-
----
-
-| CATEGORY | TECHNOLOGIES |
-|--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
-| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` `NODEJS`|
-| **Database** | `MYSQL` `POSTGREESQL`|
-| **ORM / Data Access** | `SQLALCHEMY` |
-| **UI / UX** | `FIGMA` |
-| **Version Control** | `GIT` |
-| **Repository & Documentation** | `GITHUB` `MARKDOWN` |
-| **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` |
-| **API Testing** | `INSOMNIA` |
-| **Development Environment** | `VISUAL STUDIO CODE` |
-| **Scripting & Automation** | `POWERSHELL` |
-| **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
-| **Operation System** | `WINDOWS 11` |
-| **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
-| **Web Security** | `CORS` |
-| **API** | `EXPRESS` `NODEJS`  |
-
-###
-
-**<h2>How to Install and Use Bootstrap?</h2>**
-
-###
 
 `Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code. But it's **limited** with some **actions** and **styles**.
 
@@ -345,7 +282,7 @@ npm install -D @types/express
     <meta name="description" content="Web site created using create-react-app"/>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- HERE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/">
     <title>Your Title</title>
   </head>
@@ -380,11 +317,38 @@ If using `JS` components (`modal`, `dropdown`):
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 ```
 
+###
+
 - Bootstrap WebSite: [https://getbootstrap.com/](https://getbootstrap.com/ "Click Here").
-  
+
+###
+
+**OBS.:** Installation `REACT` with `TYPESCRIPT`
+
 ---
 
-## Docker
+| CATEGORY | TECHNOLOGIES |
+|--------|--------------|
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
+| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` `NODEJS`|
+| **Database** | `MYSQL` `POSTGRESQL`|
+| **ORM / Data Access** | `SQLALCHEMY` |
+| **Version Control** | `GIT` |
+| **Repository & Documentation** | `GITHUB` `MARKDOWN` |
+| **CI / CD** | `GITHUB` `INSOMNIA` |
+| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` |
+| **API Testing** | `INSOMNIA` |
+| **Development Environment** | `VISUAL STUDIO CODE` |
+| **Scripting & Automation** | `POWERSHELL` |
+| **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
+| **Operation System** | `WINDOWS 11` |
+| **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
+| **Web Security** | `CORS` |
+| **API** | `EXPRESS` `NODEJS`  |
+
+---
+
+**<h2>Docker</h2>**
 
 ###
 
