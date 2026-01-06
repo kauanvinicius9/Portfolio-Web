@@ -15,6 +15,27 @@ This portfolio is **responsive**, adapting to any **screen size** for a better v
 
 ###
 
+**<h2>Google Search Console</h2>**
+
+###
+
+This project is **prepared** for indexing on Google using **Google Search Console**.
+
+###
+
+- **GSC WebSite**: [https://search.google.com](https://search.google.com/search-console/about)
+
+###
+
+Domain verification is done via `HTML` meta tags, inserted into the `index.html` file:
+
+###
+```t
+<meta name="google-site-verification" content="YOUR_CODE_HERE" />
+```
+
+###
+
 **<h2>Features</h2>**
 
 ###
@@ -307,6 +328,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ---
 
+**<h2>Skills</h2>**
+
+###
+
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
 | **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
@@ -316,7 +341,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` |
+| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` `GOOGLE SEARCH CONSOLE` |
 | **API Testing** | `INSOMNIA` |
 | **Development Environment** | `VISUAL STUDIO CODE` |
 | **Scripting & Automation** | `POWERSHELL` |
@@ -375,10 +400,6 @@ docker build -t frontend .
 ```powershell
 docker run -d -p 5173:80 frontend
 ```
-
-###
-
-<h6>Output</h6>
 
 ###
 ```powershell
