@@ -128,6 +128,12 @@ All `endpoints` were tested and returned all the **necessary information**. Each
 - Documented `API`.
 
 ###
+
+> .env -> DATABASE_URL=`Postgres URL`
+
+###
+
+###
 ```powershell
 python app/seed.py
 ```
@@ -255,17 +261,17 @@ npm install
 
 ###
 ```powershell
-npm install cors
-```
-
-###
-```powershell
 npm install -D @types/cors
 ```
 
 ###
 ```powershell
 npm install -D @types/express
+```
+
+###
+```powershell
+npm install -D @types/pg dotenv
 ```
 
 ###
