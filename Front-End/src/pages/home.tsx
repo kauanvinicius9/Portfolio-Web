@@ -75,7 +75,7 @@ export function Home() {
           <div className="row g-4">
             {Educations.map((edu, index) => (
               <div key={index} className="col-md-6">
-                <div className="card h-100 shadow-sm tech-card">
+                <div className="card h-100 shadow-sm">
                   <div className="card-body d-flex gap-3">
                     <div className="fs-3">🏅</div>
 
@@ -117,7 +117,7 @@ export function Home() {
           <div className="row g-4">
             {Technologies.map((tech) => (
               <div key={tech.name} className="col-6 col-md-3">
-                <div className="card shadow-sm h-100 tech-card">
+                <div className="card shadow-sm h-100">
                   <div className="card-body d-flex  gap-2 flex-row">
                     <div className="tech-icon">
 
