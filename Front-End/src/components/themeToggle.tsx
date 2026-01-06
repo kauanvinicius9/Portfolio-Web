@@ -1,3 +1,4 @@
+// Mudança de tema com transição
 import { useState, useEffect } from "react";
 
 export function ThemeToggle() {
@@ -13,7 +14,7 @@ export function ThemeToggle() {
   }, [theme]);
 
   return (
-    <button className="btn btn-outline-secondary mb-4" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+    <button className="btn btn-outline-secondary mb-4 animate" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
       {theme === "dark" ? "Tema claro" : "Tema escuro"}
     </button>
   );
