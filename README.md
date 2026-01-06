@@ -272,31 +272,6 @@ npm install express-rate-limit express
 `Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code. But it's **limited** with some **actions** and **styles**.
 
 ###
-
-```t
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Web site created using create-react-app"/>
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="/">
-    <title>Your Title</title>
-  </head>
-  
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
-
-<!-- Front-End Base -->
-```
-
-###
 ```powershell
 npm install bootstrap
 ```
@@ -315,6 +290,11 @@ If using `JS` components (`modal`, `dropdown`):
 ###
 ```typescript
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
+```
+
+###
+```t
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 ```
 
 ###
