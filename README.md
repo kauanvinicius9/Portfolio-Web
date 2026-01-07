@@ -134,6 +134,10 @@ All `endpoints` were tested and returned all the **necessary information**. Each
 
 ###
 
+- Postgres WebSite: [https://www.postgresql.org](https://www.postgresql.org/)
+
+###
+
 > .env -> DATABASE_URL=`Postgres URL`
 
 ###
