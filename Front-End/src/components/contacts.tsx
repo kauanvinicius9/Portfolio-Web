@@ -4,9 +4,6 @@ ao meu e-mail pessoal */
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
-// URL do Back-End em produção
-const API_URL = "https://portfolio-v2-qsxb.onrender.com";
-
 export function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -17,17 +14,8 @@ export function Contact() {
   async function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
+
     try {
-      const res = await fetch(`${API_URL}/contacts`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, message }),
-      });
-
-      if (!res.ok) {
-        throw new Error("Erro no Back-End");
-      }
-
       // Formulário de email, conectada ao site do EmailJS
       await emailjs.send(
         "service_bu2b5bx",
