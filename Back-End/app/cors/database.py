@@ -1,11 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
+import os
 
-DATABASE_URL="sqlite:///./portfolio.db"
+# Data Postgres
+DATABASE_URL = os.getenv("postgresql://portfolio_db_yep8_user:wtX8nfAyUOlkGgInDENnbtdsNjimek5M@dpg-d5eogiruibrs738sj3rg-a/portfolio_db_yep8")
 
-engine = create_engine(
-    DATABASE_URL, connect_args={"check_same_thread": False}
-)
+engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(
     autocommit=False,
