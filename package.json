@@ -2,8 +2,5 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "zod": "^4.3.5"
-  },
-  "devDependencies": {
-    "@types/pg": "^8.16.0"
   }
 }
