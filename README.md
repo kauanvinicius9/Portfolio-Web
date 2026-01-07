@@ -174,6 +174,11 @@ npm install
 
 ###
 ```powershell
+npm install express-rate-limit
+```
+
+###
+```powershell
 npm install react-router-dom
 ```
 
