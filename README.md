@@ -56,6 +56,11 @@ Domain verification is done via `HTML` meta tags, inserted into the `index.html`
 - **Clean** code;
 - `Stack` used in **real** production.
 
+###
+```python
+python -c "from dotenv import load_dotenv; load_dotenv(); import os; print(os.getenv('DATABASE_URL'))"
+```
+
 ---
 
 # Getting Started with Create React App
