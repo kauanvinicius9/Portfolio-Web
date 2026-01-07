@@ -27,12 +27,6 @@ export const projects: Projects[] = [
 		link: "https://github.com/kauanvinicius9/Back-End",
 	},
 	{
-    id: "node-api",
-		title: "API com Node.js",
-		desc: "Consumo de API em Node JavaScript.",
-		link: "https://github.com/kauanvinicius9/Serverless-NODE.JS",
-	},
-	{
     id: "voice-command",
 		title: "Comando de Voz",
 		desc: "Comando de voz do Google com Python puro.",
