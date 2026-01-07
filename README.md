@@ -7,9 +7,6 @@
 
 ---
 
-`ROUTER` → `SCHEMA` → `CRUD` → `MODEL` → `DATABASE`
-
-###
 
 This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
 
@@ -55,11 +52,6 @@ Domain verification is done via `HTML` meta tags, inserted into the `index.html`
 - Predictable `API`;
 - **Clean** code;
 - `Stack` used in **real** production.
-
-###
-```python
-python -c "from dotenv import load_dotenv; load_dotenv(); import os; print(os.getenv('DATABASE_URL'))"
-```
 
 ---
 
@@ -109,99 +101,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
----
-
-All `endpoints` were tested and returned all the **necessary information**. Each message received will be **automatically** stored in the `database`.
-
-###
-
-**<h2>Data-Base</h2>**
-
-###
-
-- **Type:** Relational;
-- **Data-Base:** SQLite;
-- **ORM:** SQLAlchemy.
-
-###
-
-- Models **Created**;
-- **Automatic** Tables;
-- `CRUD` Working;
-- Session **Closing** Correctly;
-- Documented `API`.
-
-###
-
-- Postgres WebSite: [https://www.postgresql.org](https://www.postgresql.org/)
-
-###
-
-> .env -> DATABASE_URL=`Postgres URL`
-
-###
-
-###
-```powershell
-python app/seed.py
-```
-
-###
-```powershell
-python -m app.seed
-```
-
----
-
-**<h2>Back-End</h2>**
-
-###
-
-For the `Back-End` to function correctly, the following dependencies need to be installed:
-
-###
-```powershell
-python -m venv env
-```
-
-###
-```powershell
-env\Scripts\activate
-```
-
-###
-```powershell
-pip install fastapi uvicorn sqlalchemy psycopg2-binary
-```
-
-###
-```powershell
-pip install email-validator
-```
-
-###
-```powershell
-pip install dotenv
-```
-
-###
-```powershell
-uvicorn app.main:app --reload
-```
-
-###
-```python
-Uvicorn running on http://127.0.0.1:8000
-```
-
-###
-
-**URL BASE:** `http://127.0.0.1:8000`
-
-###
-
-**URL DOCUMENTATION SWAGGER UI:** `http://127.0.0.1:8000/docs`
 
 ---
 
@@ -355,9 +254,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
 | **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
-| **Back-End** | `FASTAPI` `PYTHON` `REST` `JSON` `HTTP` `EMAILJS` `NODEJS`|
-| **Database** | `MYSQL` `POSTGRESQL`|
-| **ORM / Data Access** | `SQLALCHEMY` |
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
@@ -403,16 +299,6 @@ docker compose up --build
 
 ###
 ```powershell
-docker build -t backend .
-```
-
-###
-```powershell
-docker run -d -p 8000:8000 backend
-```
-
-###
-```powershell
 docker build -t frontend .
 ```
 
@@ -427,11 +313,6 @@ Front-End: http://localhost:3000
 ```
 
 ###
-```powershell
-Back-End (Swagger): http://localhost:8000/docs
-```
-
-###
 
 - Docker WebSite: [https://www.docker.com](https://www.docker.com/products/docker-desktop/)
 
@@ -442,20 +323,3 @@ Back-End (Swagger): http://localhost:8000/docs
 ###
 
 <img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/29490b08-5853-4331-8290-7b4554157ba6" />
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/c18bbe47-0549-43e1-b9bc-edb74adc96e4" />
-
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/8d8455c9-d19d-49b3-93f5-8d01b55d5bf2" />
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/318ec12b-70b1-4d37-ab0e-5b307097799f" />
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/597d2756-cbce-4e83-a210-805e4e6bdbb0" />
