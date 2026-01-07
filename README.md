@@ -174,37 +174,12 @@ npm install
 
 ###
 ```powershell
-npm install -D @types/cors
-```
-
-###
-```powershell
-npm install -D @types/express
-```
-
-###
-```powershell
-npm install -D @types/pg dotenv
-```
-
-###
-```powershell
-npm install axios
-```
-
-###
-```powershell
 npm install react-router-dom
 ```
 
 ###
 ```powershell
 npm install zod
-```
-
-###
-```powershell
-npm install express-rate-limit express
 ```
 
 ###
@@ -264,8 +239,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 | **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
 | **Operation System** | `WINDOWS 11` |
 | **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
-| **Web Security** | `CORS` |
-| **API** | `EXPRESS` `NODEJS`  |
 
 ---
 
