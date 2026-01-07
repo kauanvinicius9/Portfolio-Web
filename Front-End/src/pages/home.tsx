@@ -25,7 +25,7 @@ export function Home() {
 
             {/* Habilidade */}
             <p className="text-body-secondary fs-5 mb-4">
-              Full-Stack | Bosch Brasil
+              Eng. Software | Planejamento Técnico
             </p>
 
             {/* Botões */}
