@@ -173,6 +173,11 @@ pip install email-validator
 
 ###
 ```powershell
+pip install dotenv
+```
+
+###
+```powershell
 uvicorn app.main:app --reload
 ```
 
