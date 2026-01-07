@@ -16,7 +16,7 @@ export function Home() {
           <div className="d-flex flex-column align-items-center text-center">
 
             {/* Avatar */}
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar" style={{ width: 160, height: 160 }}/>
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar" style={{ width: 190, height: 190 }}/>
 
             {/* Texto */}
            <h1 className="fw-bold mb-1 title-name mt-3">
