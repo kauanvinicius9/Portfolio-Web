@@ -1,9 +1,16 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
-import os
+
+from dotenv import load_dotenv
+load_dotenv() # Ponto chave para rodar
 
 # Data Postgres
-DATABASE_URL = os.getenv("postgresql://portfolio_db_yep8_user:wtX8nfAyUOlkGgInDENnbtdsNjimek5M@dpg-d5eogiruibrs738sj3rg-a/portfolio_db_yep8")
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+# Tratativa de erro
+if not DATABASE_URL:
+    raise RuntimeError("DATABASE_URL não foi identificada")
 
 engine = create_engine(DATABASE_URL)
 
@@ -13,10 +20,8 @@ SessionLocal = sessionmaker(
     bind=engine
 )
 
-# Define a base
-Base = declarative_base()
 
-# Cria as tabelas que ainda não existem
+Base = declarative_base()
 Base.metadata.create_all(bind=engine)
 
 def get_db():
