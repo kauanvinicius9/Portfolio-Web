@@ -253,7 +253,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 | CATEGORY | TECHNOLOGIES |
 |--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `AXIOS` `NODEJS` `EMAILJS` `CSS` `ZOD` |
+| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `NODEJS` `EMAILJS` `CSS` `ZOD` |
 | **Version Control** | `GIT` |
 | **Repository & Documentation** | `GITHUB` `MARKDOWN` |
 | **CI / CD** | `GITHUB` `INSOMNIA` |
