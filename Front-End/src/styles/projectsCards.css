@@ -1,5 +1,5 @@
 /* Cartão animado ao passar o mouse */
-.animate-card {
+.animate-card .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
     border-radius: 8px;
@@ -7,7 +7,7 @@
 
 .animate-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.15);
 }
 
 /* Botão primário */
