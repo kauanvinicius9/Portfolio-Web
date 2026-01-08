@@ -1,4 +1,4 @@
-// ZOD: Usamos para validaçãod de formulários / + segurança
+// ZOD: Usamos para validação de formulários + segurança
 import { z } from "zod";
 
 export const contactSchema = z.object({

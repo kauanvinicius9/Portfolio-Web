@@ -1,3 +1,4 @@
+// Componentes
 import { Contact } from "../components/contacts";
 import { ProjectCard } from "../components/projectsCards";
 import { Technologies } from "./technologies";
@@ -5,11 +6,14 @@ import { Educations } from "./educations";
 import { projects } from "../data/projects";
 import type { Projects } from "../types/projects";
 
-import github from "../assets/Github-Dark.svg";
-import instagram from "../assets/Instagram.svg";
-import linkedin from "../assets/LinkedIn.svg";
+// ícones das redes sociais 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
+// Imagem pessoal
 import image from "../assets/Img.jpg";
+
+// Estilizações CSS
 import "../styles/home.css";
 import "../styles/projectsCards.css";
 
@@ -20,7 +24,7 @@ export function Home() {
         <div className="container">
           <div className="d-flex flex-column align-items-center text-center">
             {/* Avatar */}
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar" style={{ width: 190, height: 190 }}/>
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar"/>
 
             {/* Texto */}
             <h1 className="fw-bold mb-1 title-name mt-3">Kauan Vinícius</h1>
@@ -77,7 +81,7 @@ export function Home() {
           <div className="row g-4">
             {Educations.map((edu, index) => (
               <div key={index} className="col-md-6 animate-card">
-                <div className="card h-100 shadow-sm">
+                <div className="card h-100 tech-card">
                   <div className="card-body d-flex gap-3">
                     <div className="fs-3">🏅</div>
 
@@ -119,7 +123,7 @@ export function Home() {
           <div className="row g-4">
             {Technologies.map((tech) => (
               <div key={tech.name} className="col-6 col-md-3 animate-card">
-                <div className="card shadow-sm h-100">
+                <div className="card h-100 tech-card">
                   <div className="card-body d-flex  gap-2 flex-row">
                     <div className="tech-icon">
                       {/* Imagem com as tecnologias */}
@@ -152,17 +156,17 @@ export function Home() {
         <div className="container text-center">
 
           {/* Redes sociais */}
-          <div className="d-flex justify-content-center gap-4 mt-4 mb-3 social-icons">
+          <div className="d-flex justify-content-center gap-4 mt-4 mb-3">
             <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer" className="social-link">
-              <img src={github} alt="GitHub"/>
+              <FontAwesomeIcon icon={faGithub} className="icon"/>
             </a>
 
             <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-953773359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="social-link">
-              <img src={linkedin} alt="LinkedIn"/>
+              <FontAwesomeIcon icon={faLinkedin} className="icon"/>
             </a>
 
             <a href="https://www.instagram.com/kauanl01?igsh=MTA1czhyN3liM3l0NQ==" className="social-link">
-              <img src={instagram} alt="Instagram"/>
+              <FontAwesomeIcon icon={faInstagram} className="icon"/>
             </a>
           </div>
 
