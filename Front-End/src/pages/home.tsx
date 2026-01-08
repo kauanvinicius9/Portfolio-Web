@@ -152,7 +152,7 @@ export function Home() {
         <div className="container text-center">
 
           {/* Redes sociais */}
-          <div className="d-flex justify-content-center gap-4 mb-3 social-icons">
+          <div className="d-flex justify-content-center gap-4 mt-4 mb-3 social-icons">
             <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer" className="social-link">
               <img src={github} alt="GitHub"/>
             </a>
