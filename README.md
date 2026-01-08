@@ -293,11 +293,3 @@ Front-End: http://localhost:3000
 ###
 
 - Docker WebSite: [https://www.docker.com](https://www.docker.com/products/docker-desktop/)
-
----
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/b1da9926-448e-4531-8550-2fd36c4f3ef8" />
-
-###
-
-<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/29490b08-5853-4331-8290-7b4554157ba6" />
