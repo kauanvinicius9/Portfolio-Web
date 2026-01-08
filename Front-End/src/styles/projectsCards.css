@@ -1,22 +1,23 @@
-.animate-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 25px rgba(0,0,0, 0.15);
-    
+/* Cartão animado ao passar o mouse */
+.animate-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Sem conflito visual */
-.btn-primary {
-    transition: background-color 0.25s ease, border-color 0.25s ease;
+.animate-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
 
+/* Botão primário */
+.btn-primary {
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .btn-primary:hover {
     background-color: #0b5ed7;
     border-color: #0b5ed7;
-
 }
 
 .btn-primary:focus-visible {
-  box-shadow: 0 0 0 0.15rem rgba(13,110,253,.35);
-
+    box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.35);
 }
