@@ -1,13 +1,13 @@
 /* Cartão animado ao passar o mouse */
-.animate-card .card {
+.animate-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
     border-radius: 8px;
 }
 
 .animate-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+
 }
 
 /* Botão primário */
@@ -22,4 +22,5 @@
 
 .btn-primary:focus-visible {
     box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.35);
+    
 }
