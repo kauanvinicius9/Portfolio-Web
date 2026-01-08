@@ -1,6 +1,8 @@
 /* Cartão animado ao passar o mouse */
 .animate-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
 .animate-card:hover {
