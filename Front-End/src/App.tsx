@@ -24,7 +24,7 @@ export function App() {
     <>
       {/* Toggle */}
       <div className="position-fixed top-0 end-0 p-3 z-3">
-        <button className="btn btn-primary" onClick={() => setDark(!dark)}>
+        <button className="btn btn-light" onClick={() => setDark(!dark)}>
           {dark ? "Claro" : "Escuro"}
         </button>
       </div>
