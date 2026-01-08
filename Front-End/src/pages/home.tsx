@@ -139,8 +139,10 @@ export function Home() {
         <div className="container">
           <h2 className="mb-4 text-center">Contato</h2>
 
-          <div className="col-md-7">
-            <Contact />
+          <div className="row justify-content-center">
+            <div className="col-md-7">
+              <Contact />
+            </div>
           </div>
         </div>
       </section>
@@ -150,7 +152,7 @@ export function Home() {
         <div className="container text-center">
 
           {/* Redes sociais */}
-          <div className="d-flex justify-content-center gap-4 mb-3 social-icons">
+          <div className="d-flex justify-content-center gap-4 mb-3 social-icons networks">
             <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="GitHub"/>
             </a>
