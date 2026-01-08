@@ -40,8 +40,9 @@ Domain verification is done via `HTML` meta tags, inserted into the `index.html`
 - Sending messages via `contact form`;
 - **Validation** of required fields;
 - Integration with `external service` for actual `email` sending;
-- **Visual** feedback during message delivery;
-- Communication with `back-end` `API` for contact registration.
+- **Visual** feedback during message delivery.
+
+###
 
 **<h2>Non-functional requirements</h2>**
 
@@ -49,7 +50,6 @@ Domain verification is done via `HTML` meta tags, inserted into the `index.html`
 
 - Spam **protection**;
 - Protection against **malicious payloads**;
-- Predictable `API`;
 - **Clean** code;
 - `Stack` used in **real** production.
 
