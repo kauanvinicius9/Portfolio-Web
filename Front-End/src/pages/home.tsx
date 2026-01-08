@@ -7,11 +7,11 @@ import type { Projects } from "../types/projects";
 
 import github from "../assets/Github-Dark.svg";
 import gmail from "../assets/Gmail-Dark.svg";
-import github from "../assets/Github-Dark.svg";
+import linkedin from "../assets/LinkedIn.svg";
 
 import image from "../assets/Img.jpg";
 import "../styles/home.css";
-import "../styles/projectsCards";
+import "../styles/projectsCards.css";
 
 export function Home() {
   return (
@@ -151,7 +151,7 @@ export function Home() {
 
           {/* Redes sociais */}
           <div className="d-flex justify-content-center gap-4 mb-3 social-icons">
-            <a href="https://www.instagram.com/kauanl01?igsh=MTA1czhyN3liM3l0NQ==" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="GitHub"/>
             </a>
 
