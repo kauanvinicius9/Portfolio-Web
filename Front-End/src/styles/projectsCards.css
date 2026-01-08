@@ -7,7 +7,7 @@
 
 .animate-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 10px 23px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Botão primário */
