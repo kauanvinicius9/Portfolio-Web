@@ -5,8 +5,13 @@ import { Educations } from "./educations";
 import { projects } from "../data/projects";
 import type { Projects } from "../types/projects";
 
+import github from "../assets/Github-Dark.svg";
+import gmail from "../assets/Gmail-Dark.svg";
+import github from "../assets/Github-Dark.svg";
+
 import image from "../assets/Img.jpg";
 import "../styles/home.css";
+import "../styles/projectsCards";
 
 export function Home() {
   return (
@@ -14,14 +19,11 @@ export function Home() {
       <section className="py-5 bg-body-tertiary border-bottom">
         <div className="container">
           <div className="d-flex flex-column align-items-center text-center">
-
             {/* Avatar */}
             <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar" style={{ width: 190, height: 190 }}/>
 
             {/* Texto */}
-           <h1 className="fw-bold mb-1 title-name mt-3">
-              Kauan Vinícius
-            </h1>
+            <h1 className="fw-bold mb-1 title-name mt-3">Kauan Vinícius</h1>
 
             {/* Habilidade */}
             <p className="text-body-secondary fs-5 mb-4">
@@ -74,7 +76,7 @@ export function Home() {
 
           <div className="row g-4">
             {Educations.map((edu, index) => (
-              <div key={index} className="col-md-6">
+              <div key={index} className="col-md-6 animate-card">
                 <div className="card h-100 shadow-sm">
                   <div className="card-body d-flex gap-3">
                     <div className="fs-3">🏅</div>
@@ -116,13 +118,12 @@ export function Home() {
 
           <div className="row g-4">
             {Technologies.map((tech) => (
-              <div key={tech.name} className="col-6 col-md-3">
+              <div key={tech.name} className="col-6 col-md-3 animate-card">
                 <div className="card shadow-sm h-100">
                   <div className="card-body d-flex  gap-2 flex-row">
                     <div className="tech-icon">
-
-                    {/* Imagem com as tecnologias */}
-                    <img src={tech.logo} alt={tech.name}/>
+                      {/* Imagem com as tecnologias */}
+                      <img src={tech.logo} alt={tech.name} />
                     </div>
                     <p className="fw-semibold mb-0 text-size">{tech.name}</p>
                   </div>
@@ -138,32 +139,33 @@ export function Home() {
         <div className="container">
           <h2 className="mb-4 text-center">Contato</h2>
 
-          <div className="row g-4">
-            <div className="col-md-5">
-              <ul className="list-unstyled" aria-label="Informações de contato">
-                <li className="mb-2">
-                  <strong>Email:</strong> saleskauan308@gmail.com
-                </li>
-                <li className="mb-2">
-                  <strong>LinkedIn:</strong> Kauan Vinícius
-                </li>
-                <li className="mb-2">
-                  <strong>GitHub:</strong> kauanvinicius9
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-md-7">
-              <Contact />
-            </div>
+          <div className="col-md-7">
+            <Contact />
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-3 bg-body-tertiary border-top">
+      <footer className="footer bg-body-tertiary border-top">
         <div className="container text-center">
-          <p className="mb-0 text-body-secondary">
+
+          {/* Redes sociais */}
+          <div className="d-flex justify-content-center gap-4 mb-3 social-icons">
+            <a href="https://www.instagram.com/kauanl01?igsh=MTA1czhyN3liM3l0NQ==" target="_blank" rel="noopener noreferrer">
+              <img src={github} alt="GitHub"/>
+            </a>
+
+            <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-953773359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin} alt="LinkedIn"/>
+            </a>
+
+            <a href="mailto:saleskauan308@gmail.com">
+              <img src={gmail} alt="Email"/>
+            </a>
+          </div>
+
+          {/* Texto */}
+          <p className="mb-0 text-body-secondary small">
             &copy; {new Date().getFullYear()} Todos os direitos reservados
           </p>
         </div>

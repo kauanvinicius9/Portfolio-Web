@@ -1,4 +1,5 @@
 import type { Projects } from "../types/projects";
+import "../styles/projectsCards.css";
 
 interface Props {
   project: Projects;
@@ -7,7 +8,7 @@ interface Props {
 
 export function ProjectCard({ project }: Props) {
   return (
-    <div className="col-md-4">
+    <div className="col-md-4 cards-animations">
       <div className="card h-100 shadow-sm tech-card">
         <div className="card-body">
           <h5 className="card-title">{project.title}</h5>
