@@ -38,8 +38,22 @@
 
 }
 
-.networks {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-link:hover img {
+  transform: translateY(-4px) scale(1.1);
+  opacity: 0.85;
+  
 }

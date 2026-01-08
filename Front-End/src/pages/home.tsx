@@ -6,7 +6,7 @@ import { projects } from "../data/projects";
 import type { Projects } from "../types/projects";
 
 import github from "../assets/Github-Dark.svg";
-import gmail from "../assets/Gmail-Dark.svg";
+import instagram from "../assets/Instagram.svg";
 import linkedin from "../assets/LinkedIn.svg";
 
 import image from "../assets/Img.jpg";
@@ -152,17 +152,17 @@ export function Home() {
         <div className="container text-center">
 
           {/* Redes sociais */}
-          <div className="d-flex justify-content-center gap-4 mb-3 social-icons networks">
-            <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer">
+          <div className="d-flex justify-content-center gap-4 mb-3 social-icons">
+            <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer" className="social-link">
               <img src={github} alt="GitHub"/>
             </a>
 
-            <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-953773359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-953773359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="social-link">
               <img src={linkedin} alt="LinkedIn"/>
             </a>
 
-            <a href="mailto:saleskauan308@gmail.com">
-              <img src={gmail} alt="Email"/>
+            <a href="https://www.instagram.com/kauanl01?igsh=MTA1czhyN3liM3l0NQ==" className="social-link">
+              <img src={instagram} alt="Instagram"/>
             </a>
           </div>
 
