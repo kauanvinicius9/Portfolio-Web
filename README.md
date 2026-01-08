@@ -174,6 +174,11 @@ npm install
 
 ###
 ```powershell
+npm install @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons
+```
+
+###
+```powershell
 npm install express-rate-limit
 ```
 
