@@ -9,5 +9,3 @@ export const contactLimiter = rateLimit({
         error: "Muitas tentativas. Tente novamente mais tarde"
     }
 });
-
-// Back-End 90% protegido de más intenções
