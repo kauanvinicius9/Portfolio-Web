@@ -19,8 +19,8 @@ import arduino from "../assets/Arduino.svg";
 import azure from "../assets/Azure-Dark.svg";
 import express from "../assets/ExpressJS-Dark.svg";
 import figma from "../assets/Figma-Dark.svg";
-import notion from "../assets/Notion-Dark.svg";
 import spring from "../assets/Spring-Dark.svg";
+import flutter from "../assets/Flutter-Dark.svg";
 
 export const Technologies = [
  { name: "HTML5", logo: html},
@@ -40,11 +40,11 @@ export const Technologies = [
  { name: "Java", logo: java },
  { name: "Ruby", logo: ruby },
  { name: "Spring Boot", logo: spring},
- { name: "Notion", logo: notion},
- { name: "Microsoft Azure", logo: azure},
+ { name: "Azure", logo: azure},
  { name: "Figma", logo: figma},
  { name: "Express JS", logo: express},
  { name: "Angular JS", logo: angular},
  { name: "Arduíno", logo: arduino},
+ { name: "Flutter", logo: flutter},
 
 ];
