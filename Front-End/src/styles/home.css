@@ -53,17 +53,19 @@
 
 }
 
-/* Hover do CSS junto com BS */
-[data-bs-theme="light"] .icon:hover {
-  color: #1616db;
+/* Seletor condicional */
+[data-bs-theme="light"] .icon:hover { /* Azul no modo claro */
+  --data-bs-theme: #1616db;
+
 }
 
+[data-bs-theme="light"] .icon:hover { /* Branco no modo escuro */
+  --data-bs-theme: #ffffff;
+
+}
+
+/* Chama a variável de acordo com o tema atual */
 .icon:hover {
-  color: #1616db;
+  color: var(--data-bs-theme); 
 
-}
-
-[data-bs-theme="dark"] .icon:hover {
-  color: #ffffff;
-  
 }
