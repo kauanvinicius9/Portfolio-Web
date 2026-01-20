@@ -55,7 +55,7 @@
 
 /* Seletor condicional */
 [data-bs-theme="light"] .icon:hover { /* Azul no modo claro */
-  --data-bs-theme: #1616db;
+  --data-bs-theme: #0d6efd;
 
 }
 
