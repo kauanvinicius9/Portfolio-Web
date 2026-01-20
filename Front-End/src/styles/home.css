@@ -53,13 +53,17 @@
 
 }
 
+/* Hover do CSS junto com BS */
+[data-bs-theme="light"] .icon:hover {
+  color: #1616db;
+}
+
 .icon:hover {
   color: #1616db;
 
 }
 
-img {
-  width: 190px;
-  height: 190px;
+[data-bs-theme="dark"] .icon:hover {
+  color: #ffffff;
   
 }
