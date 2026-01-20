@@ -53,6 +53,12 @@
 
 }
 
+img {
+  width: 190px;
+  height: 190px;
+  
+}
+
 /* Seletor condicional */
 [data-bs-theme="light"] .icon:hover { /* Azul no modo claro */
   --data-bs-theme: #0d6efd;
