@@ -4,7 +4,7 @@ import { z } from "zod";
 export const contactSchema = z.object({
     email: z
         .string()
-        .email("Email inválido")
+        .email("E-mail inválido")
         .max(255),
 
     message: z

@@ -23,15 +23,16 @@ export function Home() {
       <section className="py-5 bg-body-tertiary border-bottom">
         <div className="container">
           <div className="d-flex flex-column align-items-center text-center">
+
             {/* Avatar */}
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 avatar" alt="Meu avatar"/>
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" alt="Meu avatar"/>
 
             {/* Texto */}
             <h1 className="fw-bold mb-1 title-name mt-3">Kauan Vinícius</h1>
 
             {/* Habilidade */}
             <p className="text-body-secondary fs-5 mb-4">
-              Eng. Software | Planejamento Técnico
+              Tec. Software | Planejamento Técnico | Bosch
             </p>
 
             {/* Botões */}
