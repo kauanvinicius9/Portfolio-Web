@@ -3,10 +3,10 @@ import type { Projects } from "../types/projects";
 
 export const projects: Projects[] = [
 	{
-    id: "portfolio-SENAI",
-		title: "Portfólio + Exercícios",
-		desc: "Portfólio desenvolvido no SENAI com mais de 30 exercícios.",
-		link: "https://github.com/kauanvinicius9/Portfolio-SENAI",
+    id: "spring-boot",
+		title: "CRUD com Spring-Boot",
+		desc: "Um CRUD simples de usuários com Spring-Boot e Java.",
+		link: "https://github.com/kauanvinicius9/Spring-Boot",
 	},
 	{
     id: "bookstore",
