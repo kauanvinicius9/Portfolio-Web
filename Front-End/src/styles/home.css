@@ -53,9 +53,10 @@
 
 }
 
-img {
+.img {
   width: 190px;
   height: 190px;
+  animation: float 7s ease-in-out infinite;
 
 }
 
@@ -72,6 +73,24 @@ img {
 
 /* Chama a variável de acordo com o tema atual */
 .icon:hover {
-  color: var(--data-bs-theme); 
+  color: var(--data-bs-theme);
+  transform: scale(1.10);
 
+}
+
+/* Animação */
+@keyframes float {
+ 0% {
+  transform: translateY(0);
+ }
+
+ 50% {
+  transform: translateY(-10px);
+
+ }
+
+ 100% {
+  transform: translateY(0);
+
+ }
 }

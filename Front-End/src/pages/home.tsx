@@ -4,11 +4,8 @@ import { ProjectCard } from "../components/projectsCards";
 import { Technologies } from "./technologies";
 import { Educations } from "./educations";
 import { projects } from "../data/projects";
+import { Footer } from "../components/footer";
 import type { Projects } from "../types/projects";
-
-// ícones das redes sociais 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 // Imagem pessoal
 import image from "../assets/Img.jpg";
@@ -25,14 +22,14 @@ export function Home() {
           <div className="d-flex flex-column align-items-center text-center">
 
             {/* Avatar */}
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5" alt="Meu avatar"/>
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 img" alt="Meu avatar"/>
 
             {/* Texto */}
             <h1 className="fw-bold mb-1 title-name mt-3">Kauan Vinícius</h1>
 
             {/* Habilidade */}
             <p className="text-body-secondary fs-5 mb-4">
-              Tec. Software | Planejamento Técnico | Bosch
+              Desenvolvimento de Software | Bosch
             </p>
 
             {/* Botões */}
@@ -152,30 +149,9 @@ export function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="footer bg-body-tertiary border-top">
-        <div className="container text-center">
-
-          {/* Redes sociais */}
-          <div className="d-flex justify-content-center gap-4 mt-4 mb-3">
-            <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer" className="social-link">
-              <FontAwesomeIcon icon={faGithub} className="icon"/>
-            </a>
-
-            <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-953773359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="social-link">
-              <FontAwesomeIcon icon={faLinkedin} className="icon"/>
-            </a>
-
-            <a href="https://www.instagram.com/kauanl01?igsh=MTA1czhyN3liM3l0NQ==" className="social-link">
-              <FontAwesomeIcon icon={faInstagram} className="icon"/>
-            </a>
-          </div>
-
-          {/* Texto */}
-          <p className="mb-0 text-body-secondary small">
-            &copy; {new Date().getFullYear()} Todos os direitos reservados
-          </p>
-        </div>
+      {/* Footer componentizado */}
+      <footer>
+        <Footer />
       </footer>
     </>
   );
