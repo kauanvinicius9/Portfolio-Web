@@ -37,11 +37,5 @@ export const projects: Projects[] = [
 		title: "FastAPI",
 		desc: "Conceitos básicos de FastAPI com HTML.",
 		link: "https://github.com/kauanvinicius9/FastAPI",
-	},
-	{
-    id: "translator",
-		title: "Tradutor",
-		desc: "Tradutor em React e TailwindCSS.",
-		link: "https://github.com/kauanvinicius9/R-Translator",
-	},
+	}
 ];
