@@ -49,7 +49,7 @@ export function Home() {
       {/* Sobre mim */}
       <section className="py-5 bg-body">
         <div className="container">
-          <h2 className="mb-4 text-center">Sobre</h2>
+          <h2 className="mb-4 text-center">SOBRE</h2>
 
           <p className="text-body-secondary text-about">
             Meu nome é Kauan Vinícius, tenho 17 anos, nascido em Itapira no
@@ -74,7 +74,7 @@ export function Home() {
       {/* Formações */}
       <section className="py-5 bg-body-tertiary">
         <div className="container">
-          <h2 className="mb-4 text-center">Formações</h2>
+          <h2 className="mb-4 text-center">FORMAÇÕES</h2>
 
           <div className="row g-4">
             {Educations.map((edu, index) => (
@@ -103,7 +103,7 @@ export function Home() {
       {/* Projetos */}
       <section id="projects" className="py-5 bg-body">
         <div className="container">
-          <h2 className="mb-4 text-center">Projetos</h2>
+          <h2 className="mb-4 text-center">PROJETOS</h2>
 
           <div className="row g-4">
             {projects.map((project: Projects) => (
@@ -116,7 +116,7 @@ export function Home() {
       {/* Tecnologias que uso frequentemente */}
       <section id="technologies" className="py-5 bg-body-tertiary">
         <div className="container">
-          <h2 className="mb-4 text-center">Tecnologias</h2>
+          <h2 className="mb-4 text-center">HABILIDADES</h2>
 
           <div className="row g-4">
             {Technologies.map((tech) => (
@@ -139,7 +139,7 @@ export function Home() {
       {/* Contato */}
       <section id="contact" className="py-5 bg-body">
         <div className="container">
-          <h2 className="mb-4 text-center">Contato</h2>
+          <h2 className="mb-4 text-center">CONTATO</h2>
 
           <div className="row justify-content-center">
             <div className="col-md-7">
