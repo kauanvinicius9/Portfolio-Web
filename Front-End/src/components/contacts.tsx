@@ -1,7 +1,7 @@
 /* Componentização de um formulário real de e-mail, onde a mensagem será realmente enviada
 ao meu e-mail pessoal */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 export function Contact() {
@@ -9,8 +9,21 @@ export function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false); 
-  
 
+  const [statusMessage, setStatusMessage] = useState("");
+  const [statusType, setStatusType] = useState<"success" | "error" | "">("");
+
+  useEffect(() =>{
+    if (statusMessage) {
+      const timer = setTimeout(() => {
+        setStatusMessage("");
+        setStatusType("");
+      }, 3000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [statusMessage]);
+  
   async function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
@@ -28,14 +41,17 @@ export function Contact() {
         "UDeyd973nxgS5hG4l" // Chave pública
       );
 
-      alert("Mensagem enviada");
+      setStatusMessage("E-mail enviado com sucesso");
+      setStatusType("success");
+
       setName("");
       setEmail("");
       setMessage("");
 
     } catch (err) {
       console.log("EMAILJS ERROR:", err);
-      alert("Erro ao enviar");
+      setStatusMessage("Erro ao enviar e-mail");
+      setStatusType("error");
       
     } finally {
       setLoading(false);
@@ -59,6 +75,16 @@ export function Contact() {
       <button className="btn btn-primary btn-size" type="submit" disabled={loading}>
         {loading ? "Enviando..." : "Enviar"}
       </button>
+
+      {statusMessage && (
+        <div className={`alert mt-3 ${
+            statusType === "success" ? "alert-success" :
+            statusType === "error" ? "alert-danger" :
+            ""
+        }`}>
+          {statusMessage}
+        </div>
+      )}
     </form>
   );
 }
