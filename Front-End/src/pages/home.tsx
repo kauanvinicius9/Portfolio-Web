@@ -8,7 +8,7 @@ import { Footer } from "../components/footer";
 import type { Projects } from "../types/projects";
 
 // Imagem pessoal
-import image from "../assets/Img.jpg";
+import image from "../assets/foto.webp";
 
 // Estilizações CSS
 import "../styles/home.css";
