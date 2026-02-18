@@ -35,4 +35,10 @@ export const Educations = [
     duration: "5 anos",
     attendance: "100%",
   },
+  {
+    course: "10° Edição Hackathon 2026.1",
+    institution: "Robert Bosch LTDA",
+    duration: "2 semanas",
+    attendance: "100%",
+  }
 ];
