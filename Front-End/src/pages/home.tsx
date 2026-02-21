@@ -29,7 +29,7 @@ export function Home() {
 
             {/* Habilidade */}
             <p className="text-body-secondary fs-5 mb-4">
-              Desenvolvimento de Software - DBA e Logística | Bosch
+              Dev Software - DBA e Logística | Bosch
             </p>
 
             {/* Botões */}
