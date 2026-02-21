@@ -63,9 +63,8 @@ export function Home() {
           <p className="text-body-secondary text-about">
             Prezo pelo desenvolvimento de código limpo, organização,
             planejamento e prototipação de projetos. Sou comunicativo, trabalho
-            bem em equipe e possuo experiência em liderança e documentação
-            profissional para TCC. Possuo inglês intermediário e estudo
-            atualmente na CPM (Cidadão Pro Mundo) em parceria com a Universidade
+            bem em equipe e possuo inglês intermediário, estudando atualmente
+            na CPM (Cidadão Pro Mundo) em parceria com a Universidade
             Presbiteriana Mackenzie.
           </p>
         </div>

@@ -1,4 +1,3 @@
-import azure from "../assets/Azure-Dark.svg";
 import angular from "../assets/Angular-Dark.svg";
 import boostrap from "../assets/Bootstrap.svg";
 import css from "../assets/CSS.svg";
@@ -10,7 +9,6 @@ import flutter from "../assets/Flutter-Dark.svg";
 import html from "../assets/HTML.svg";
 import java from "../assets/Java-Dark.svg";
 import javascript from "../assets/JavaScript.svg";
-import maven from "../assets/Maven-Dark.svg";
 import node from "../assets/NodeJS-Dark.svg";
 import python from "../assets/Python-Dark.svg";
 import postman from "../assets/Postman.svg";
@@ -35,10 +33,8 @@ export const Technologies = [
  { name: "Bootstrap", logo: boostrap },
  { name: "TailwindCSS", logo: tailwind },
  { name: "Java", logo: java },
- { name: "Azure", logo: azure},
  { name: "Figma", logo: figma},
  { name: "Angular JS", logo: angular},
  { name: "Flutter", logo: flutter},
- { name: "Maven", logo: maven},
 
 ];

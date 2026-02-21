@@ -6,7 +6,7 @@ export const Educations = [
     attendance: "100%",
   },
   {
-    course: "Computação",
+    course: "Fundamentos da Tecnologia",
     institution: "Fundação Eufraten",
     duration: "11 meses",
     attendance: "95%",
@@ -30,15 +30,27 @@ export const Educations = [
     attendance: "100%",
   },
   {
-    course: "Inglês",
+    course: "Língua Inglesa",
     institution: "Cidadão Pro Mundo",
     duration: "5 anos",
     attendance: "100%",
   },
   {
-    course: "10° Edição Hackathon 2026.1",
+    course: "Hackathon ETS 2026.1",
     institution: "Robert Bosch LTDA",
     duration: "2 semanas",
+    attendance: "100%",
+  },
+  {
+    course: "Knimethon MA 2026.1",
+    institution: "Robert Bosch LTDA",
+    duration: "2 semanas",
+    attendance: "100%",
+  },
+  {
+    course: "Formação em Dados & IA",
+    institution: "Data Science Academy (DSA)",
+    duration: "216 horas",
     attendance: "100%",
   }
 ];
