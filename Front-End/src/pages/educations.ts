@@ -51,6 +51,6 @@ export const Educations = [
     course: "Formação em Dados & IA",
     institution: "Data Science Academy (DSA)",
     duration: "216 horas",
-    attendance: "100%",
+    attendance: "95%",
   }
 ];
