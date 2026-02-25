@@ -16,6 +16,7 @@ import react from "../assets/React-Dark.svg";
 import sql from "../assets/MySQL-Dark.svg";
 import tailwind from "../assets/TailwindCSS-Dark.svg";
 import typescript from "../assets/TypeScript.svg";
+import vue from "../assets/VueJS-Dark.svg";
 
 export const Technologies = [
  { name: "HTML5", logo: html},
@@ -36,5 +37,6 @@ export const Technologies = [
  { name: "Figma", logo: figma},
  { name: "Angular JS", logo: angular},
  { name: "Flutter", logo: flutter},
+ { name: "Vue JS", logo: vue},
 
 ];
