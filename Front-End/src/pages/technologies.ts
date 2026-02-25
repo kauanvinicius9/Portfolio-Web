@@ -9,7 +9,6 @@ import flutter from "../assets/Flutter-Dark.svg";
 import html from "../assets/HTML.svg";
 import java from "../assets/Java-Dark.svg";
 import javascript from "../assets/JavaScript.svg";
-import node from "../assets/NodeJS-Dark.svg";
 import python from "../assets/Python-Dark.svg";
 import postman from "../assets/Postman.svg";
 import react from "../assets/React-Dark.svg";
@@ -26,7 +25,6 @@ export const Technologies = [
  { name: "FastAPI", logo: fastapi},
  { name: "Python", logo: python},
  { name: "SQL", logo: sql },
- { name: "Node JS", logo: node },
  { name: "TypeScript", logo: typescript },
  { name: "Django", logo: django },
  { name: "Docker", logo: docker },
