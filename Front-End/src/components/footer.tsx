@@ -26,7 +26,7 @@ export function Footer() {
         </div>
 
         <div className="text-center text-secondary mb-3">
-            &copy; {year} Todos os direitos reservados
+            &copy; {year} Portfolio - Todos os direitos reservados
         </div>
       </footer>
     </>
