@@ -38,13 +38,13 @@ export const Educations = [
   {
     course: "Hackathon ETS 2026.1",
     institution: "Robert Bosch LTDA",
-    duration: "2 semanas",
+    duration: "14 dias",
     attendance: "100%",
   },
   {
-    course: "Knimethon MA 2026.1",
+    course: "Hackathon KNIME MA 2026.1",
     institution: "Robert Bosch LTDA",
-    duration: "2 semanas",
+    duration: "7 dias",
     attendance: "100%",
   },
   {
