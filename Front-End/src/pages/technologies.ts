@@ -16,14 +16,15 @@ import sql from "../assets/MySQL-Dark.svg";
 import tailwind from "../assets/TailwindCSS-Dark.svg";
 import typescript from "../assets/TypeScript.svg";
 import vue from "../assets/VueJS-Dark.svg";
+import arduino from "../assets/Arduino.svg";
 
 export const Technologies = [
- { name: "HTML5", logo: html},
- { name: "CSS3", logo: css},
- { name: "JavaScript", logo: javascript},
- { name: "React", logo: react},
- { name: "FastAPI", logo: fastapi},
- { name: "Python", logo: python},
+ { name: "HTML5", logo: html },
+ { name: "CSS3", logo: css },
+ { name: "JavaScript", logo: javascript },
+ { name: "React", logo: react },
+ { name: "FastAPI", logo: fastapi },
+ { name: "Python", logo: python },
  { name: "SQL", logo: sql },
  { name: "TypeScript", logo: typescript },
  { name: "Django", logo: django },
@@ -32,9 +33,10 @@ export const Technologies = [
  { name: "Bootstrap", logo: boostrap },
  { name: "TailwindCSS", logo: tailwind },
  { name: "Java", logo: java },
- { name: "Figma", logo: figma},
- { name: "Angular JS", logo: angular},
- { name: "Flutter", logo: flutter},
- { name: "Vue JS", logo: vue},
+ { name: "Figma", logo: figma },
+ { name: "Angular JS", logo: angular },
+ { name: "Flutter", logo: flutter },
+ { name: "Vue JS", logo: vue },
+ { name: "Arduíno", logo: arduino }
 
 ];

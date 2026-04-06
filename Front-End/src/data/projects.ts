@@ -37,5 +37,11 @@ export const projects: Projects[] = [
 		title: "FastAPI",
 		desc: "Conceitos básicos de FastAPI com HTML.",
 		link: "https://github.com/kauanvinicius9/FastAPI",
+	},
+	{
+    id: "creditech",
+		title: "CrediTech",
+		desc: "Aplicativo de banco desenvolvido em Dart - Flutter.",
+		link: "https://github.com/kauanvinicius9/CrediTech.git",
 	}
 ];
