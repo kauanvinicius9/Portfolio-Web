@@ -52,5 +52,11 @@ export const Educations = [
     institution: "Data Science Academy (DSA)",
     duration: "216 horas",
     attendance: "95%",
+  },
+  {
+    course: "Automação em KNIME",
+    institution: "Learner Dashboard | KNIME",
+    duration: "32 horas",
+    attendance: "100%",
   }
 ];
