@@ -1,4 +1,3 @@
-/* Cartão animado ao passar o mouse */
 .animate-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -9,7 +8,6 @@
 
 }
 
-/* Sombra no card pois gera conflito se estiver na hover */
 .tech-card {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;
   transition: box-shadow 0.3s ease;

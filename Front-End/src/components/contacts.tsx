@@ -1,6 +1,3 @@
-/* Componentização de um formulário real de e-mail, onde a mensagem será realmente enviada
-ao meu e-mail pessoal */
-
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -29,7 +26,6 @@ export function Contact() {
     setLoading(true);
 
     try {
-      // Formulário de email, conectada ao site do EmailJS
       await emailjs.send(
         "service_bu2b5bx",
         "template_mganp5c",
@@ -38,7 +34,7 @@ export function Contact() {
           email: email,
           message: message, 
         },
-        "UDeyd973nxgS5hG4l" // Chave pública
+        "UDeyd973nxgS5hG4l"
       );
 
       setStatusMessage("E-mail enviado com sucesso");

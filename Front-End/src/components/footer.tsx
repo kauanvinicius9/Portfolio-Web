@@ -26,7 +26,7 @@ export function Footer() {
         </div>
 
         <div className="text-center text-secondary mb-3">
-            &copy; {year} Portfolio - Todos os direitos reservados
+            &copy; {year} Portfolio | Kauan Vinícius
         </div>
       </footer>
     </>

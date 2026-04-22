@@ -1,53 +1,40 @@
-//  Dados dos projetos
 import type { Projects } from "../types/projects";
 
 export const projects: Projects[] = [
 	{
-        id: "spring-boot",
-		title: "CRUD com Spring-Boot",
-		desc: "Um CRUD simples de usuários com Spring-Boot e Java.",
+        id: "1",
+		title: "CRUD",
+		desc: "API de usuários com Spring-Boot e Java",
 		link: "https://github.com/kauanvinicius9/Spring-Boot",
 	},
 	{
-        id: "bookstore",
-		title: "Livraria",
-		desc: "Livraria com autenticação via JWT e consumo de API.",
+        id: "2",
+		title: "Livraria Digital",
+		desc: "Livraria com autenticação via JWT e consumo de API",
 		link: "https://github.com/kauanvinicius9/BookStore",
 	},
 	{
-        id: "smart-city",
+        id: "3",
 		title: "Cidade Inteligente",
-		desc: "Projeto Full-Stack com autenticação via JWT.",
+		desc: "Projeto Full-Stack com autenticação via JWT",
 		link: "https://github.com/kauanvinicius9/IP-SmartCity",
 	},
 	{
-        id: "backend-sqlite",
-		title: "Banco de Dados",
-		desc: "Cadastro de usuários com SQLite.",
-		link: "https://github.com/kauanvinicius9/Back-End",
-	},
-	{
-        id: "voice-command",
+        id: "4",
 		title: "Comando de Voz",
-		desc: "Comando de voz do Google com Python puro.",
+		desc: "Comando de voz da Google",
 		link: "https://github.com/kauanvinicius9/Voice-Command",
 	},
 	{
-        id: "fastapi",
-		title: "FastAPI",
-		desc: "Conceitos básicos de FastAPI com HTML.",
-		link: "https://github.com/kauanvinicius9/FastAPI",
-	},
-	{
-        id: "creditech",
-		title: "CrediTech",
-		desc: "Aplicativo de banco desenvolvido em Dart - Flutter.",
+        id: "5",
+		title: "Banco Digital Mobile",
+		desc: "Aplicativo de banco mobile",
 		link: "https://github.com/kauanvinicius9/CrediTech.git",
 	},
 	{
-        id: "taskapi",
-		title: "Tasks API",
-		desc: "API de tarefas em produção desenvolvido em Dart - Flutter.",
+        id: "6",
+		title: "API Mobile",
+		desc: "API de tarefas em produção",
 		link: "https://github.com/kauanvinicius9/API-Tasks-Dart.git",
 	}
 ];

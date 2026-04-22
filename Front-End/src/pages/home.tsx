@@ -1,4 +1,3 @@
-// Componentes
 import { Contact } from "../components/contacts";
 import { ProjectCard } from "../components/projectsCards";
 import { Technologies } from "./technologies";
@@ -7,12 +6,10 @@ import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
 import type { Projects } from "../types/projects";
 
-// Imagem pessoal
 import image from "../assets/foto.webp";
-
-// Estilizações CSS
 import "../styles/home.css";
 import "../styles/projectsCards.css";
+import "../main.css";
 
 export function Home() {
   return (
@@ -21,32 +18,18 @@ export function Home() {
         <div className="container">
           <div className="d-flex flex-column align-items-center text-center">
 
-            {/* Avatar */}
             <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 img" alt="Meu avatar"/>
+            <h1 className="fw-bold mb-1 title-name mt-3">KAUAN VINÍCIUS</h1>
+            <p className="text-body-secondary fs-5 mb-4">Sistemas Web & Dados Logísticos</p>
 
-            {/* Texto */}
-            <h1 className="fw-bold mb-1 title-name mt-3">Kauan Vinícius</h1>
-
-            {/* Habilidade */}
-            <p className="text-body-secondary fs-5 mb-4">
-              Software - Data Science e Logística | Bosch
-            </p>
-
-            {/* Botões */}
             <div className="d-flex gap-2 mt-2">
-              <a href="#projects" className="btn btn-primary">
-                Ver Projetos
-              </a>
-
-              <a href="#contact" className="btn btn-outline-secondary">
-                Contato
-              </a>
+              <a href="#projects" className="btn btn-primary">Ver Projetos</a>
+              <a href="#contact" className="btn btn-outline-secondary">Contato</a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Sobre mim */}
       <section className="py-5 bg-body">
         <div className="container">
           <h2 className="mb-4 text-center">SOBRE</h2>
@@ -70,7 +53,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Formações */}
       <section className="py-5 bg-body-tertiary">
         <div className="container">
           <h2 className="mb-4 text-center">FORMAÇÕES</h2>
@@ -84,12 +66,8 @@ export function Home() {
 
                     <div>
                       <h5 className="card-title mb-1">{edu.course}</h5>
-                      <p className="mb-1 text-body-secondary">
-                        {edu.institution}
-                      </p>
-                      <small className="text-body-secondary">
-                        Duração: {edu.duration} • Presença: {edu.attendance}
-                      </small>
+                      <p className="mb-1 text-body-secondary">{edu.institution}</p>
+                      <small className="text-body-secondary">Duração: {edu.duration} • Presença: {edu.attendance}</small>
                     </div>
                   </div>
                 </div>
@@ -99,7 +77,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Projetos */}
       <section id="projects" className="py-5 bg-body">
         <div className="container">
           <h2 className="mb-4 text-center">PROJETOS</h2>
@@ -112,7 +89,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Tecnologias que uso frequentemente */}
       <section id="technologies" className="py-5 bg-body-tertiary">
         <div className="container">
           <h2 className="mb-4 text-center">HABILIDADES</h2>
@@ -123,7 +99,7 @@ export function Home() {
                 <div className="card h-100 tech-card">
                   <div className="card-body d-flex  gap-2 flex-row">
                     <div className="tech-icon">
-                      {/* Imagem com as tecnologias */}
+
                       <img src={tech.logo} alt={tech.name} />
                     </div>
                     <p className="fw-semibold mb-0 text-size">{tech.name}</p>
@@ -135,7 +111,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Contato */}
       <section id="contact" className="py-5 bg-body">
         <div className="container">
           <h2 className="mb-4 text-center">CONTATO</h2>
@@ -148,7 +123,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Footer componentizado */}
       <footer>
         <Footer />
       </footer>

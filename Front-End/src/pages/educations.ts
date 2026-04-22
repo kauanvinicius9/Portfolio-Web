@@ -12,12 +12,6 @@ export const Educations = [
     attendance: "95%",
   },
   {
-    course: "Artística",
-    institution: "Fundação Eufraten",
-    duration: "11 meses",
-    attendance: "90%",
-  },
-  {
     course: "Programação para Hardware",
     institution: "SESI Santos Dumont",
     duration: "7 meses",
@@ -36,27 +30,9 @@ export const Educations = [
     attendance: "100%",
   },
   {
-    course: "Hackathon ETS 2026.1",
-    institution: "Robert Bosch LTDA",
-    duration: "14 dias",
-    attendance: "100%",
-  },
-  {
-    course: "Hackathon KNIME MA 2026.1",
-    institution: "Robert Bosch LTDA",
-    duration: "7 dias",
-    attendance: "100%",
-  },
-  {
     course: "Formação em Dados & IA",
     institution: "Data Science Academy (DSA)",
     duration: "216 horas",
     attendance: "95%",
-  },
-  {
-    course: "Automação em KNIME",
-    institution: "Learner Dashboard | KNIME",
-    duration: "32 horas",
-    attendance: "100%",
   }
 ];
