@@ -21,18 +21,12 @@ export const projects: Projects[] = [
 	},
 	{
         id: "4",
-		title: "Comando de Voz",
-		desc: "Comando de voz da Google",
-		link: "https://github.com/kauanvinicius9/Voice-Command",
-	},
-	{
-        id: "5",
 		title: "Banco Digital Mobile",
 		desc: "Aplicativo de banco mobile",
 		link: "https://github.com/kauanvinicius9/CrediTech.git",
 	},
 	{
-        id: "6",
+        id: "5",
 		title: "API Mobile",
 		desc: "API de tarefas em produção",
 		link: "https://github.com/kauanvinicius9/API-Tasks-Dart.git",
