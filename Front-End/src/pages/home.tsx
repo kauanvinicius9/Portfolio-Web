@@ -67,7 +67,11 @@ export function Home() {
                     <div>
                       <h5 className="card-title mb-1">{edu.course}</h5>
                       <p className="mb-1 text-body-secondary">{edu.institution}</p>
-                      <small className="text-body-secondary">Duração: {edu.duration} • Presença: {edu.attendance}</small>
+                      <small className="text-body-secondary">
+                        Duração: {edu.duration} • 
+                        Presença: {edu.attendance} • 
+                        Modalidade: {edu.modality}
+                      </small>
                     </div>
                   </div>
                 </div>
