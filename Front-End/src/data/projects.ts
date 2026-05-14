@@ -30,5 +30,11 @@ export const projects: Projects[] = [
 		title: "API Mobile",
 		desc: "API de tarefas em produção",
 		link: "https://github.com/kauanvinicius9/API-Tasks-Dart.git",
+	},
+	{
+        id: "6",
+		title: "Aplicação Mobile",
+		desc: "Gerenciador fictício de estabelecimentos próximos",
+		link: "https://github.com/kauanvinicius9/LOCLY.git",
 	}
 ];
