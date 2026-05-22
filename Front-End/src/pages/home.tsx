@@ -35,7 +35,7 @@ export function Home() {
           <h2 className="mb-4 text-center">SOBRE</h2>
 
           <p className="text-body-secondary text-about">
-            Meu nome é Kauan Vinícius, tenho 17 anos, nascido em Itapira no
+            Meu nome é Kauan Vinícius, tenho 18 anos, nascido em Itapira no
             interior do estado de São Paulo e morando atualmente em Campinas.
             Atuo na empresa Robert Bosch como Jovem Aprendiz, cursando o
             terceiro semestre de Desenvolvimento de Sistemas no SENAI Roberto
