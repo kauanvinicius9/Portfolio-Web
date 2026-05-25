@@ -230,19 +230,31 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 ###
 
-| CATEGORY | TECHNOLOGIES |
-|--------|--------------|
-| **Front-End** | `HTML5` `REACT` `TYPESCRIPT` `BOOTSTRAP` `NODEJS` `EMAILJS` `CSS` `ZOD` |
-| **Version Control** | `GIT` |
-| **Repository & Documentation** | `GITHUB` `MARKDOWN` |
-| **CI / CD** | `GITHUB` `INSOMNIA` |
-| **DevOps / Deployment** | `DOCKER` `RENDER` `NGINX` `GOOGLE SEARCH CONSOLE` |
-| **API Testing** | `INSOMNIA` |
-| **Development Environment** | `VISUAL STUDIO CODE` |
-| **Scripting & Automation** | `POWERSHELL` |
-| **Project Organization** | `GITHUB` `DOCKER` `NGINX` |
-| **Operation System** | `WINDOWS 11` |
-| **Browser** | `GOOGLE CHROME` `GOOGLE EDGE`  |
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" title="React"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" title="TypeScript"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo" title="Docker"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=bootstrap" height="40" alt="bootstrap logo" title="Bootstrap"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=sass" height="40" alt="sass logo" title="SASS/SCSS"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo" title="Express"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=powershell" height="40" alt="powershell logo" title="PowerShell"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo" title="Visual Studio Code"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=nginx" height="40" alt="nginx logo" title="Nginx"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure logo" title="Azure"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo" title="Git"/>
+  <img width="1" />
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" title="GitHub"/>
+</div>
 
 ---
 
