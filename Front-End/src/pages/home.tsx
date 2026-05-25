@@ -7,9 +7,9 @@ import { Footer } from "../components/footer";
 import type { Projects } from "../types/projects";
 
 import image from "../assets/foto.webp";
-import "../styles/home.css";
-import "../styles/projectsCards.css";
-import "../main.css";
+import "../scss/home.scss";
+import "../scss/projectsCards.scss";
+import "../main.scss";
 
 export function Home() {
   return (
@@ -18,7 +18,7 @@ export function Home() {
         <div className="container">
           <div className="d-flex flex-column align-items-center text-center">
 
-            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 img" alt="Meu avatar"/>
+            <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 img" alt="Avatar"/>
             <h1 className="fw-bold mb-1 title-name mt-3">KAUAN VINÍCIUS</h1>
             <p className="text-body-secondary fs-5 mb-4">Sistemas Web & Dados Logísticos</p>
 
@@ -35,11 +35,11 @@ export function Home() {
           <h2 className="mb-4 text-center">SOBRE</h2>
 
           <p className="text-body-secondary text-about">
-            Meu nome é Kauan Vinícius, tenho 18 anos, nascido em Itapira no
+            Meu nome é Kauan Vinícius, tenho 18 anos de idade, nascido em Itapira no
             interior do estado de São Paulo e morando atualmente em Campinas.
-            Atuo na empresa Robert Bosch como Jovem Aprendiz, cursando o
-            terceiro semestre de Desenvolvimento de Sistemas no SENAI Roberto
-            Mange e sou estudante do 3º ano da Escola Estadual Dom Barreto no
+            Atuei como jovem aprendiz na empresa Robert Bosch durante 1 ano e 6 meses, e hoje
+            estou fazendo estágio em Ciência de Dados. Finalizei meu curso técnico em Desenvolvimento 
+            de sistemas no SENAI Roberto Mange e sou estudante do 3º ano da Escola Estadual Dom Barreto no
             período noturno.
           </p>
 
@@ -47,8 +47,7 @@ export function Home() {
             Prezo pelo desenvolvimento de código limpo, organização,
             planejamento e prototipação de projetos. Sou comunicativo, trabalho
             bem em equipe e possuo inglês intermediário, estudando atualmente
-            na CPM (Cidadão Pro Mundo) em parceria com a Universidade
-            Presbiteriana Mackenzie.
+            na CPM (Cidadão Pro Mundo).
           </p>
         </div>
       </section>
