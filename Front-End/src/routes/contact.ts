@@ -20,22 +20,19 @@ router.post("/contact", contactLimit, async (req, res) => {
     try {
         const vData = contactSchema.parse(req.body);
 
-        // Processamento do envio de email
         return res.status(200).json({
             message: "Mensagem enviada",
             data: vData
         });
 
     } catch (error: any) {
-        // Tratativa de erro do Zod
         if (error?.errors) {
             return res.status(400).json({
                 message: "Dados inválidos",
                 errors: error.errors
         });
     }
-
-    // Erros internos/inesperados
+    
     console.error("Erro interno no /contact:", error);
     return res.status(500).json({
         message: "Erro interno. Tente novamente mais tarde"

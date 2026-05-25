@@ -1,5 +1,3 @@
-// Tipo de projeto
-
 export interface Projects {
   id: string;
   title: string;
