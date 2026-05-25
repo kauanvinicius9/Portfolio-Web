@@ -2,12 +2,6 @@
 
 ###
 
-- The portfolio is running in the `Render`: [https://render.com](https://render.com/);
-- Official URL: [https://portfolio-im1j.onrender.com](https://portfolio-im1j.onrender.com/).
-
----
-
-
 This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
 
 ###
