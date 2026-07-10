@@ -1,7 +1,7 @@
 import { Contact } from "../components/contacts";
 import { ProjectCard } from "../components/projectsCards";
 import { Technologies } from "./technologies";
-import { Educations } from "./educations";
+import { Certificates } from "./certificates";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
 import type { Projects } from "../types/projects";
@@ -19,8 +19,8 @@ export function Home() {
           <div className="d-flex flex-column align-items-center text-center">
 
             <img src={image} className="rounded-circle object-fit-cover border border-3 border-primary mt-n5 img" alt="Avatar"/>
-            <h1 className="fw-bold mb-1 title-name mt-3">KAUAN VINÍCIUS</h1>
-            <p className="text-body-secondary fs-5 mb-4">Sistemas Web & Dados Logísticos</p>
+            <h1 className="fw-bold mb-1 title-name mt-3">Kauan Vinícius</h1>
+            <p className="text-body-secondary fs-5 mb-4">IT Technician • Full-Stack • Data Science • Machine Learning • Intern</p>
 
             <div className="d-flex gap-2 mt-2">
               <a href="#projects" className="btn btn-primary">Ver Projetos</a>
@@ -32,32 +32,29 @@ export function Home() {
 
       <section className="py-5 bg-body">
         <div className="container">
-          <h2 className="mb-4 text-center">SOBRE</h2>
+          <h2 className="mb-4 text-center ">Sobre</h2>
 
           <p className="text-body-secondary text-about">
-            Meu nome é Kauan Vinícius, tenho 18 anos de idade, nascido em Itapira no
-            interior do estado de São Paulo e morando atualmente em Campinas.
-            Atuei como jovem aprendiz na empresa Robert Bosch durante 1 ano e 6 meses, e hoje
-            estou fazendo estágio em Ciência de Dados. Finalizei meu curso técnico em Desenvolvimento 
-            de sistemas no SENAI Roberto Mange e sou estudante do 3º ano da Escola Estadual Dom Barreto no
-            período noturno.
+           Me chamo Kauan Vinícius, tenho 18 anos de idade e atualmente sou
+           Técnico em Desenvolvimento de Sistemas formado no SENAI
+           Campinas - Roberto Mange em Junho de 2026. Possuo uma boa
+           experiência em liderança e desenvolvimento web.
           </p>
 
           <p className="text-body-secondary text-about">
-            Prezo pelo desenvolvimento de código limpo, organização,
-            planejamento e prototipação de projetos. Sou comunicativo, trabalho
-            bem em equipe e possuo inglês intermediário, estudando atualmente
-            na CPM (Cidadão Pro Mundo).
+            Atuo como Meio Oficial na Robert Bosch com automação de processos,
+            dados e desenvolvimento web. Sou movido por desafios e tenho como
+            compromisso entregar resultados com excelência e proatividade.
           </p>
         </div>
       </section>
 
       <section className="py-5 bg-body-tertiary">
         <div className="container">
-          <h2 className="mb-4 text-center">FORMAÇÕES</h2>
+          <h2 className="mb-4 text-center">Certificados</h2>
 
           <div className="row g-4">
-            {Educations.map((edu, index) => (
+            {Certificates.map((edu, index) => (
               <div key={index} className="col-md-6 animate-card">
                 <div className="card h-100 tech-card">
                   <div className="card-body d-flex gap-3">
@@ -67,9 +64,7 @@ export function Home() {
                       <h5 className="card-title mb-1">{edu.course}</h5>
                       <p className="mb-1 text-body-secondary">{edu.institution}</p>
                       <small className="text-body-secondary">
-                        Duração: {edu.duration} • 
-                        Presença: {edu.attendance} • 
-                        Modalidade: {edu.modality}
+                        Duração: {edu.duration} 
                       </small>
                     </div>
                   </div>
@@ -82,7 +77,7 @@ export function Home() {
 
       <section id="projects" className="py-5 bg-body">
         <div className="container">
-          <h2 className="mb-4 text-center">PROJETOS</h2>
+          <h2 className="mb-4 text-center">Projetos</h2>
 
           <div className="row g-4">
             {projects.map((project: Projects) => (
@@ -94,7 +89,7 @@ export function Home() {
 
       <section id="technologies" className="py-5 bg-body-tertiary">
         <div className="container">
-          <h2 className="mb-4 text-center">HABILIDADES</h2>
+          <h2 className="mb-4 text-center">Habilidades</h2>
 
           <div className="row g-4">
             {Technologies.map((tech) => (
@@ -116,7 +111,7 @@ export function Home() {
 
       <section id="contact" className="py-5 bg-body">
         <div className="container">
-          <h2 className="mb-4 text-center">CONTATO</h2>
+          <h2 className="mb-4 text-center">Contato</h2>
 
           <div className="row justify-content-center">
             <div className="col-md-7">

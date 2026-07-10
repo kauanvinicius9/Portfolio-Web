@@ -1,14 +1,9 @@
 .animate-card {
-    transition: transform 0.3s ease,
-                     box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
     transform: translateY(-5px);
-
-    .tech-card {
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;
-      transition: box-shadow 0.3s ease;
-    }
+    
   }
 }
 
