@@ -1,13 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
-// Função de atualização do ano automático
 const year = new Date().getFullYear();
 
 export function Footer() {
   return (
     <>
-      {/* Redes sociais */}
       <footer className="footer bg-body-tertiary border-top">
         <div className="d-flex justify-content-center gap-4 mt-4 mb-3">
           <a href="https://github.com/kauanvinicius9" target="_blank" rel="noopener noreferrer" className="social-link">

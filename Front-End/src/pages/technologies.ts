@@ -16,10 +16,22 @@ import sql from "../assets/MySQL-Dark.svg";
 import tailwind from "../assets/TailwindCSS-Dark.svg";
 import typescript from "../assets/TypeScript.svg";
 import sass from "../assets/Sass.svg";
+import spring from "../assets/Spring-Dark.svg";
+import mongo from "../assets/MongoDB.svg";
+import next from "../assets/NextJS-Dark.svg";
+import vue from "../assets/VueJS-Dark.svg";
+import nuxt from "../assets/NuxtJS-Dark.svg";
+import postgres from "../assets/PostgreSQL-Dark.svg";
 
 export const Technologies = [
- { name: "HTML5", logo: html },
- { name: "CSS3", logo: css },
+ { name: "Spring-Boot", logo: spring},
+ { name: "MongoDB", logo: mongo},
+ { name: "Vue", logo: vue},
+ { name: "Next", logo: next},
+ { name: "Nuxt", logo: nuxt},
+ { name: "PostgreSQL", logo: postgres},
+ { name: "HTML", logo: html },
+ { name: "CSS", logo: css },
  { name: "JavaScript", logo: javascript },
  { name: "React", logo: react },
  { name: "FastAPI", logo: fastapi },
