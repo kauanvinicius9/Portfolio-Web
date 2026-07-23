@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Home } from "./pages/home";
+import VLibras from "./components/vlibras";
 
 export function App() {
   const [dark, setDark] = useState(false);
@@ -19,6 +20,8 @@ export function App() {
 
   return (
     <>
+      <VLibras />
+
       <div className="position-fixed top-0 end-0 p-3 z-3">
         <button className="btn btn-dark" onClick={() => setDark(!dark)}>
           {dark ? "Claro" : "Escuro"}
