@@ -34,7 +34,7 @@ export function Services() {
         {
           name: name,
           email: email,
-          message: `[SOLICITAÇÃO DE ORÇAMENTO - ${serviceType.toUpperCase()}]\n\nDetalhes do Projeto:\n${details}`,
+          message: `Solicitação de Orçamento - ${serviceType.toUpperCase()}]\n\nDetalhes do Projeto:\n${details}`,
         },
         "pOPPiKzktnr3je8st"
       );
