@@ -30,5 +30,11 @@ export const projects: Projects[] = [
 		title: "Clientes",
 		desc: "Dashboard executivo de vendas",
 		link: "https://github.com/kauanvinicius9/Dashboard",
+	},
+	{
+        id: "06",
+		title: "Velas",
+		desc: "Site de velas com integração Mercado Pago SDK",
+		link: "https://github.com/kauanvinicius9/Candles",
 	}
 ];
