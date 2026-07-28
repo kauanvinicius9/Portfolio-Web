@@ -22,9 +22,6 @@ import next from "../assets/NextJS-Dark.svg";
 import vue from "../assets/VueJS-Dark.svg";
 import nuxt from "../assets/NuxtJS-Dark.svg";
 import postgres from "../assets/PostgreSQL-Dark.svg";
-import azure from "../assets/Azure-Dark.svg";
-import netlify from "../assets/Netlify-Dark.svg";
-import redis from "../assets/Redis-Dark.svg";
 
 export const Technologies = [
  { name: "Spring-Boot", logo: spring},
@@ -33,9 +30,6 @@ export const Technologies = [
  { name: "Next", logo: next},
  { name: "Nuxt", logo: nuxt},
  { name: "PostgreSQL", logo: postgres},
- { name: "Redis", logo: redis },
- { name: "Netlify", logo: netlify },
- { name: "Azure", logo: azure },
  { name: "HTML", logo: html },
  { name: "CSS", logo: css },
  { name: "JavaScript", logo: javascript },
