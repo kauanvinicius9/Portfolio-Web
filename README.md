@@ -110,9 +110,9 @@ https://api.emailjs.com/api/v1.0/email/send
 
 ✅ This **without revealing** any `passwords`.
 
-- Your **service**;
-- Your **template**;
-- The **form** data.
+- **service__id**: xxxxxxxx;
+- **template__id**: 00000000;
+- **public key**: 123ABC456abc.
 
 ###
 ```powershell
