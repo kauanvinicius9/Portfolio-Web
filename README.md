@@ -36,17 +36,6 @@ Domain verification is done via `HTML` meta tags, inserted into the `index.html`
 - Integration with `external service` for actual `email` sending;
 - **Visual** feedback during message delivery.
 
-###
-
-**<h2>Non-functional requirements</h2>**
-
-###
-
-- Spam **protection**;
-- Protection against **malicious payloads**;
-- **Clean** code;
-- `Stack` used in **real** production.
-
 ---
 
 # Getting Started with Create React App
@@ -98,25 +87,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-**<h2>Front-End</h2>**
-
-###
-
-For the **Front-End** to function correctly, the following dependencies need to be installed:
-
-###
-
-**100%** developed autocontrast system.
-
-###
-
 - EmailJS: [https://www.emailjs.com](https://www.emailjs.com/);
 
-###
-
 The **official EmailJS website** is automatically integrated into the `React` code through the `EmailJS` installation provided by `React` via the command:
-
-###
 
 Simply log in to the website and enter the **commands** used in the code into your devices.
 
@@ -126,149 +99,22 @@ npm install emailjs
 ```
 
 ###
-
-When you install it, you gain **access** to:
-
-###
 ```ts
 emailjs.send(serviceID, templateID, params)
 ```
-
-###
-
-He does:
 
 ###
 ```powershell
 https://api.emailjs.com/api/v1.0/email/send
 ```
 
-###
-
-With:
-
-###
-
 ✅ This **without revealing** any `passwords`.
-
-###
 
 - Your **service**;
 - Your **template**;
 - The **form** data.
 
 ###
-
-- An `HTTP` request to:
-
-###
 ```powershell
-npm install 
+http://localhost:3000
 ```
-
-###
-```powershell
-npm install @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-solid-svg-icons
-```
-
-###
-```powershell
-npm install express-rate-limit
-```
-
-###
-```powershell
-npm install react-router-dom
-```
-
-###
-```powershell
-npm install zod
-```
-
-###
-
-`Bootstrap` is a **front-end** language for styling web pages. It's **essential** for assisting **back-end** programmers, allowing them to use a maximum of **one line** of code. But it's **limited** with some **actions** and **styles**.
-
-###
-```powershell
-npm install bootstrap
-```
-
-###
-
-`main.tsx`
-
-###
-```typescript
-import 'bootstrap/dist/css/bootstrap.min.css';
-```
-
-If using `JS` components (`modal`, `dropdown`):
-
-###
-```typescript
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
-```
-
-###
-```t
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-```
-
-###
-
-- Bootstrap WebSite: [https://getbootstrap.com/](https://getbootstrap.com/ "Click Here").
-
-###
-
-**OBS.:** Installation `REACT` with `TYPESCRIPT`
-
----
-
-**<h2>Docker</h2>**
-
-###
-
-This portfolio uses `Docker` for environment **standardization** and **handling** during production deployment.
-
-###
-
-The application is divided into **two** containers:
-
-###
-
-- **Front-End**: `React` (`Vite`) compiled and served with `Nginx`;
-- **Back-End**: `API` developed in `FastAPI` running with `Uvicorn`.
-
-###
-
-With `Docker`, the entire project can be run **without** the need to manually install dependencies like `Node.js` or Python, ensuring that the application functions the same way in **any environment**.
-
----
-
-With `Docker` installed, simply run the command below in the project root:
-
-###
-```powershell
-docker compose up --build
-```
-
-###
-```powershell
-docker build -t frontend .
-```
-
-###
-```powershell
-docker run -d -p 5173:80 frontend
-```
-
-###
-```powershell
-Front-End: http://localhost:3000
-```
-
-###
-
-- Docker WebSite: [https://www.docker.com](https://www.docker.com/products/docker-desktop/)
