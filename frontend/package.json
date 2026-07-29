@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "serve -s dist -l $PORT"
+    "start": "serve -s frontend/dist -l $PORT || serve -s dist -l $PORT"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
