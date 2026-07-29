@@ -2,13 +2,13 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-COPY package.json ./
+COPY package*.json ./
 
-RUN yarn install
+RUN npm ci
 
 COPY . .
 
-RUN yarn build
+RUN npm run build
 
 FROM nginx:alpine
 
