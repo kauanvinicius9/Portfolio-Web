@@ -4,11 +4,11 @@ WORKDIR /app
 
 COPY package.json ./
 
-RUN yarn install --frozen-lockfile
+RUN yarn install
 
 COPY . .
 
-RUN yarn install
+RUN yarn build
 
 FROM nginx:alpine
 
