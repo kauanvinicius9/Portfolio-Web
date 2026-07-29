@@ -26,7 +26,6 @@
     "sass-embedded": "^1.100.0",
     "serve": "^14.2.1",
     "typescript": "~5.9.3",
-    "vite": "npm:rolldown-vite@7.2.5",
     "zod": "^4.3.6"
   },
   "devDependencies": {
@@ -34,9 +33,7 @@
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.6",
     "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.2.5"
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4"
   }
 }
