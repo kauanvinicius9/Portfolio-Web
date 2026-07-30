@@ -1,27 +1,26 @@
-import angular from "../assets/Angular-Dark.svg";
+import angular from "../assets/Angular.svg";
 import boostrap from "../assets/Bootstrap.svg";
 import css from "../assets/CSS.svg";
 import docker from "../assets/Docker.svg";
 import django from "../assets/Django.svg";
 import fastapi from "../assets/FastAPI.svg";
-import figma from "../assets/Figma-Dark.svg";
-import flutter from "../assets/Flutter-Dark.svg";
+import figma from "../assets/Figma.svg";
 import html from "../assets/HTML.svg";
-import java from "../assets/Java-Dark.svg";
+import java from "../assets/Java.svg";
 import javascript from "../assets/JavaScript.svg";
-import python from "../assets/Python-Dark.svg";
+import python from "../assets/Python.svg";
 import postman from "../assets/Postman.svg";
-import react from "../assets/React-Dark.svg";
-import sql from "../assets/MySQL-Dark.svg";
-import tailwind from "../assets/TailwindCSS-Dark.svg";
+import react from "../assets/React.svg";
+import sql from "../assets/MySQL.svg";
+import tailwind from "../assets/TailwindCSS.svg";
 import typescript from "../assets/TypeScript.svg";
 import sass from "../assets/Sass.svg";
-import spring from "../assets/Spring-Dark.svg";
+import spring from "../assets/SpringBoot.svg";
 import mongo from "../assets/MongoDB.svg";
-import next from "../assets/NextJS-Dark.svg";
-import vue from "../assets/VueJS-Dark.svg";
-import nuxt from "../assets/NuxtJS-Dark.svg";
-import postgres from "../assets/PostgreSQL-Dark.svg";
+import next from "../assets/Next.svg";
+import vue from "../assets/Vue.svg";
+import nuxt from "../assets/Nuxt.svg";
+import postgres from "../assets/PostgreSQL.svg";
 
 export const Technologies = [
  { name: "Spring-Boot", logo: spring},
@@ -45,7 +44,6 @@ export const Technologies = [
  { name: "TailwindCSS", logo: tailwind },
  { name: "Java", logo: java },
  { name: "Figma", logo: figma },
- { name: "Angular JS", logo: angular },
- { name: "Flutter", logo: flutter },
- { name: "SCSS", logo: sass },
+ { name: "Angular", logo: angular },
+ { name: "SCSS / SASS", logo: sass },
 ];

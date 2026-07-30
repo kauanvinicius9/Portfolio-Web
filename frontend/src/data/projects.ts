@@ -15,26 +15,32 @@ export const projects: Projects[] = [
 	},
 	{
         id: "03",
-		title: "Site",
-		desc: "Site responsivo e integrado com Spring-Boot e Angular",
-		link: "https://github.com/kauanvinicius9/Candles",
-	},
-	{
-        id: "04",
 		title: "Logística",
 		desc: "Gerenciamento de dados logísticos com dashboard interativo",
 		link: "https://github.com/kauanvinicius9/Log-BR",
 	},
 	{
-        id: "05",
+        id: "04",
 		title: "Clientes",
 		desc: "Dashboard executivo de vendas",
 		link: "https://github.com/kauanvinicius9/Dashboard",
 	},
 	{
-        id: "06",
+        id: "05",
 		title: "Velas",
 		desc: "Site de velas com integração Mercado Pago SDK",
 		link: "https://github.com/kauanvinicius9/Candles",
+	},
+	{
+        id: "06",
+		title: "Estoque",
+		desc: "Gerenciamento de estoque de ferramentas",
+		link: "https://github.com/kauanvinicius9/Stock",
+	},
+	{
+        id: "07",
+		title: "Jogos",
+		desc: "Colecionador de jogos favoritados",
+		link: "https://github.com/kauanvinicius9/GameVault",
 	}
 ];

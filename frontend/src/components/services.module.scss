@@ -1,24 +1,4 @@
-$bg-card: rgba(26, 20, 41, 0.6);
-$bg-card-hover: rgba(38, 28, 61, 0.85);
-
-$purple-primary: #8b5cf6;
-$purple-light: #a78bfa;
-$purple-dark: #6d28d9;
-$purple-glow: rgba(139, 92, 246, 0.25);
-
-$text-main: #f3f4f6;
-$text-muted: #9ca3af;
-$border-color: rgba(139, 92, 246, 0.15);
-
-$success-color: #10b981;
-$success-bg: rgba(16, 185, 129, 0.12);
-$error-color: #ef4444;
-$error-bg: rgba(239, 68, 68, 0.12);
-
-$radius-lg: 16px;
-$radius-md: 10px;
-$radius-sm: 8px;
-$transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+@use "../variables" as *;
 
 .servicesSection {
   padding: 5rem 0;
@@ -71,24 +51,19 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
     background: $bg-card-hover;
-    border-color: rgba(139, 92, 246, 0.4);
+    border-color: $border-color;
     transform: translateY(-3px);
   }
 
   &--active {
     border-color: $purple-primary;
-    background: rgba(43, 31, 71, 0.8);
+    background: $background;
     box-shadow: 0 0 20px $purple-glow;
 
     .serviceCard__badge {
       background: $purple-primary;
-      color: #fff;
+      color: $color-white;
     }
-  }
-
-  &__icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
   }
 
   &__title {
@@ -111,10 +86,9 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 0.8rem;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
-    background: rgba(139, 92, 246, 0.15);
+    background: $purple-glow;
     color: $purple-light;
-    border: 1px solid rgba(139, 92, 246, 0.3);
-    font-weight: 600;
+    border: 1px solid $border-color;
     transition: $transition;
   }
 }
@@ -127,6 +101,10 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: $radius-lg;
   padding: 2rem;
   backdrop-filter: blur(12px);
+
+  * {
+    box-sizing:border-box;
+  }
 }
 
 .quoteFormTitle {
@@ -138,7 +116,6 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   span {
     color: $purple-light;
-    text-decoration: underline;
     text-underline-offset: 4px;
   }
 }
@@ -155,7 +132,7 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   &__input {
     width: 100%;
-    background: rgba(13, 11, 20, 0.6);
+    background: $bg-footer;
     border: 1px solid $border-color;
     border-radius: $radius-sm;
     padding: 0.85rem 1rem;
@@ -166,6 +143,7 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     &::placeholder {
       color: $text-muted;
+      font-family: $font-family;
     }
 
     &:focus {
@@ -180,19 +158,16 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   &__button {
     background: linear-gradient(135deg, $purple-dark, $purple-primary);
-    color: #ffffff;
+    color: $color-white;
     border: none;
     border-radius: $radius-sm;
     padding: 0.85rem 1.5rem;
     font-size: 1rem;
-    font-weight: 600;
     cursor: pointer;
     transition: $transition;
-    box-shadow: 0 4px 14px $purple-glow;
 
     &:hover:not(:disabled) {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
     }
 
     &:disabled {
@@ -211,13 +186,13 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     &--success {
       background: $success-bg;
       color: $success-color;
-      border: 1px solid rgba(16, 185, 129, 0.25);
+      border: 1px solid $success-bg;
     }
 
     &--error {
       background: $error-bg;
       color: $error-color;
-      border: 1px solid rgba(239, 68, 68, 0.25);
+      border: 1px solid $error-bg;
     }
   }
 }
