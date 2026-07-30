@@ -1,22 +1,4 @@
-$bg-card: rgba(26, 20, 41, 0.6);
-$purple-primary: #8b5cf6;
-$purple-light: #a78bfa;
-$purple-dark: #6d28d9;
-$purple-glow: rgba(139, 92, 246, 0.25);
-
-$text-main: #f3f4f6;
-$text-muted: #9ca3af;
-$border-color: rgba(139, 92, 246, 0.15);
-
-$success-color: #10b981;
-$success-bg: rgba(16, 185, 129, 0.12);
-
-$error-color: #ef4444;
-$error-bg: rgba(239, 68, 68, 0.12);
-
-$radius-md: 10px;
-$radius-sm: 8px;
-$transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+@use "../variables" as *;
 
 .form {
   background: $bg-card;
@@ -28,6 +10,10 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   flex-direction: column;
   gap: 1.25rem;
 
+  &, * {
+    box-sizing: border-box;
+  }
+
   &__group {
     display: flex;
     flex-direction: column;
@@ -35,7 +21,7 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   &__input {
     width: 100%;
-    background: rgba(13, 11, 20, 0.6);
+    background: $bg-footer;
     border: 1px solid $border-color;
     border-radius: $radius-sm;
     padding: 0.85rem 1rem;
@@ -46,12 +32,13 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     &::placeholder {
       color: $text-muted;
+      font-family: $font-family;
     }
 
     &:focus {
       border-color: $purple-primary;
       box-shadow: 0 0 0 3px $purple-glow;
-      background: rgba(13, 11, 20, 0.8);
+      background: $bg-footer;
     }
 
     &--textarea {
@@ -61,20 +48,18 @@ $transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &__button {
+    width: 100%;
     background: linear-gradient(135deg, $purple-dark, $purple-primary);
-    color: #ffffff;
+    color: $color-white;
     border: none;
     border-radius: $radius-sm;
     padding: 0.85rem 1.5rem;
     font-size: 1rem;
-    font-weight: 600;
     cursor: pointer;
     transition: $transition;
-    box-shadow: 0 4px 14px $purple-glow;
 
     &:hover:not(:disabled) {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
     }
 
     &:disabled {

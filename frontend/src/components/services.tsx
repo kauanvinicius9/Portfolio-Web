@@ -34,7 +34,7 @@ export function Services() {
         {
           name: name,
           email: email,
-          message: `Solicitação de Orçamento - ${serviceType.toUpperCase()}]\n\nDetalhes do Projeto:\n${details}`,
+          message: `Solicitação de Orçamento - ${serviceType.toUpperCase()}\n\nDetalhes:\n${details}`,
         },
         "pOPPiKzktnr3je8st"
       );
@@ -46,6 +46,7 @@ export function Services() {
       setEmail("");
       setDetails("");
     } catch (err) {
+      
       console.log("EMAILJS ERROR:", err);
       setStatusMessage("Erro ao enviar solicitação");
       setStatusType("error");
@@ -69,13 +70,12 @@ export function Services() {
             }`}
             onClick={() => setServiceType("Desenvolvimento de Site")}>
 
-            <div className={styles.serviceCard__icon}>🌐</div>
             <h3 className={styles.serviceCard__title}>Criação de Sites</h3>
             <p className={styles.serviceCard__desc}>
               Landing pages, portfólios e sites institucionais modernos, responsivos,
               otimizados e com visual profissional.
             </p>
-            <span className={styles.serviceCard__badge}>Selecionar para Orçamento</span>
+            <span className={styles.serviceCard__badge}>Selecionar para orçamento</span>
           </div>
 
           <div
@@ -84,19 +84,18 @@ export function Services() {
             }`}
             onClick={() => setServiceType("Design de Slides / Apresentações")}>
 
-            <div className={styles.serviceCard__icon}>📊</div>
             <h3 className={styles.serviceCard__title}>Slides para Apresentações</h3>
             <p className={styles.serviceCard__desc}>
               Design visual impactante para TCCs, projetos acadêmicos, pitching de negócios
               e apresentações corporativas.
             </p>
-            <span className={styles.serviceCard__badge}>Selecionar para Orçamento</span>
+            <span className={styles.serviceCard__badge}>Selecionar para orçamento</span>
           </div>
         </div>
 
         <div className={styles.quoteFormWrapper}>
           <h3 className={styles.quoteFormTitle}>
-            Solicitar Orçamento: <span>{serviceType}</span>
+            Solicitar orçamento: <span>{serviceType}</span>
           </h3>
 
           <form className={styles.form} onSubmit={handleQuoteRequest}>
@@ -112,7 +111,7 @@ export function Services() {
               <textarea className={`${styles.form__input} ${styles["form__input--textarea"]}`} placeholder="Descreva o que você precisa (ex: quantidade de telas/slides, prazo ideal, referências...)" rows={4} value={details} onChange={(e) => setDetails(e.target.value)} required/>
             </div>
 
-            <button className={styles.form__button} type="submit" disabled={loading}>
+            <button className={styles.form__button} type="submit" disabled={loading || !details.trim() || !email.trim() || !name.trim()}>
               {loading ? "Enviando..." : "Pedir orçamento"}
             </button>
 
