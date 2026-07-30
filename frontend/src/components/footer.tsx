@@ -13,11 +13,11 @@ export function Footer() {
             <FontAwesomeIcon icon={faGithub} className={styles.footer__icon} />
           </a>
 
-          <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-953773359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className={styles.footer__socialLink}>
+          <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius-603754417" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className={styles.footer__socialLink}>
             <FontAwesomeIcon icon={faLinkedin} className={styles.footer__icon} />
           </a>
 
-          <a href="https://www.instagram.com/kauanl01?igsh=MTA1czhyN3liM3l0NQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={styles.footer__socialLink}>
+          <a href="https://www.instagram.com/kauanviniciusl08?igsh=MTA1czhyN3liM3l0NQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={styles.footer__socialLink}>
             <FontAwesomeIcon icon={faInstagram} className={styles.footer__icon} />
           </a>
         </div>
