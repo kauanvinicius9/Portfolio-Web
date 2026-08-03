@@ -42,5 +42,11 @@ export const projects: Projects[] = [
 		title: "Jogos",
 		desc: "Colecionador de jogos favoritados",
 		link: "https://github.com/kauanvinicius9/GameVault",
+	},
+	{
+        id: "08",
+		title: "Visualização Geral",
+		desc: "Motor automatizado de máquinas de estado",
+		link: "https://github.com/kauanvinicius9/FlowStream-Engine",
 	}
 ];
