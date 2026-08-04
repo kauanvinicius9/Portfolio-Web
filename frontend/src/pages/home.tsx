@@ -4,9 +4,7 @@ import { Technologies } from "./technologies";
 import { Certificates } from "./certificates";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
-
 import type { Projects } from "../types/projects";
-
 import styles from "./home.module.scss";
 
 export function Home() {
