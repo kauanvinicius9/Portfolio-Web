@@ -37,16 +37,11 @@ export function Home() {
 
           <div className={styles.aboutSection__text}>
             <p>
-              Me chamo Kauan Vinícius, tenho 18 anos de idade e atualmente sou
-              Técnico em Desenvolvimento de Sistemas formado no SENAI
-              Campinas - Roberto Mange em Junho de 2026. Possuo uma boa
-              experiência em liderança e desenvolvimento web.
+              Me chamo Kauan Vinícius, tenho 18 anos de idade e atualmente sou Técnico em Desenvolvimento de Sistemas formado no SENAI Campinas - Roberto Mange em Junho de 2026. Possuo uma boa experiência em liderança e desenvolvimento web.
             </p>
 
             <p>
-              Atuo como Meio Oficial na Robert Bosch com automação de processos,
-              dados e desenvolvimento web. Sou movido por desafios e tenho como
-              compromisso entregar resultados com excelência e proatividade.
+              Atuo como Meio Oficial na Robert Bosch com automação de processos, dados e desenvolvimento web. Sou movido por desafios e tenho como compromisso entregar resultados com excelência e proatividade.
             </p>
           </div>
         </div>
