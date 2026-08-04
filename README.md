@@ -62,3 +62,7 @@ https://api.emailjs.com/api/v1.0/email/send
 ```powershell
 http://localhost:3000
 ```
+
+---
+
+<img src="frontend/src/assets/Comprovante_Dominio.jpeg" width="500" title="Domain payment"></img>
