@@ -47,3 +47,4 @@ export const Technologies = [
  { name: "Angular", logo: angular },
  { name: "SCSS / SASS", logo: sass },
 ];
+
