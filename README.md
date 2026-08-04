@@ -20,15 +20,6 @@ This project is **prepared** for indexing on Google using **Google Search Consol
 
 ###
 
-Domain verification is done via `HTML` meta tags, inserted into the `index.html` file:
-
-###
-```t
-<meta name="google-site-verification" content="YOUR_CODE_HERE" />
-```
-
-###
-
 **<h2>Features</h2>**
 
 ###
