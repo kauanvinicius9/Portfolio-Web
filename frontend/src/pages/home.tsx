@@ -1,14 +1,16 @@
 import { Contact } from "../components/contact";
 import { ProjectCard } from "../components/projectsCards";
 import { Technologies } from "./technologies";
-import { Certificates } from "./certificates";
+import { certificates } from "../data/certificates";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
+
 import type { Projects } from "../types/projects";
 import styles from "./home.module.scss";
 
 export function Home() {
   return (
+
     <div className={styles.pageWrapper}>
       <section className={styles.hero}>
         <div className={styles.hero__body}>
@@ -55,8 +57,8 @@ export function Home() {
           <h2 className={styles.sectionTitle}>Certificados</h2>
 
           <div className={styles.certificatesGrid}>
-            {Certificates.map((edu, index) => (
-              <div key={index} className={styles.certificateCard}>
+            {certificates.map((edu) => (
+              <div key={edu.id} className={styles.certificateCard}>
                 <div className={styles.certificateCard__icon}>🏅</div>
 
                 <div className={styles.certificateCard__info}>
