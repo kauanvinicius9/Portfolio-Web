@@ -4,7 +4,6 @@ import { Technologies } from "./technologies";
 import { Certificates } from "./certificates";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
-import { Services } from "../components/services";
 
 import type { Projects } from "../types/projects";
 
@@ -113,8 +112,6 @@ export function Home() {
           </div>
         </div>
       </section>
-
-      <Services />
 
       <footer>
         <Footer />
