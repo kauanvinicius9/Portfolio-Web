@@ -12,7 +12,8 @@ This portfolio is **responsive**, adapting to any **screen size** for a better v
 - **Render**: [https://render.com](https://render.com "Click to Access")
 - **Official  URL**: [https://kauanvinicius.onrender.com](https://kauanvinicius.onrender.com "Click to Access")
 - **Monitoring Service**: [https://dashboard.uptimerobot.com](https://dashboard.uptimerobot.com/ "Click to Access")
-- **EmailJS**: [https://www.emailjs.com](https://www.emailjs.com/ "Click to Access");
+- **EmailJS**: [https://www.emailjs.com](https://www.emailjs.com/ "Click to Access")
+- **GitGuardian**: [https://dashboard.gitguardian.com](https://dashboard.gitguardian.com/ "Click to Access")
 
 ---
 
