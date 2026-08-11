@@ -21,30 +21,24 @@ export const projects: Projects[] = [
   },
   {
     id: "04",
-    title: "Clientes",
-    desc: "Dashboard executivo de vendas",
-    link: "https://github.com/kauanvinicius9/Dashboard",
-  },
-  {
-    id: "05",
     title: "Velas",
     desc: "Site de velas com integração Mercado Pago SDK",
     link: "https://github.com/kauanvinicius9/Candles",
   },
   {
-    id: "06",
+    id: "05",
     title: "Estoque",
     desc: "Gerenciamento de estoque de ferramentas",
     link: "https://github.com/kauanvinicius9/Stock",
   },
   {
-    id: "07",
+    id: "06",
     title: "Jogos",
     desc: "Colecionador de jogos favoritados",
     link: "https://github.com/kauanvinicius9/GameVault",
   },
   {
-    id: "08",
+    id: "07",
     title: "Visualização Geral",
     desc: "Motor automatizado de máquinas de estado",
     link: "https://github.com/kauanvinicius9/FlowStream-Engine",
