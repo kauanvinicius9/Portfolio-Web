@@ -43,4 +43,10 @@ export const certificates: Certificates[] = [
     institution: "Bosch Brasil",
     duration: "1 ano e 6 meses",
   },
+  {
+    id: "08",
+    course: "Full-Stack: Java/Angular",
+    institution: "DIO",
+    duration: "1 mês",
+  },
 ];
