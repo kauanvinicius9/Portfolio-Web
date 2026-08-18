@@ -20,7 +20,7 @@ export function Home() {
 
             <div className={styles.hero__about}>
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
-              <p className={styles.hero__description}>Dev Software | Ciência de Dados</p>
+              <p className={styles.hero__description}>Dev Software</p>
 
               <div className={styles.hero__actions}>
                 <a href="#projects" className={styles.btnPrimary}>Ver Projetos</a>
@@ -41,7 +41,7 @@ export function Home() {
             </p>
 
             <p>
-              Atuo como Meio Oficial na Robert Bosch com automação de processos, dados e desenvolvimento web. Sou movido por desafios e tenho como compromisso entregar resultados com excelência e proatividade.
+              Atuo como Meio Oficial em Soluções Digitais na Robert Boscs. Sou movido por desafios e tenho como compromisso entregar resultados com excelência e proatividade.
             </p>
           </div>
         </div>
