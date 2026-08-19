@@ -37,4 +37,10 @@ export const projects: Projects[] = [
     desc: "Motor automatizado de máquinas de estado",
     link: "https://github.com/kauanvinicius9/FlowStream-Engine",
   },
+  {
+    id: "07",
+    title: "Livraria",
+    desc: "Gerenciamento de livros, editoras e autores",
+    link: "https://github.com/kauanvinicius9/SPINNE",
+  },
 ];
