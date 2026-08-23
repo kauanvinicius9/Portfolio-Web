@@ -20,10 +20,10 @@ export function Home() {
 
             <div className={styles.hero__about}>
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
-              <p className={styles.hero__description}>Dev Software</p>
+              <p className={styles.hero__description}>Full-Stack dev | Bosch Brasil</p>
 
               <div className={styles.hero__actions}>
-                <a href="#projects" className={styles.btnPrimary}>Ver Projetos</a>
+                <a href="#projects" className={styles.btnPrimary}>Meus projetos</a>
                 <a href="#contact" className={styles.btnSecondary}>Contato</a>
               </div>
             </div>
@@ -54,8 +54,6 @@ export function Home() {
           <div className={styles.certificatesGrid}>
             {certificates.map((edu) => (
               <div key={edu.id} className={styles.certificateCard}>
-                <div className={styles.certificateCard__icon}>🏅</div>
-
                 <div className={styles.certificateCard__info}>
                   <h5 className={styles.certificateCard__title}>{edu.course}</h5>
                   <p className={styles.certificateCard__institution}>{edu.institution}</p>
@@ -88,9 +86,6 @@ export function Home() {
           <div className={styles.techGrid}>
             {Technologies.map((tech) => (
               <div key={tech.name} className={styles.techCard}>
-                <div className={styles.techCard__icon}>
-                  <img src={tech.logo} alt={tech.name} />
-                </div>
                 <p className={styles.techCard__name}>{tech.name}</p>
               </div>
             ))}
