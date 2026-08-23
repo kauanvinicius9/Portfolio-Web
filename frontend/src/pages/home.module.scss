@@ -22,17 +22,12 @@
 }
 
 .btnPrimary {
-  background: linear-gradient(135deg, $purple-dark, $purple-primary);
+  background: $purple-primary;
   color: $color-white;
   padding: 0.75rem 1.75rem;
   border-radius: $radius-md;
   text-decoration: none;
   transition: $transition;
-  box-shadow: 0 4px 14px $purple-glow;
-
-  &:hover {
-    transform: translateY(-2px);
-  }
 }
 
 .btnSecondary {
@@ -131,17 +126,11 @@
   display: flex;
   gap: 1.25rem;
   align-items: center;
-  backdrop-filter: blur(8px);
   transition: $transition;
 
   &:hover {
     background: $bg-card-hover;
     border-color: $purple-glow;
-    transform: translateY(-3px);
-  }
-
-  &__icon {
-    font-size: 2rem;
   }
 
   &__title {
@@ -200,33 +189,17 @@
 }
 
 .techCard {
+  display: flex;
   background: $bg-card;
   border: 1px solid $border-color;
   border-radius: $radius-md;
   padding: 1rem 1.25rem;
-  display: flex;
-  align-items: center;
   gap: 1rem;
   transition: $transition;
 
   &:hover {
     background: $bg-card-hover;
     border-color: $purple-primary;
-    transform: translateY(-2px);
-  }
-
-  &__icon {
-    width: 28px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
   }
 
   &__name {

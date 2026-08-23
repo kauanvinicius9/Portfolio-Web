@@ -5,7 +5,6 @@
   border: 1px solid $border-color;
   border-radius: $radius-md;
   padding: 2rem;
-  backdrop-filter: blur(12px);
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -49,7 +48,7 @@
 
   &__button {
     width: 100%;
-    background: linear-gradient(135deg, $purple-dark, $purple-primary);
+    background: $purple-primary;
     color: $color-white;
     border: none;
     border-radius: $radius-sm;
@@ -57,10 +56,6 @@
     font-size: 1rem;
     cursor: pointer;
     transition: $transition;
-
-    &:hover:not(:disabled) {
-      transform: translateY(-2px);
-    }
 
     &:disabled {
       opacity: 0.6;
