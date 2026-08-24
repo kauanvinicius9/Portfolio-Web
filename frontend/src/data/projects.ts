@@ -16,7 +16,7 @@ export const projects: Projects[] = [
   {
     id: "03",
     title: "Velas",
-    desc: "Site de velas com integração Mercado Pago SDK",
+    desc: "Site de velas aromatizadas, difusores e home-sprays",
     link: "https://github.com/kauanvinicius9/Candles",
   },
   {
