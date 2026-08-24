@@ -41,7 +41,7 @@ export function Home() {
             </p>
 
             <p>
-              Atuo como Meio Oficial em Soluções Digitais na Robert Boscs. Sou movido por desafios e tenho como compromisso entregar resultados com excelência e proatividade.
+              Atuo como Meio Oficial em Soluções Digitais na Robert Bosch. Sou movido por desafios e tenho como compromisso entregar resultados com excelência e proatividade.
             </p>
           </div>
         </div>
