@@ -20,10 +20,10 @@ export const certificates: Certificates[] = [
     duration: "7 meses",
   },
   {
-    id: "04",
-    course: "Língua Inglesa",
-    institution: "Cidadão Pro Mundo",
-    duration: "5 anos",
+    id: "03",
+    course: "Santander - Automação com N8N",
+    institution: "DIO",
+    duration: "26 horas",
   },
   {
     id: "05",
