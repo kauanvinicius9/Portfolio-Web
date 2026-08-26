@@ -22,7 +22,7 @@ export const certificates: Certificates[] = [
   {
     id: "04",
     course: "Santander - Automação com N8N",
-    institution: "DIO",
+    institution: "DIO - Digital Innovation One",
     duration: "26 horas",
   },
   {
