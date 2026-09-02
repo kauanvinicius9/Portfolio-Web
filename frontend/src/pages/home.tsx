@@ -21,7 +21,7 @@ export function Home() {
 
             <div className={styles.hero__about}>
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
-              <p className={styles.hero__description}>Full-Stack dev  & Analista de dados | Bosch Brasil</p>
+              <p className={styles.hero__description}>Full-Stack dev & Analista de dados | Bosch Brasil</p>
 
               <div className={styles.hero__actions}>
                 <a href="#projects" className={styles.btnPrimary}>Meus projetos</a>
@@ -87,7 +87,7 @@ export function Home() {
           <div className={styles.skillGrid}>
             {skills.map((skill) => (
               <div key={skill.name} className={styles.skillCard}>
-                <p className={styles.skillCard__name}>{tech.name}</p>
+                <p className={styles.skillCard__name}>{skill.name}</p>
               </div>
             ))}
           </div>
