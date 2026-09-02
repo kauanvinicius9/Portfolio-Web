@@ -21,7 +21,7 @@ export function Home() {
 
             <div className={styles.hero__about}>
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
-              <p className={styles.hero__description}>Full-Stack dev & Analista de dados | Bosch Brasil</p>
+              <p className={styles.hero__description}>Full-Stack | Analista de dados</p>
 
               <div className={styles.hero__actions}>
                 <a href="#projects" className={styles.btnPrimary}>Meus projetos</a>
