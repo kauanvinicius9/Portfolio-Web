@@ -22,5 +22,9 @@ export const Technologies = [
  { name: "Figma" },
  { name: "Angular" },
  { name: "SCSS / SASS" },
+ { name: "KNIME" },
+ { name: "Power BI" },
+ { name: "N8N" },
+ { name: "Power Automate" },
 ];
 
