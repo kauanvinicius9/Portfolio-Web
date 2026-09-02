@@ -170,11 +170,11 @@
   }
 }
 
-.techSection {
+.skillSection {
   padding: 5rem 0;
 }
 
-.techGrid {
+.skillGrid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
@@ -188,7 +188,7 @@
   }
 }
 
-.techCard {
+.skillCard {
   display: flex;
   background: $bg-card;
   border: 1px solid $border-color;
