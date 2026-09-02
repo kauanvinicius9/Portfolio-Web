@@ -1,11 +1,12 @@
 import { Contact } from "../components/contact";
 import { ProjectCard } from "../components/projectsCards";
-import { Technologies } from "./technologies";
-import { certificates } from "../data/certificates";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
+import { certificates } from "../data/certificates";
+import { skills } from "../data/skills";
 
 import type { Projects } from "../types/projects";
+
 import styles from "./home.module.scss";
 
 export function Home() {
@@ -79,14 +80,14 @@ export function Home() {
         </div>
       </section>
 
-      <section id="technologies" className={styles.techSection}>
+      <section id="skills" className={styles.skillSection}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Habilidades</h2>
 
-          <div className={styles.techGrid}>
-            {Technologies.map((tech) => (
-              <div key={tech.name} className={styles.techCard}>
-                <p className={styles.techCard__name}>{tech.name}</p>
+          <div className={styles.skillGrid}>
+            {skills.map((skill) => (
+              <div key={skill.name} className={styles.skillCard}>
+                <p className={styles.skillCard__name}>{tech.name}</p>
               </div>
             ))}
           </div>
