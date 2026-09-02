@@ -27,7 +27,3 @@ This **without revealing** any `passwords`.
 ```powershell
 http://localhost:3000
 ```
-
----
-
-<img src="frontend/src/assets/Comprovante_Dominio.jpeg" width="500" title="Domain payment"></img>
