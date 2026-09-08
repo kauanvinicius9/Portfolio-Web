@@ -45,8 +45,8 @@ export const projects: Projects[] = [
   },
   {
     id: "08",
-    title: "INVEX",
+    title: "Invex",
     desc: "Simulador de investimentos e acompanhamento financeiro",
-    link: "https://github.com/kauanvinicius9/INVEX",
+    link: "https://github.com/kauanvinicius9/Invex",
   },
 ];
