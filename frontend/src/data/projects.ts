@@ -39,9 +39,9 @@ export const projects: Projects[] = [
   },
   {
     id: "07",
-    title: "SPINNE",
+    title: "Spinne",
     desc: "Gerenciamento de livros, editoras e autores",
-    link: "https://github.com/kauanvinicius9/SPINNE",
+    link: "https://github.com/kauanvinicius9/Spinne",
   },
   {
     id: "08",
