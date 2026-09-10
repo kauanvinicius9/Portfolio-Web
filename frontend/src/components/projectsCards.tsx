@@ -11,6 +11,7 @@ export function ProjectCard({ project }: Props) {
       <div className={styles.card__body}>
         <h3 className={styles.card__title}>{project.title}</h3>
         <p className={styles.card__description}>{project.desc}</p>
+        <p className={styles.card__efficiency}>{project.efficiency}</p>
         
         <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.card__button}>
           Ver projeto
