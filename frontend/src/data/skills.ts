@@ -93,5 +93,9 @@ export const skills: Skills[] = [
     id: "23",
     name: "SCSS / SASS",
   },
+  {
+    id: "24",
+    name: "N8N",
+  },
 ];
 
