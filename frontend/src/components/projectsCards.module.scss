@@ -33,8 +33,16 @@
   }
 
   &__description {
-    color: $text-muted;
+    color: $text-main;
     font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+  }
+  
+  &__efficiency {
+    color: $text-muted;
+    font-size: 0.92rem;
     line-height: 1.6;
     margin-bottom: 1.5rem;
     flex-grow: 1;
