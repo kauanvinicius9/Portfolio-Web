@@ -3,5 +3,5 @@ export interface Projects {
   title: string;
   desc: string;
   link: string;
-  description: string;
+  efficiency: string;
 }
