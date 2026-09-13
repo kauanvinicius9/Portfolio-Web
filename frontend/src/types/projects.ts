@@ -4,4 +4,5 @@ export interface Projects {
   desc: string;
   link: string;
   efficiency: string;
+  video: string;
 }

@@ -1,4 +1,6 @@
 import type { Projects } from "../types/projects";
+import invexVideo from "../../assets/Invex-Video.mp4";
+import logBRVideo from "../../assets/Log-BR-Video.mp4";
 
 export const projects: Projects[] = [
   {
@@ -7,6 +9,7 @@ export const projects: Projects[] = [
     desc: "API de usuários realizado em Spring-Boot",
     link: "https://github.com/kauanvinicius9/Spring-Boot",
     efficiency: "Desenvolvido para melhorar o gerenciamento de informações para o seu negócio. Seja para usuários, produtos ou demais dados. Acompanhamento e manutenção com melhor eficiência",
+    video: "",
   },
   {
     id: "02",
@@ -14,6 +17,7 @@ export const projects: Projects[] = [
     desc: "Gerenciamento de dados logísticos com dashboard interativo",
     link: "https://github.com/kauanvinicius9/Log-BR",
     efficiency: "Desenvolvido para melhorar significativamente a descentralização de dados e o caos das planilhas, resolvendo dependência de processos manuais",
+    video: logBRVideo,
   },
   {
     id: "03",
@@ -21,6 +25,7 @@ export const projects: Projects[] = [
     desc: "Site de velas aromatizadas, difusores e home-sprays",
     link: "https://github.com/kauanvinicius9/Candles",
     efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva",
+    video: "",
   },
   {
     id: "04",
@@ -28,6 +33,7 @@ export const projects: Projects[] = [
     desc: "Gerenciamento de estoque de ferramentas",
     link: "https://github.com/kauanvinicius9/Stock",
     efficiency: "Desenvolvido para acompanhamento de estoque virtual de ferramentas, diminuindo a desorganização e a ausência de controle",
+    video: "",
   },
   {
     id: "05",
@@ -35,26 +41,30 @@ export const projects: Projects[] = [
     desc: "Colecionador de jogos favoritados",
     link: "https://github.com/kauanvinicius9/GameVault",
     efficiency: "Desenvolvido para gerenciamento e favoritagem de jogos de sua preferência. Esse sistema não resolve um problema real",
+    video: "",
   },
   {
     id: "06",
     title: "FlowStream Engine",
     desc: "Motor automatizado de máquinas de estado",
     link: "https://github.com/kauanvinicius9/FlowStream-Engine",
-    efficiency: "Desenvolvido para diminuir o controle manual de fluxos complexos usando condicionais extensas. O sistema passa de um estado a outro apenas quando regras estritas forem atendidas"
+    efficiency: "Desenvolvido para diminuir o controle manual de fluxos complexos usando condicionais extensas. O sistema passa de um estado a outro apenas quando regras estritas forem atendidas",
+    video: "",
   },
   {
     id: "07",
     title: "Spinne",
     desc: "Gerenciamento de livros, editoras e autores",
     link: "https://github.com/kauanvinicius9/Spinne",
-    efficiency: "Desenvolvido para gerenciamento de livros incluindo seus editores e suas autoras, podendo ser aplicada em uma livraria real"
+    efficiency: "Desenvolvido para gerenciamento de livros incluindo seus editores e suas autoras, podendo ser aplicada em uma livraria real",
+    video: "",
   },
   {
     id: "08",
     title: "Invex",
     desc: "Simulador de investimentos e acompanhamento financeiro",
     link: "https://github.com/kauanvinicius9/Invex",
-    efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples"
+    efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples",
+    video: invexVideo,
   },
 ];
