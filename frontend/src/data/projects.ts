@@ -1,6 +1,7 @@
 import type { Projects } from "../types/projects";
 import invexVideo from "../../assets/Invex-Video.mp4";
 import logBRVideo from "../../assets/Log-BR-Video.mp4";
+import revivaVelas from "../../assets/Reviva-Video.mp4";
 
 export const projects: Projects[] = [
   {
@@ -25,7 +26,7 @@ export const projects: Projects[] = [
     desc: "Site de velas aromatizadas, difusores e home-sprays",
     link: "https://github.com/kauanvinicius9/Candles",
     efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva",
-    video: "",
+    video: revivaVelas,
   },
   {
     id: "04",
