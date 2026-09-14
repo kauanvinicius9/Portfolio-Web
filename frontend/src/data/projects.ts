@@ -55,6 +55,6 @@ export const projects: Projects[] = [
     title: "Invex",
     desc: "Simulador de investimentos e acompanhamento financeiro",
     link: "https://github.com/kauanvinicius9/Invex",
-    efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples",
+    efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos",
   },
 ];
