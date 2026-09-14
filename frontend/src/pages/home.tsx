@@ -21,10 +21,10 @@ export function Home() {
 
             <div className={styles.hero__about}>
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
-              <p className={styles.hero__description}>Full-Stack | Analista de dados</p>
+              <p className={styles.hero__description}>Desenvolvedor Full-Stack | Bosch Brasil</p>
 
               <div className={styles.hero__actions}>
-                <a href="#projects" className={styles.btnPrimary}>Meus projetos</a>
+                <a href="#projects" className={styles.btnPrimary}>Projetos</a>
                 <a href="#contact" className={styles.btnSecondary}>Contato</a>
               </div>
             </div>
