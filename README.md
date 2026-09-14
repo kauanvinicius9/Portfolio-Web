@@ -2,8 +2,6 @@
 
 This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
 
- [https://www.kauanvinicius.com.br](https://www.kauanvinicius.com.br "Click to Access")
-
 ---
 
 ```powershell
