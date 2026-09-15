@@ -19,7 +19,7 @@ export const projects: Projects[] = [
     id: "03",
     title: "Reviva Velas",
     desc: "Site de velas aromatizadas, difusores e home-sprays",
-    link: "https://github.com/kauanvinicius9/Candles",
+    link: "https://github.com/kauanvinicius9/CandleShop",
     efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva",
   },
   {
