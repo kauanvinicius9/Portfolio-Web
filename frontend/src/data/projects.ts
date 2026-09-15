@@ -30,7 +30,7 @@ export const projects: Projects[] = [
     efficiency: "Desenvolvido para acompanhamento de estoque virtual de ferramentas, diminuindo a desorganização e a ausência de controle",
   },
   {
-    id: 5",
+    id: 5,
     title: "GameVault",
     desc: "Colecionador de jogos favoritados",
     link: "https://github.com/kauanvinicius9/GameVault",
