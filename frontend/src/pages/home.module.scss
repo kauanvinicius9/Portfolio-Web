@@ -208,6 +208,14 @@
     margin: 0;
     color: $text-main;
   }
+  
+  &__category {
+    font-size: 0.90rem;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 5px;
+    color: $text-main;
+  }
 }
 
 .contactSection {
