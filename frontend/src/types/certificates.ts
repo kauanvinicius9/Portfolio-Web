@@ -1,5 +1,5 @@
 export interface Certificates {
-  id: string;
+  id: number;
   course: string;
   institution: string;
   duration: string;
