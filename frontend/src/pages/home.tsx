@@ -88,7 +88,7 @@ export function Home() {
             {skills.map((skill) => (
               <div key={skill.name} className={styles.skillCard}>
                 <p className={styles.skillCard__name}>{skill.name}</p>
-                <p className={styles.skillCard__category}>{skill.category}</p>
+                <span className={styles.skillCard__category}>{skill.category}</span>
               </div>
             ))}
           </div>
