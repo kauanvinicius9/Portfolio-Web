@@ -94,7 +94,7 @@ export const skills: Skills[] = [
   {
     id: 19,
     name: "Docker",
-    category: "Infra",
+    category: "Infraestrutura",
   },
   {
     id: 20,
