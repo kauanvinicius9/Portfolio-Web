@@ -57,4 +57,11 @@ export const projects: Projects[] = [
     link: "https://github.com/kauanvinicius9/Invex",
     efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos",
   },
+  {
+    id: 9,
+    title: "Task Manager",
+    desc: "Gerenciamento de atividades e demandas",
+    link: "https://github.com/kauanvinicius9/Task-Manager",
+    efficiency: "Desenvolvido para melhor organização de tarefas e demandas para seu dia-a-dia de trabalho ou rotina",
+  },
 ];
