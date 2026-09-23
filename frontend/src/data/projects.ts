@@ -64,4 +64,11 @@ export const projects: Projects[] = [
     link: "https://github.com/kauanvinicius9/Task-Manager",
     efficiency: "Desenvolvido para melhor organização de tarefas e demandas para seu dia-a-dia de trabalho ou rotina",
   },
+  {
+    id: 10,
+    title: "Necthar",
+    desc: "Monitoramento de gastos",
+    link: "https://github.com/kauanvinicius9/Necthar",
+    efficiency: "Desenvolvido para monitorar despesas do dia-a-dia melhorando sua organização financeira tendo controle de seus gastos",
+  },
 ];
