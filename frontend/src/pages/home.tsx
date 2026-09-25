@@ -9,7 +9,7 @@ import { skills } from "../data/skills";
 import styles from "./home.module.scss";
 
 export function Home() {
-  // Animação
+  // Animações
   useEffect(() => {
     const observer = new IntersectionObserver (
       (entries) => {
@@ -22,7 +22,7 @@ export function Home() {
       { threshold: 0.15 }
     );
 
-    const elements = document.querySelectorAll(`.${styles.reveal}`);
+    const elements = document.querySelectorAll(`.${styles.reveal}, .${styles.skillCardReveal}`);
     elements.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
@@ -105,7 +105,7 @@ export function Home() {
 
           <div className={styles.skillGrid}>
             {skills.map((skill) => (
-              <div key={skill.name} className={styles.skillCard}>
+              <div key={skill.name} className={`${styles.skillCard} ${styles.skillCardReveal}`}>
                 <p className={styles.skillCard__name}>{skill.name}</p>
                 <span className={styles.skillCard__category}>{skill.category}</span>
               </div>
