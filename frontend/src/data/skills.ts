@@ -17,7 +17,7 @@ export const skills: Skills[] = [
     category: "Frontend",
   },
   {
-    id: 04,
+    id: 4,
     name: "Next",
     category: "Frontend",
   },
