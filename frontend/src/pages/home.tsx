@@ -22,7 +22,7 @@ export function Home() {
       { threshold: 0.15 }
     );
 
-    const elements = document.querySelectorAll(`.${styles.reveal}, .${styles.skillCardReveal}`);
+    const elements = document.querySelectorAll(`.${styles.reveal}, .${styles.skillCardReveal}, .${styles.projectCardReveal}, .${styles.certificateCardReveal}`);
     elements.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
@@ -72,7 +72,7 @@ export function Home() {
 
           <div className={styles.certificatesGrid}>
             {certificates.map((edu) => (
-              <div key={edu.id} className={styles.certificateCard}>
+              <div key={edu.id} className={`${styles.certificateCard} ${styles.certificateCardReveal}`}>
                 <div className={styles.certificateCard__info}>
                   <h5 className={styles.certificateCard__title}>{edu.course}</h5>
                   <p className={styles.certificateCard__institution}>{edu.institution}</p>
@@ -93,7 +93,9 @@ export function Home() {
 
           <div className={styles.projectsGrid}>
             {projects.map((project: Projects) => (
-              <ProjectCard key={project.id} project={project} />
+              <div key={project.id} className={styles.projectCardReveal}>
+                <ProjectCard project={project} />
+              </div>
             ))}
           </div>
         </div>
