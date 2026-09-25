@@ -30,7 +30,7 @@ export function Home() {
   return (
 
     <div className={styles.pageWrapper}>
-      <section className={styles.hero}>
+      <section className={`{styles.hero} ${styles.reveal}`}>
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
             <div className={styles.hero__image}>
@@ -49,7 +49,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className={styles.aboutSection}>
+      <section className={`{styles.aboutSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Sobre</h2>
 
@@ -65,7 +65,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className={styles.certificatesSection}>
+      <section className={`{styles.certificatesSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Certificados</h2>
 
@@ -86,7 +86,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="projects" className={styles.projectsSection}>
+      <section id="projects" className={`{styles.projectsSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Projetos</h2>
 
@@ -98,7 +98,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="skills" className={styles.skillSection}>
+      <section id="skills" className={`{styles.skillSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Habilidades</h2>
 
@@ -113,7 +113,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="contact" className={styles.contactSection}>
+      <section id="contact" className={`{styles.contactSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Contato</h2>
 
