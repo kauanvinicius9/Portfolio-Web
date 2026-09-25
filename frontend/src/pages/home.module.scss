@@ -97,7 +97,7 @@
     gap: 1.25rem;
 
     p {
-      color: $text-muted;
+      color: $text-main;
       line-height: 1.7;
       font-size: 1.05rem;
     }
@@ -294,7 +294,7 @@
   margin: 0 auto;
 }
 
-.reveal {
+.nameReveal {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -304,4 +304,58 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.descriptionReveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.20s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.actionReveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.25s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionTitleReveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.30s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aboutSection {
+  &__textReveal {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      will-change: opacity, transform;
+      transition-delay: 0.40s;
+  
+      &.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 }
