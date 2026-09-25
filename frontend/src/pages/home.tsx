@@ -9,6 +9,7 @@ import { skills } from "../data/skills";
 import styles from "./home.module.scss";
 
 export function Home() {
+  // Animação
   useEffect(() => {
     const observer = new IntersectionObserver (
       (entries) => {
@@ -30,7 +31,7 @@ export function Home() {
   return (
 
     <div className={styles.pageWrapper}>
-      <section className={`{styles.hero} ${styles.reveal}`}>
+      <section className={`${styles.hero} ${styles.reveal}`}>
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
             <div className={styles.hero__image}>
@@ -49,7 +50,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className={`{styles.aboutSection} ${styles.reveal}`}>
+      <section className={`${styles.aboutSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Sobre</h2>
 
@@ -65,7 +66,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className={`{styles.certificatesSection} ${styles.reveal}`}>
+      <section className={`${styles.certificatesSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Certificados</h2>
 
@@ -86,7 +87,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="projects" className={`{styles.projectsSection} ${styles.reveal}`}>
+      <section id="projects" className={`${styles.projectsSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Projetos</h2>
 
@@ -98,7 +99,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="skills" className={`{styles.skillSection} ${styles.reveal}`}>
+      <section id="skills" className={`${styles.skillSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Habilidades</h2>
 
@@ -113,7 +114,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="contact" className={`{styles.contactSection} ${styles.reveal}`}>
+      <section id="contact" className={`${styles.contactSection} ${styles.reveal}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Contato</h2>
 
