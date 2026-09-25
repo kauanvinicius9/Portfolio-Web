@@ -11,6 +11,7 @@ export function Contact() {
   const [statusMessage, setStatusMessage] = useState("");
   const [statusType, setStatusType] = useState<"success" | "error" | "">("");
 
+  // Mensagem desaparece automaticamente depois de 3 segundos
   useEffect(() => {
     if (statusMessage) {
       const timer = setTimeout(() => {
@@ -22,6 +23,7 @@ export function Contact() {
     }
   }, [statusMessage]);
 
+  // Integração com EmailJS
   async function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);

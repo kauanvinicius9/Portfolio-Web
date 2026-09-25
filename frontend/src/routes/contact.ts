@@ -4,12 +4,14 @@ import { z } from "zod";
 
 const router = Router();
 
+// Limite de tentativas de mensagem
 const contactLimit = rateLimit ({
     windowMs: 15 * 60 * 100,
     max: 5,
     message: { message: "Muitas tentativas. Tente novamente mais tarde." }
 });
 
+// Validação dos campos de mensagem
 const contactSchema = z.object({
     name: z.string().min(3, "Nome muito curto"),
     email: z.string().email("Email inválido"),
