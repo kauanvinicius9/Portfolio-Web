@@ -218,6 +218,45 @@
   }
 }
 
+.skillCardReveal {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  will-change: opacity, transform;
+
+  &:nth-child(odd) {
+    transform: translateX(-50px);
+  }
+
+  &:nth-child(even) {
+    transform: translateX(50px);
+  }
+
+  &.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  @media (min-width: 640px) {
+    &:nth-child(odd),
+    &:nth-child(even) {
+      transform: translateY(35px);
+    }
+
+    &.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  @for $i from 1 through 12 {
+    .skillCardReveal:nth-child(#{$i}) {
+      transition-delay: #{$i * 0.06}s;
+    }
+  }
+}
+
 .contactSection {
   padding: 5rem 0;
 }
