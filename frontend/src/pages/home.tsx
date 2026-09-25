@@ -105,7 +105,7 @@ export function Home() {
 
           <div className={styles.skillGrid}>
             {skills.map((skill) => (
-              <div key={skill.name} className={styles.skillCard}>
+              <div key={skill.name} className={`${styles.skillCard} ${styles.reveal}`}>
                 <p className={styles.skillCard__name}>{skill.name}</p>
                 <span className={styles.skillCard__category}>{skill.category}</span>
               </div>
