@@ -38,16 +38,18 @@ export function Contact() {
         "pOPPiKzktnr3je8st"
       );
 
-      setStatusMessage("E-mail enviado com sucesso!");
+      setStatusMessage("E-mail enviado com sucesso");
       setStatusType("success");
 
       setName("");
       setEmail("");
       setMessage("");
+
     } catch (err) {
-      console.log("EMAILJS ERROR:", err);
-      setStatusMessage("Erro ao enviar e-mail. Tente novamente.");
+      console.log("EmailJS Error:", err);
+      setStatusMessage("Erro ao enviar e-mail. Tente novamente");
       setStatusType("error");
+
     } finally {
       setLoading(false);
     }
@@ -72,12 +74,7 @@ export function Contact() {
       </button>
 
       {statusMessage && (
-        <div
-          className={`${styles.form__alert} ${
-            statusType === "success"
-              ? styles["form__alert--success"]
-              : styles["form__alert--error"]
-          }`}>
+        <div className={`${styles.form__alert} ${statusType === "success" ? styles["form__alert--success"] : styles["form__alert--error"]}`}>
           {statusMessage}
         </div>
       )}

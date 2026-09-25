@@ -1,15 +1,32 @@
+import type { Projects } from "../types/projects";
+import { useEffect } from "react";
 import { Contact } from "../components/contact";
 import { ProjectCard } from "../components/projectsCards";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
 import { certificates } from "../data/certificates";
 import { skills } from "../data/skills";
-
-import type { Projects } from "../types/projects";
-
 import styles from "./home.module.scss";
 
 export function Home() {
+  useEffect(() => {
+    const observer = new IntersectionObserver (
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(styles.active);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    const elements = document.querySelectorAll(`.${styles.reveal}`);
+    elements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
 
     <div className={styles.pageWrapper}>
@@ -58,6 +75,7 @@ export function Home() {
                 <div className={styles.certificateCard__info}>
                   <h5 className={styles.certificateCard__title}>{edu.course}</h5>
                   <p className={styles.certificateCard__institution}>{edu.institution}</p>
+
                   <small className={styles.certificateCard__duration}>
                     Duração: {edu.duration}
                   </small>
