@@ -1,7 +1,7 @@
 export interface Projects {
   id: number;
   title: string;
-  desc: string;
+  description: string;
   link: string;
   efficiency: string;
 }
