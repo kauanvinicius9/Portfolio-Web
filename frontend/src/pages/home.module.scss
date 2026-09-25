@@ -250,7 +250,7 @@
 }
 
 @media (min-width: 640px) {
-  @for $i from 1 through 12 {
+  @for $i from 1 through 50 {
     .skillCardReveal:nth-child(#{$i}) {
       transition-delay: #{$i * 0.06}s;
     }
