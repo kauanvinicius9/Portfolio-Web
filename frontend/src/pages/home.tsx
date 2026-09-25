@@ -22,7 +22,17 @@ export function Home() {
       { threshold: 0.15 }
     );
 
-    const elements = document.querySelectorAll(`.${styles.reveal}, .${styles.skillCardReveal}, .${styles.projectCardReveal}, .${styles.certificateCardReveal}`);
+    const elements = document.querySelectorAll(`
+      .${styles.nameReveal}, 
+      .${styles.descriptionReveal},
+      .${styles.actionReveal},
+      .${styles.sectionTitleReveal},
+      .${styles.aboutSection__textReveal},
+      .${styles.skillCardReveal}, 
+      .${styles.projectCardReveal}, 
+      .${styles.certificateCardReveal}
+    `);
+
     elements.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
@@ -31,17 +41,17 @@ export function Home() {
   return (
 
     <div className={styles.pageWrapper}>
-      <section className={`${styles.hero} ${styles.reveal}`}>
+      <section className={styles.hero}>
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
             <div className={styles.hero__image}>
             </div>
 
             <div className={styles.hero__about}>
-              <h1 className={styles.hero__name}>Kauan Vinícius</h1>
-              <p className={styles.hero__description}>Desenvolvedor Full-Stack | Bosch Brasil</p>
+              <h1 className={`${styles.hero__name} ${styles.nameReveal}`}>Kauan Vinícius</h1>
+              <p className={`${styles.hero__description} ${styles.descriptionReveal}`}>Desenvolvedor Full-Stack | Bosch Brasil</p>
 
-              <div className={styles.hero__actions}>
+              <div className={`${styles.hero__actions} ${styles.actionReveal}`}>
                 <a href="#projects" className={styles.btnPrimary}>Projetos</a>
                 <a href="#contact" className={styles.btnSecondary}>Contato</a>
               </div>
@@ -50,11 +60,11 @@ export function Home() {
         </div>
       </section>
 
-      <section className={`${styles.aboutSection} ${styles.reveal}`}>
+      <section className={styles.aboutSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Sobre</h2>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleReveal}`}>Sobre</h2>
 
-          <div className={styles.aboutSection__text}>
+          <div className={`${styles.aboutSection__text} ${styles.aboutSection__textReveal}`}>
             <p>
               Me chamo Kauan Vinícius, tenho 18 anos de idade e atualmente sou Técnico em Desenvolvimento de Sistemas formado no SENAI Campinas - Roberto Mange em Junho de 2026. Possuo uma boa experiência em liderança e desenvolvimento web.
             </p>
