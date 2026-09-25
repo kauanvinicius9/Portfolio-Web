@@ -1,5 +1,9 @@
 @use "../variables" as *;
 
+* {
+  font-family: $font-family;
+}
+
 .form {
   background: $bg-card;
   border: 1px solid $border-color;

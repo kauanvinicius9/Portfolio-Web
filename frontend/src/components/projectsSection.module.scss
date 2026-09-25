@@ -1,5 +1,9 @@
 @use "../variables" as *;
 
+* {
+  font-family: $font-family;
+}
+
 .hero {
   padding: 5rem 0;
   display: flex;
