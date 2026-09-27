@@ -30,7 +30,12 @@ export function Home() {
       .${styles.aboutSection__textReveal},
       .${styles.skillCardReveal}, 
       .${styles.projectCardReveal}, 
-      .${styles.certificateCardReveal}
+      .${styles.certificateCardReveal},
+      .${styles.sectionTitleContactReveal},
+      .${styles.contactWrapperReveal},
+      .${styles.sectionTitleCertificateReveal},
+      .${styles.sectionTitleProjectsReveal},
+      .${styles.sectionTitleSkillsReveal}
     `);
 
     elements.forEach((el) => observer.observe(el));
@@ -76,9 +81,9 @@ export function Home() {
         </div>
       </section>
 
-      <section className={`${styles.certificatesSection} ${styles.reveal}`}>
+      <section className={styles.certificatesSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Certificados</h2>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleCertificateReveal}`}>Certificados</h2>
 
           <div className={styles.certificatesGrid}>
             {certificates.map((edu) => (
@@ -97,9 +102,9 @@ export function Home() {
         </div>
       </section>
 
-      <section id="projects" className={`${styles.projectsSection} ${styles.reveal}`}>
+      <section id="projects" className={styles.projectsSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Projetos</h2>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleProjectsReveal}`}>Projetos</h2>
 
           <div className={styles.projectsGrid}>
             {projects.map((project: Projects) => (
@@ -111,9 +116,9 @@ export function Home() {
         </div>
       </section>
 
-      <section id="skills" className={`${styles.skillSection} ${styles.reveal}`}>
+      <section id="skills" className={styles.skillSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Habilidades</h2>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleSkillsReveal}`}>Habilidades</h2>
 
           <div className={styles.skillGrid}>
             {skills.map((skill) => (
@@ -126,11 +131,11 @@ export function Home() {
         </div>
       </section>
 
-      <section id="contact" className={`${styles.contactSection} ${styles.reveal}`}>
+      <section id="contact" className={styles.contactSection}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Contato</h2>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleContactReveal}`}>Contato</h2>
 
-          <div className={styles.contactWrapper}>
+          <div className={`${styles.contactWrapper} ${styles.contactWrapperReveal}`}>
             <Contact />
           </div>
         </div>

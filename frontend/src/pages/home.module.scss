@@ -359,3 +359,68 @@
       }
     }
 }
+
+.sectionTitleContactReveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.30s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contactWrapperReveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.45s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionTitleCertificateReveal{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.30s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionTitleProjectsReveal{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.30s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionTitleSkillsReveal{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.30s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
