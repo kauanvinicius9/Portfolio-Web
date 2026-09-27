@@ -16,10 +16,6 @@ emailjs.send(serviceID, templateID, params)
 https://api.emailjs.com/api/v1.0/email/send
 ```
 
-```powershell
-npm i -D @rolldown/binding-win32-x64-msvc
-```
-
 ```ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
