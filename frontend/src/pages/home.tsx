@@ -35,7 +35,8 @@ export function Home() {
       .${styles.contactWrapperReveal},
       .${styles.sectionTitleCertificateReveal},
       .${styles.sectionTitleProjectsReveal},
-      .${styles.sectionTitleSkillsReveal}
+      .${styles.sectionTitleSkillsReveal},
+      .${styles.imageReveal}
     `);
 
     elements.forEach((el) => observer.observe(el));
