@@ -63,6 +63,15 @@
     }
   }
 
+  &__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid $purple-light;
+    animation: float 3s ease-in-out infinite;
+  }
+
   &__name {
     font-size: 3rem;
     font-weight: 800;
@@ -294,11 +303,25 @@
   margin: 0 auto;
 }
 
+.imageReveal{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+  transition-delay: 0.20s;
+  
+  &.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .nameReveal {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   will-change: opacity, transform;
+  transition-delay: 0.30s;
 
   &.active {
     opacity: 1;
@@ -351,7 +374,7 @@
       transform: translateY(50px);
       transition: opacity 0.6s ease-out, transform 0.6s ease-out;
       will-change: opacity, transform;
-      transition-delay: 0.40s;
+      transition-delay: 0.35s;
   
       &.active {
         opacity: 1;
@@ -365,7 +388,7 @@
   transform: translateY(50px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   will-change: opacity, transform;
-  transition-delay: 0.30s;
+  transition-delay: 0.40s;
   
   &.active {
     opacity: 1;
@@ -422,5 +445,17 @@
   &.active {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
