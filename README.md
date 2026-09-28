@@ -25,16 +25,32 @@ export default defineConfig({
 })
 ```
 
+<<<<<<< HEAD
 **Visual Studio Code Extension**: PDF Viewer
+=======
+Error `npm run dev` case, delete file `package-lock.json`, `node_modules` and cache. Install `node_modules` again.
+
+```powershell
+del package-lock.json
+```
+
+```powershell
+del node_modules
+```
+
+```
+npm cache clean
+```
+
+```powershell
+npm install
+```
+>>>>>>> 10db52a6af391d161c0771130041bc9289c5ab36
 
 ---
 
-This **without revealing** any `passwords`.
+This **without revealing** any `passwords` - Email.JS website.
 
 - **service__id**: xxxxxxxx;
 - **template__id**: 00000000;
 - **public key**: 123ABC456abc.
-
-```powershell
-http://localhost:3000
-```
