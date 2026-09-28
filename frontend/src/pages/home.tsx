@@ -57,7 +57,7 @@ export function Home() {
               <p className={`${styles.hero__description} ${styles.descriptionReveal}`}>Desenvolvedor Full-Stack | Bosch Brasil</p>
 
               <div className={`${styles.hero__actions} ${styles.actionReveal}`}>
-                <a href="#projects" className={styles.btnPrimary}>Projetos</a>
+                <a href="/curriculo.pdf" className={styles.btnPrimary}>Perfil Profissional</a>
                 <a href="#contact" className={styles.btnSecondary}>Contato</a>
               </div>
             </div>
