@@ -69,8 +69,8 @@
   }
 
   &__image {
-    width: 160px;
-    height: 160px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid $purple-light;
@@ -81,6 +81,7 @@
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
+    margin-top: 15px;
     letter-spacing: -0.02em;
   }
 
