@@ -25,7 +25,7 @@ export default defineConfig({
 })
 ```
 
-**Visual Studio Code Extension**: PDF Viewer
+**Extension**: PDF Viewer
 
 Error `npm run dev` case, delete file `package-lock.json`, `node_modules` and cache. Install `node_modules` again.
 
