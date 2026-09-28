@@ -50,9 +50,6 @@ export function Home() {
       <section className={styles.hero}>
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
-            <div className={styles.hero__image}>
-            </div>
-
             <div className={styles.hero__about}>
               <img src="/Img.jpg" alt="Perfil" className={`${styles.hero__image} ${styles.imageReveal}`}/> 
               <h1 className={`${styles.hero__name} ${styles.nameReveal}`}>Kauan Vinícius</h1>
