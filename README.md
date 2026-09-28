@@ -25,6 +25,24 @@ export default defineConfig({
 })
 ```
 
+Error `npm run dev` case, delete file `package-lock.json`, `node_modules` and cache. Install `node_modules` again.
+
+```powershell
+del package-lock.json
+```
+
+```powershell
+del node_modules
+```
+
+```
+npm cache clean
+```
+
+```powershell
+npm install
+```
+
 ---
 
 This **without revealing** any `passwords`.
