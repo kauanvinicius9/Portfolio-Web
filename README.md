@@ -45,12 +45,8 @@ npm install
 
 ---
 
-This **without revealing** any `passwords`.
+This **without revealing** any `passwords` - Email.JS website.
 
 - **service__id**: xxxxxxxx;
 - **template__id**: 00000000;
 - **public key**: 123ABC456abc.
-
-```powershell
-http://localhost:3000
-```
