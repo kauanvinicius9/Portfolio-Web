@@ -25,6 +25,8 @@ export default defineConfig({
 })
 ```
 
+**Visual Studio Code Extension**: PDF Viewer
+
 ---
 
 This **without revealing** any `passwords`.
