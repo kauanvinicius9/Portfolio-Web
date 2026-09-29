@@ -57,7 +57,7 @@ export function Home() {
 
               <div className={`${styles.hero__actions} ${styles.actionReveal}`}>
                 <a href="/professional_profile.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary} aria-label="Currículo">Perfil Profissional</a>
-                <a href="/professional_appresentation.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnSecondary} arial-label="Apresentação">Apresentação</a>
+                <a href="#contact" className={styles.btnSecondary} arial-label="Contato">Contato</a>
               </div>
             </div>
           </div>
