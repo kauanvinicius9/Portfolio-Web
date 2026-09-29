@@ -1,7 +1,7 @@
 import type { Projects } from "../types/projects";
 import { useEffect } from "react";
 import { Contact } from "../components/contact";
-import { ProjectCard } from "../components/ProjectsCards";
+import { ProjectCard } from "../components/projectsCards";
 import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
 import { certificates } from "../data/certificates";
