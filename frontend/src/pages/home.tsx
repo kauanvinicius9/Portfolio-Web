@@ -1,9 +1,9 @@
 import type { Projects } from "../types/projects";
 import { useEffect } from "react";
-import { Contact } from "../components/contact";
-import { ProjectCard } from "../components/projectsCards";
+import { Contact } from "../components/Contact";
+import { ProjectCard } from "../components/ProjectsCards";
 import { projects } from "../data/projects";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 import { certificates } from "../data/certificates";
 import { skills } from "../data/skills";
 import styles from "./home.module.scss";

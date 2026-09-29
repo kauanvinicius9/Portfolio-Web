@@ -1,5 +1,5 @@
 import type { Projects } from "../types/projects";
-import styles from "./ProjectsCards.module.scss";
+import styles from "./projectsCards.module.scss";
 
 interface Props {
   project: Projects;
