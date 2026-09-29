@@ -12,7 +12,7 @@ export function ProjectCard({ project }: Props) {
         <h3 className={styles.card__title}>{project.title}</h3>
         <p className={styles.card__description}>{project.description}</p>
         <p className={styles.card__efficiency}>{project.efficiency}</p>
-        <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.card__button}>
+        <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.card__button} aria-label="Ver código do projeto">
           Ver projeto
         </a>
       </div>

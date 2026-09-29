@@ -71,7 +71,7 @@ export function Contact() {
         <textarea className={`${styles.form__input} ${styles['form__input--textarea']}`} placeholder="Sua mensagem" rows={5} value={message} onChange={(e) => setMessage(e.target.value)} required/>
       </div>
 
-      <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()}>
+      <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()} aria-label="Enviar mensagem">
         {loading ? "Enviando..." : "Enviar mensagem"}
       </button>
 
