@@ -1,5 +1,5 @@
 import { projects } from "../data/projects";
-import { ProjectCard } from "./ProjectsCards";
+import { ProjectCard } from "./projectsCards";
 import type { Projects } from "../types/projects";
 import styles from "./projectSection.module.scss";
 

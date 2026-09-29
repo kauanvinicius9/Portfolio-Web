@@ -1,9 +1,9 @@
 import type { Projects } from "../types/projects";
 import { useEffect } from "react";
-import { Contact } from "../components/Contact";
-import { ProjectCard } from "../components/ProjectsCards";
+import { Contact } from "../components/contact";
+import { ProjectCard } from "../components/projectsCards";
 import { projects } from "../data/projects";
-import { Footer } from "../components/Footer";
+import { Footer } from "../components/footer";
 import { certificates } from "../data/certificates";
 import { skills } from "../data/skills";
 import styles from "./home.module.scss";
@@ -56,8 +56,8 @@ export function Home() {
               <p className={`${styles.hero__description} ${styles.descriptionReveal}`}>Desenvolvedor Full-Stack | Bosch Brasil</p>
 
               <div className={`${styles.hero__actions} ${styles.actionReveal}`}>
-                <a href="/professional_profile.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>Perfil Profissional</a>
-                <a href="/professional_appresentation.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnSecondary}>Apresentação</a>
+                <a href="/professional_profile.pdf" target="_blank" rel="noopener noreferrer" className={styles.btnPrimary}>Perfil</a>
+                <a href="#contact" className={styles.btnSecondary}>Contato</a>
               </div>
             </div>
           </div>
@@ -146,4 +146,3 @@ export function Home() {
     </div>
   );
 }
-
