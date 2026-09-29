@@ -51,7 +51,7 @@ export function Home() {
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
             <div className={styles.hero__about}>
-              <img src="/Img.jpg" alt="Perfil" className={`${styles.hero__image} ${styles.imageReveal}`}/> 
+              <img src="/image.jpg" alt="Perfil" className={`${styles.hero__image} ${styles.imageReveal}`}/> 
               <h1 className={`${styles.hero__name} ${styles.nameReveal}`}>Kauan Vinícius</h1>
               <p className={`${styles.hero__description} ${styles.descriptionReveal}`}>Desenvolvedor Full-Stack | Bosch Brasil</p>
 
