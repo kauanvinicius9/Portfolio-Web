@@ -11,7 +11,7 @@ export const projects: Projects[] = [
   {
     id: 2,
     title: "Log-BR",
-    description: "Gerenciamento de dados logísticos com dashboard interativo",
+    description: "Gerenciamento de dados logísticos",
     link: "https://github.com/kauanvinicius9/Log-BR",
     efficiency: "Desenvolvido para melhorar significativamente a descentralização de dados e o caos das planilhas, resolvendo dependência de processos manuais",
   },
