@@ -1,7 +1,7 @@
 import { projects } from "../data/projects";
 import { ProjectCard } from "./projectsCards";
 import type { Projects } from "../types/projects";
-import styles from "./projectSection.module.scss";
+import styles from "./ProjectSection.module.scss";
 
 export function ProjectsSection() {
   return (
