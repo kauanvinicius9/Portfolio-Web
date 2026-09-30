@@ -22,7 +22,7 @@
 }
 
 .btnPrimary {
-  background: $purple-primary;
+  background: $orange-primary;
   color: $color-white;
   padding: 0.75rem 1.75rem;
   border-radius: $radius-md;
@@ -32,7 +32,7 @@
 
 .btnSecondary {
   background: transparent;
-  color: $purple-light;
+  color: $orange-light;
   border: 1px solid $border-color;
   padding: 0.75rem 1.75rem;
   border-radius: $radius-md;
@@ -40,8 +40,8 @@
   transition: $transition;
 
   &:hover {
-    background: $purple-glow;
-    border-color: $purple-primary;
+    background: $orange-glow;
+    border-color: $orange-primary;
     color: $color-white;
   }
 }
@@ -73,7 +73,7 @@
     height: 190px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid $purple-light;
+    border: 3px solid $orange-light;
     animation: float 3s ease-in-out infinite;
   }
 
@@ -88,7 +88,7 @@
   &__description {
     font-size: 1.25rem;
     text-align: center;
-    color: $purple-light;
+    color: $orange-light;
     margin-bottom: 1.5rem;
   }
 
@@ -145,7 +145,7 @@
 
   &:hover {
     background: $bg-card-hover;
-    border-color: $purple-glow;
+    border-color: $orange-glow;
   }
 
   &__title {
@@ -162,7 +162,7 @@
   }
 
   &__duration {
-    color: $purple-light;
+    color: $orange-light;
     font-size: 0.8rem;
   }
 }
@@ -215,7 +215,7 @@
 
   &:hover {
     background: $bg-card-hover;
-    border-color: $purple-primary;
+    border-color: $orange-primary;
   }
 
   &__name {
@@ -229,7 +229,7 @@
     font-size: 0.8rem;
     font-weight: 400;
     margin: 0;
-    color: $purple-light;
+    color: $orange-light;
   }
 }
 
