@@ -47,8 +47,15 @@ npm install
 
 ---
 
-This **without revealing** any `passwords` - Email.JS website.
-
-- **service__id**: xxxxxxxx;
-- **template__id**: 00000000;
-- **public key**: 123ABC456abc.
+```ts
+await emailjs.send(
+        "service_x12abcde", // Service
+        "template_xxx123", // Template
+        {
+          name: name,
+          email: email,
+          message: message,
+        },
+        "abc123defXXX" // Public key
+      );
+```
