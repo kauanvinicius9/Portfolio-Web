@@ -70,7 +70,7 @@ export function Home() {
 
           <div className={`${styles.aboutSection__text} ${styles.aboutSection__textReveal}`}>
             <p>
-              Me chamo Kauan Vinícius, tenho 18 anos de idade. Possuo um nível avançado em Inglês, movido a por desafios e tenho como
+              Me chamo Kauan Vinícius, tenho 18 anos de idade. Possuo um nível avançado em Inglês, movido por desafios e tenho como
               compromisso, entregar resultados com excelência e proatividade.
             </p>
 
