@@ -64,4 +64,11 @@ export const projects: Projects[] = [
     link: "https://github.com/kauanvinicius9/Necthar",
     efficiency: "Desenvolvido para monitorar despesas do dia-a-dia melhorando sua organização financeira tendo controle de seus gastos",
   },
+  {
+    id: 10,
+    title: "Drive On Performance",
+    description: "Telemetria de testes automotivos",
+    link: "https://github.com/kauanvinicius9/Drive-On-Performance",
+    efficiency: "Desenvolvido para realizar a telemetria de testes automotivos antes da venda do veículo",
+  },
 ];
