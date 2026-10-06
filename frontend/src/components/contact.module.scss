@@ -39,8 +39,8 @@
     }
 
     &:focus {
-      border-color: $orange-primary;
-      box-shadow: 0 0 0 3px $orange-glow;
+      border-color: $blue-primary;
+      box-shadow: 0 0 0 3px $blue-glow;
       background: $bg-footer;
     }
 
@@ -52,7 +52,7 @@
 
   &__button {
     width: 100%;
-    background: $orange-primary;
+    background: $blue-primary;
     color: $color-white;
     border: none;
     border-radius: $radius-sm;
