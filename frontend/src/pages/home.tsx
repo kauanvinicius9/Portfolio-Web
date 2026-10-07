@@ -6,6 +6,7 @@ import { projects } from "../data/projects";
 import { Footer } from "../components/footer";
 import { certificates } from "../data/certificates";
 import { skills } from "../data/skills";
+import { career } from "../data/career";
 import styles from "./home.module.scss";
 
 export function Home() {
@@ -36,7 +37,9 @@ export function Home() {
       .${styles.sectionTitleCertificateReveal},
       .${styles.sectionTitleProjectsReveal},
       .${styles.sectionTitleSkillsReveal},
-      .${styles.imageReveal}
+      .${styles.imageReveal},
+      .${styles.sectionTitleCareerReveal},
+      .${styles.careerCardReveal}
     `);
 
     elements.forEach((el) => observer.observe(el));
@@ -128,6 +131,28 @@ export function Home() {
                 <span className={styles.skillCard__category}>{skill.category}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+      
+      <section id="career" className={styles.careerSection}>
+        <div className={styles.container}>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleCareerReveal}`}>Carreira</h2>
+
+          <div className={styles.careerGrid}>
+            {career.map((item) => (
+              <article key={`${item.company}-${item.title}`} className={`${styles.careerCard} ${styles.careerCardReveal}`}>
+                <header className={styles.careerHeader}>
+                  <div className={styles.careerMainInfo}>
+                    <h3 className={styles.careerTitle}>{item.title}</h3>
+                    <p className={styles.careerCompany}>{item.company}</p>
+                  </div>
+                </header>
+
+                <time className={styles.careerTimeline}>{item.timeline}</time>
+                <p className={styles.careerDescription}>{item.description}</p>
+              </article>
+            ))} 
           </div>
         </div>
       </section>
