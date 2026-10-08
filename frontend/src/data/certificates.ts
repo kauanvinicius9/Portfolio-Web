@@ -36,5 +36,11 @@ export const certificates: Certificates[] = [
     course: "Jovem Aprendiz em Soluções Digitais ETS",
     institution: "Bosch Brasil",
     duration: "1 ano e 6 meses",
+  },
+  {
+    id: 7,
+    course: "Fundamentos da Segurança Cibernética",
+    institution: "Santander",
+    duration: "1 hora",
   }
 ];
