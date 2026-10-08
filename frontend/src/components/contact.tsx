@@ -11,6 +11,10 @@ export function Contact() {
   const [statusMessage, setStatusMessage] = useState("");
   const [statusType, setStatusType] = useState<"success" | "error" | "">("");
 
+  // Regex de nome e email
+  const email_regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  const name_regex = /^[A-Za-zÀ-ÖØ-öø-ÿ\s]{2,}$/;
+
   // Mensagem desaparece automaticamente depois de 3 segundos
   useEffect(() => {
     if (statusMessage) {
@@ -26,6 +30,18 @@ export function Contact() {
   // Integração com EmailJS
   async function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+
+    if (!name_regex.test(name.trim())) {
+      setStatusMessage("Por favor, insira um nome válido (mínimo de 02 caracteres).");
+      setStatusType("error");
+      return;
+    }
+
+    if (!email_regex.test(email.trim())) {
+      setStatusMessage("Insira um e-mail com format válido");
+      setStatusType("error");
+      return;
+    }
     setLoading(true);
 
     try {
