@@ -88,7 +88,7 @@ export function Contact() {
       </div>
 
       <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()} aria-label="Enviar mensagem">
-        {loading ? "Enviando..." : "Enviar"}
+        {loading ? "Enviando..." : "Enviar mensagem"}
       </button>
 
       {statusMessage && (
