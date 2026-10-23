@@ -1,8 +1,5 @@
 import { ProjectsSection } from "../components/projectsSection";
-import { CertificatesSection } from "../components/certificatesSection";
 import { SkillsSection } from "../components/skillsSection";
-import { CareerSection } from "../components/careerSection";
-import { FormationsSection } from "../components/formationsSection";
 import { Contact } from "../components/contact";
 import { Footer } from "../components/footer";
 
@@ -57,12 +54,9 @@ export function Home() {
       </section>
 
       {/* Componentes */}
-      <FormationsSection />
-      <CertificatesSection />
       <ProjectsSection />
       <SkillsSection />
-      <CareerSection />
-
+      
       <section id="contact" className={styles.contactSection}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Contato</h2>
