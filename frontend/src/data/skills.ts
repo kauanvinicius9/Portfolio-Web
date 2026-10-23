@@ -102,4 +102,3 @@ export const skills: Skills[] = [
     category: "Backend",
   }
 ];
-
