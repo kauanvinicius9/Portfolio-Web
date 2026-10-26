@@ -29,4 +29,11 @@ export const projects: Projects[] = [
     link: "https://github.com/kauanvinicius9/Invex",
     efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos",
   },
+  {
+    id: 5,
+    title: "OnBoarding",
+    description: "Sistema de treinamentos para novos funcionários",
+    link: "https://github.com/kauanvinicius9/OnBoarding",
+    efficiency: "Desenvolvido para solucionar problemas de conclusão e engajamento por parte do novos funcionários",
+  },
 ];
