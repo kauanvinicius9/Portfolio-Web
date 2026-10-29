@@ -4,4 +4,6 @@ export interface Projects {
   description: string;
   link: string;
   efficiency: string;
+  skills: string;
+  image: string;
 }
