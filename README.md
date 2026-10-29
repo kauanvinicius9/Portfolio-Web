@@ -4,9 +4,9 @@
 
 This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. It features several clean, dynamic interactions:
 
-- Functional buttons linking to the project repository and extra details;
+- Functional buttons linking to the **project repository** and **extra details**;
 - Interactive icons leading to my social media profiles;
-- Direct contact/messaging integrated with EmailJS.
+- Direct **contact/messaging** integrated with `EmailJS`.
 
 Each project features a preview of the main visual interface and the primary technologies used
 
