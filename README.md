@@ -1,6 +1,14 @@
 ## Portfolio
 
-This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. 
+### Overview
+
+This portfolio is **responsive**, adapting to any **screen size** for a better viewing experience. It features several clean, dynamic interactions:
+
+- Functional buttons linking to the project repository and extra details;
+- Interactive icons leading to my social media profiles;
+- Direct contact/messaging integrated with EmailJS.
+
+Each project features a preview of the main visual interface and the primary technologies used
 
 ---
 
@@ -17,8 +25,8 @@ https://api.emailjs.com/api/v1.0/email/send
 ```
 
 ```ts
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite"
+import react from "@vitejs/plugin-react"
 
 export default defineConfig({
   plugins: [react()],
