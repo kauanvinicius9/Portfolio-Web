@@ -13,7 +13,7 @@ Each project features a preview of the main visual interface and the primary tec
 ---
 
 ```powershell
-npm install gitlab:iconify-icons/react#bxl
+npm install @iconify-icon/react
 ```
 
 Icons: [https://icon-sets](https://icon-sets.iconify.design/?query=mongodb "Click to Access WebSite")
