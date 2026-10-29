@@ -43,6 +43,20 @@
     margin-bottom: 1.5rem;
     flex-grow: 1;
   }
+
+  &__image {
+    border-radius: $radius-sm;
+    margin-bottom: 12px;
+  }
+
+  &__skills {
+    margin-bottom: 15px;
+    background: $background;
+    padding: 12px;
+    border-radius: $radius-sm;
+    color: $text-muted;
+    border: 1px solid $border-color;
+  }
   
   &__efficiency {
     color: $text-muted;
