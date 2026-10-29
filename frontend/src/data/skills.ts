@@ -5,7 +5,7 @@ export const skills: Skills[] = [
     id: 1,
     name: "Spring-Boot",
     category: "Backend",
-    image: "gitlab:iconify-icons/react#simple-icons/springboot";
+    image: "gitlab:iconify-icons/react#simple-icons/springboot"
   },
   {
     id: 2,
