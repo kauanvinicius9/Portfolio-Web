@@ -22,6 +22,11 @@ export function Footer() {
           </a>
         </div>
 
+        <div className={styles.footer__link_repository}>
+          <p>Desenvolvido em ReactJS </p>
+          <a href="https://www.github.com/kauanvinicius9/Portfolio-Web">Ver projeto</a>
+        </div>
+
         <div className={styles.footer__copyright}>
           &copy; {year} Portfolio | Kauan Vinícius
         </div>
