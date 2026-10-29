@@ -7,6 +7,8 @@ export const projects: Projects[] = [
     description: "Site de velas aromatizadas, difusores e home-sprays",
     link: "https://github.com/kauanvinicius9/CandleShop",
     efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva",
+    skills: "Angular | Spring-Boot",
+    image: ""
   },
   {
     id: 2,
@@ -14,6 +16,7 @@ export const projects: Projects[] = [
     description: "Gerenciamento de estoque de ferramentas",
     link: "https://github.com/kauanvinicius9/Stock",
     efficiency: "Desenvolvido para acompanhamento de estoque virtual de ferramentas, diminuindo a desorganização e a ausência de controle",
+    skills: "Next | FastAPI",
   },
   {
     id: 3,
