@@ -18,6 +18,7 @@
   &:hover {
     background: $bg-card-hover;
     border-color: $box-shadow;
+    transform: translateY(-4px);
   }
 
   &__body {

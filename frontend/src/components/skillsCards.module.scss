@@ -9,7 +9,10 @@
   border: 1px solid $border-color;
   border-radius: $radius-sm;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  gap: 1rem;
   position: relative;
   overflow: hidden;
   transition: $transition;
@@ -17,19 +20,34 @@
   &:hover {
     background: $bg-card-hover;
     border-color: $box-shadow;
+    transform: translateY(-4px);
+
+    img {
+      filter: brightness(0) invert(1);
+    }
   }
 
   &__body {
-    padding: 0.85rem 1rem; 
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     gap: 0.2rem;       
   }
 
-  // &__image {
-    
-  // }
+  &__image {
+    width: 36px;
+    height: 36px;
+    transition: $transition;
+    flex-shrink: 0;
+    filter: brightness(0) 
+              saturate(100%) 
+              invert(60%) 
+              sepia(0%) 
+              saturate(0%) 
+              hue-rotate(201deg) 
+              brightness(91%)  
+              contrast(88%);
+  }
 
   &__name {
     font-size: 0.9rem;

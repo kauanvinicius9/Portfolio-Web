@@ -1,124 +1,152 @@
 import type { Skills } from "../types/skills";
 
-export const skillsData = [
+import springBootImage from "../assets/skillsImages/springboot-image.svg";
+import mongoDBImage from "../assets/skillsImages/mongodb-image.svg";
+import vueJSImage from "../assets/skillsImages/vuejs-image.svg";
+import nextJSImage from "../assets/skillsImages/nextjs-image.svg";
+import nuxtJSImage from "../assets/skillsImages/nuxtjs-image.svg";
+import postgreSQLImage from "../assets/skillsImages/postgresql-image.svg";
+import htmlImage from "../assets/skillsImages/html-image.svg";
+import cssImage from "../assets/skillsImages/css-image.svg";
+import javaScriptImage from "../assets/skillsImages/javascript-image.svg";
+import reactJSImage from "../assets/skillsImages/reactjs-image.svg";
+import fastAPIImage from "../assets/skillsImages/fastapi-image.svg";
+import pythonImage from "../assets/skillsImages/python-image.svg";
+import typeScriptImage from "../assets/skillsImages/typescript-image.svg";
+import djangoImage from "../assets/skillsImages/django-image.svg";
+import dockerImage from "../assets/skillsImages/docker-image.svg";
+import bootstrapImage from "../assets/skillsImages/bootstrap-image.svg";
+import javaImage from "../assets/skillsImages/java-image.svg";
+import angularImage from "../assets/skillsImages/angular-image.svg";
+import prismaImage from "../assets/skillsImages/prisma-image.svg";
+import scssSassImage from "../assets/skillsImages/sass-scss-image.svg";
+import tailwindCSSImage from "../assets/skillsImages/tailwind-css-image.svg";
+
+export const skills: Skills[] = [
   {
     id: 1,
     name: "Spring-Boot",
     category: "Backend",
-    image: "https://api.iconify.design/simple-icons:springboot.svg"
+    image: springBootImage
   },
   {
     id: 2,
     name: "MongoDB",
     category: "Dados",
-    image: "https://api.iconify.design/bxl:mongodb.svg"
+    image: mongoDBImage
   },
   {
     id: 3,
     name: "VueJS",
     category: "Frontend",
-    image: "https://api.iconify.design/akar-icons:vue-fill.svg"
+    image: vueJSImage
   },
   {
     id: 4,
     name: "NextJS",
     category: "Frontend",
-    image: "https://api.iconify.design/akar-icons:nextjs-fill.svg"
+    image: nextJSImage
   },
   {
     id: 5,
     name: "NuxtJS",
     category: "Frontend",
-    image: "https://api.iconify.design/bxl:nuxt-js.svg"
+    image: nuxtJSImage
   },
   {
     id: 6,
     name: "PostgreSQL",
     category: "Dados",
-    image: "https://api.iconify.design/akar-icons:postgresql-fill.svg"
+    image: postgreSQLImage
   },
   {
     id: 7,
     name: "HTML",
     category: "Frontend",
-    image: "https://api.iconify.design/vscode-icons:file-type-html.svg"
+    image: htmlImage
   },
   {
     id: 8,
     name: "CSS",
     category: "Frontend",
-    image: "https://api.iconify.design/vscode-icons:file-type-css.svg"
+    image: cssImage
   },
   {
     id: 9,
     name: "JavaScript",
     category: "Frontend",
-    image: "https://api.iconify.design/akar-icons:javascript-fill.svg"
+    image: javaScriptImage
   },
   {
     id: 10,
     name: "ReactJS",
     category: "Frontend",
-    image: "https://api.iconify.design/grommet-icons:reactjs.svg"
+    image: reactJSImage
   },
   {
     id: 11,
     name: "FastAPI",
     category: "Backend",
-    image: "https://api.iconify.design/simple-icons:fastapi.svg"
+    image: fastAPIImage
   },
   {
     id: 12,
     name: "Python",
     category: "Backend",
-    image: "https://api.iconify.design/akar-icons:python-fill.svg"
+    image: pythonImage
   },
   {
     id: 13,
     name: "TypeScript",
     category: "Frontend",
-    image: "https://api.iconify.design/akar-icons:typescript-fill.svg"
+    image: typeScriptImage
   },
   {
     id: 14,
     name: "Django",
     category: "Backend",
-    image: "https://api.iconify.design/akar-icons:django-fill.svg"
+    image: djangoImage
   },
   {
     id: 15,
     name: "Docker",
     category: "Infraestrutura",
-    image: "https://api.iconify.design/bxl:docker.svg"
+    image: dockerImage
   },
   {
     id: 16,
     name: "Bootstrap",
     category: "Frontend",
-    image: "https://api.iconify.design/akar-icons:bootstrap-fill.svg"
+    image: bootstrapImage
   },
   {
     id: 17,
     name: "Java",
     category: "Backend",
-    image: "https://api.iconify.design/ant-design:java-outlined.svg"
+    image: javaImage
   },
   {
     id: 18,
     name: "Angular",
     category: "Frontend",
-    image: "https://api.iconify.design/bxl:angular.svg"
+    image: angularImage
   },
   {
     id: 19,
     name: "SCSS / SASS",
     category: "Frontend",
-    image: "https://api.iconify.design/akar-icons:sass-fill.svg"
+    image: scssSassImage
   },
   {
     id: 20,
     name: "Prisma",
     category: "Backend",
-    image: "https://api.iconify.design/file-icons:prisma.svg"
+    image: prismaImage
+  },
+  {
+    id: 21,
+    name: "TailwindCSS",
+    category: "Frontend",
+    image: tailwindCSSImage
   }
 ];

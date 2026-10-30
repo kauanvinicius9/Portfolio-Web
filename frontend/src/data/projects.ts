@@ -1,10 +1,10 @@
 import type { Projects } from "../types/projects";
 
-import revivaVelasImage from "../assets/revivavelas-image.webp";
-import stockImage from "../assets/stock-image.webp";
-import flowStreamEngineImage from "../assets/flowstream-engine-image.webp";
-import invexImage from "../assets/invex-image.webp";
-import onBoardingImage from "../assets/onboarding-image.webp";
+import revivaVelasImage from "../assets/projectsImages/revivavelas-image.webp";
+import stockImage from "../assets/projectsImages/stock-image.webp";
+import flowStreamEngineImage from "../assets/projectsImages/flowstream-engine-image.webp";
+import invexImage from "../assets/projectsImages/invex-image.webp";
+import onBoardingImage from "../assets/projectsImages/onboarding-image.webp";
 
 export const projects: Projects[] = [
   {

@@ -21,10 +21,11 @@
     a {
       color: $blue-primary;
       text-decoration: none;
-      transition: $transition;
 
       &:hover {
         color: $blue-light;
+        text-decoration: underline;
+        
       }
     }
   }
@@ -62,6 +63,7 @@
       color: $color-white;
       background: $blue-glow;
       border-color: $blue-primary;
+      transform: scale(1.10);
     }
   }
 
