@@ -21,6 +21,13 @@ import angularImage from "../assets/skillsImages/angular-image.svg";
 import prismaImage from "../assets/skillsImages/prisma-image.svg";
 import scssSassImage from "../assets/skillsImages/sass-scss-image.svg";
 import tailwindCSSImage from "../assets/skillsImages/tailwind-css-image.svg";
+import terraformImage from "../assets/skillsImages/terraform-image.svg";
+import sqlServerImage from "../assets/skillsImages/sqlserver-image.svg";
+import mySQL from "../assets/skillsImages/mysql-image.svg";
+import postman from "../assets/skillsImages/postman-image.svg";
+import canva from "../assets/skillsImages/canva-image.svg";
+import figma from "../assets/skillsImages/figma-image.svg";
+import { fi } from "zod/v4/locales";
 
 export const skills: Skills[] = [
   {
@@ -148,5 +155,41 @@ export const skills: Skills[] = [
     name: "TailwindCSS",
     category: "Frontend",
     image: tailwindCSSImage
+  },
+  {
+    id: 22,
+    name: "Terraform",
+    category: "Infraestrutura",
+    image: terraformImage
+  },
+  {
+    id: 23,
+    name: "SQLServer",
+    category: "Dados",
+    image: sqlServerImage
+  },
+  {
+    id: 24,
+    name: "MySQL",
+    category: "Dados",
+    image: mySQL
+  },
+  {
+    id: 25,
+    name: "Figma",
+    category: "Design",
+    image: figma
+  },
+  {
+    id: 26,
+    name: "Canva",
+    category: "Design",
+    image: canva
+  },
+  {
+    id: 27,
+    name: "Postman",
+    category: "API Testing",
+    image: postman
   }
 ];
