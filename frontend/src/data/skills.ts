@@ -27,7 +27,6 @@ import mySQL from "../assets/skillsImages/mysql-image.svg";
 import postman from "../assets/skillsImages/postman-image.svg";
 import canva from "../assets/skillsImages/canva-image.svg";
 import figma from "../assets/skillsImages/figma-image.svg";
-import { fi } from "zod/v4/locales";
 
 export const skills: Skills[] = [
   {
