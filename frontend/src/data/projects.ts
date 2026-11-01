@@ -12,7 +12,7 @@ export const projects: Projects[] = [
     title: "Reviva Velas",
     description: "Site de velas aromatizadas, difusores e home-sprays",
     link: "https://github.com/kauanvinicius9/CandleShop",
-    efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva",
+    efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva. O site está em produção na Vercel indexado na Google Search Console",
     skills: "Angular - Docker - TypeScript",
     image: revivaVelasImage
   },
