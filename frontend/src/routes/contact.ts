@@ -8,7 +8,7 @@ const router = Router();
 const contactLimit = rateLimit ({
     windowMs: 15 * 60 * 100,
     max: 5,
-    message: { message: "Muitas tentativas. Tente novamente mais tarde." }
+    message: { message: "Muitas tentativas" }
 });
 
 // Validação dos campos de mensagem
@@ -37,7 +37,7 @@ router.post("/contact", contactLimit, async (req, res) => {
     
     console.error("Erro interno no /contact:", error);
     return res.status(500).json({
-        message: "Erro interno. Tente novamente mais tarde"
+        message: "Erro interno"
     });
    }
 });
