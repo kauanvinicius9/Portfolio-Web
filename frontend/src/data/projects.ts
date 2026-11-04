@@ -4,7 +4,6 @@ import revivaVelasImage from "../assets/projectsImages/revivavelas-image.webp";
 import stockImage from "../assets/projectsImages/stock-image.webp";
 import flowStreamEngineImage from "../assets/projectsImages/flowstream-engine-image.webp";
 import invexImage from "../assets/projectsImages/invex-image.webp";
-import onBoardingImage from "../assets/projectsImages/onboarding-image.webp";
 
 export const projects: Projects[] = [
   {
@@ -42,14 +41,5 @@ export const projects: Projects[] = [
     efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos",
     skills: "Nuxt - TypeScript",
     image: invexImage
-  },
-  {
-    id: 5,
-    title: "OnBoarding",
-    description: "Sistema de treinamentos para novos funcionários",
-    link: "https://github.com/kauanvinicius9/OnBoarding",
-    efficiency: "Desenvolvido para solucionar problemas de conclusão e engajamento por parte do novos funcionários",
-    skills: "Angular - Spring-Boot - Docker - PostgreSQL",
-    image: onBoardingImage
-  },
+  }
 ];
