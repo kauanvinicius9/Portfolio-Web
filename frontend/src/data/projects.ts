@@ -4,7 +4,7 @@ import revivaVelasImage from "../assets/projectsImages/revivavelas-image.webp";
 import stockImage from "../assets/projectsImages/stock-image.webp";
 import flowStreamEngineImage from "../assets/projectsImages/flowstream-engine-image.webp";
 import invexImage from "../assets/projectsImages/invex-image.webp";
-import zurimage from "../assets/projectsImages/zuri-image.webp";
+import zuriImage from "../assets/projectsImages/zuri-image.webp";
 
 export const projects: Projects[] = [
   {
@@ -50,6 +50,6 @@ export const projects: Projects[] = [
     link: "https://github.com/kauanvinicius9/Zuri",
     efficiency: "Desenvolvido para auxiliar o usuário oferendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral",
     skills: "React - TypeScript",
-    image: zurimage
+    image: zuriImage
   }
 ];
