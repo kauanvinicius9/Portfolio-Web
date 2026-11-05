@@ -4,6 +4,7 @@ import revivaVelasImage from "../assets/projectsImages/revivavelas-image.webp";
 import stockImage from "../assets/projectsImages/stock-image.webp";
 import flowStreamEngineImage from "../assets/projectsImages/flowstream-engine-image.webp";
 import invexImage from "../assets/projectsImages/invex-image.webp";
+import zurimage from "../assets/projectsImages/zuri-image.webp";
 
 export const projects: Projects[] = [
   {
@@ -41,5 +42,14 @@ export const projects: Projects[] = [
     efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos",
     skills: "Nuxt - TypeScript",
     image: invexImage
+  },
+  {
+    id: 5,
+    title: "Zuri",
+    description: "Inteligência Artificial Copiloto - Extensão",
+    link: "https://github.com/kauanvinicius9/Zuri",
+    efficiency: "Desenvolvido para auxiliar o usuário oferendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral",
+    skills: "Nuxt - TypeScript",
+    image: zurimage
   }
 ];
