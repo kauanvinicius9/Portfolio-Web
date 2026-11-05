@@ -48,7 +48,7 @@ export const projects: Projects[] = [
     title: "Zuri",
     description: "Inteligência Artificial Copiloto - Extensão",
     link: "https://github.com/kauanvinicius9/Zuri",
-    efficiency: "Desenvolvido para auxiliar o usuário oferendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral",
+    efficiency: "Desenvolvido para auxiliar o usuário oferecendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral",
     skills: "React - TypeScript",
     image: zuriImage
   }
