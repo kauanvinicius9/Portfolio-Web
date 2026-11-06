@@ -1,0 +1,21 @@
+@use "../variables" as *;
+
+* {
+  font-family: $font-family;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.homePage {
+  color: #3182ce;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
