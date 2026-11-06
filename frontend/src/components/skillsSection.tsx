@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { SkeletonCardSkillsLoad } from "./loadings/skeletonCardSkillsLoad";
-import { InfiniteScrollLoad } from "./loadings/infiniteScrollLoad";
 import { skills } from "../data/skills";
 import { SkillCard } from "./skillsCards";
 import styles from "./skillsSection.module.scss";
@@ -8,8 +7,6 @@ import type { Skills } from "../types/skills";
 
 export function SkillsSection() {
   const [isLoading, setIsLoading] = useState(true);
-  const [isFetchingMore, setIsFetchingMore] = useState(true);
-
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
@@ -17,13 +14,6 @@ export function SkillsSection() {
 
     return () => clearTimeout(timer);
   }, [])
-
-  const handleLoadMore = () => {
-    setIsFetchingMore(true);
-    setTimeout(() => {
-      setIsFetchingMore(false);
-    }, 1500);
-  }
 
   return (
     <section id="skills" className={styles.hero}>
@@ -43,8 +33,6 @@ export function SkillsSection() {
             ))
           )}
         </div>
-
-        {isFetchingMore && <InfiniteScrollLoad/>}
       </div>
     </section>
   );

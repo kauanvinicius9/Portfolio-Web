@@ -2,13 +2,11 @@ import { useState, useEffect } from "react";
 import { projects } from "../data/projects";
 import { ProjectCard } from "./projectsCards";
 import { SkeletonCardProjectsLoad } from "./loadings/skeletonCardProjectsLoad";
-import { InfiniteScrollLoad } from "./loadings/infiniteScrollLoad";
 import styles from "./projectSection.module.scss";
 import type { Projects } from "../types/projects";
 
 export function ProjectsSection() {
   const [isLoading, setIsLoading] = useState(true);
-  const [isFetchingMore, setIsFetchingMore] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,13 +15,6 @@ export function ProjectsSection() {
 
     return () => clearTimeout(timer);
   }, [])
-
-  const handleLoadMore = () => {
-    setIsFetchingMore(true);
-    setTimeout(() => {
-      setIsFetchingMore(false);
-    }, 1500);
-  }
 
   return (
     <section id="projects" className={styles.hero}>
@@ -43,8 +34,6 @@ export function ProjectsSection() {
             ))
           )}
         </div>
-
-        {isFetchingMore && <InfiniteScrollLoad/>}
       </div>
     </section>
   );
