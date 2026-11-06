@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./skeletonCardProjectLoad.module.scss";
+import styles from "./skeletonCardSkillsLoad.module.scss";
 
 export const SkeletonCardSkillsLoad: React.FC = () => {
   return (
