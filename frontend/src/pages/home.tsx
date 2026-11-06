@@ -1,13 +1,37 @@
+import { useState, useEffect } from "react";
 import { ProjectsSection } from "../components/projectsSection";
 import { SkillsSection } from "../components/skillsSection";
 import { Contact } from "../components/contact";
 import { Footer } from "../components/footer";
+import { SpinnerLoading } from "../components/loadings/spinnerLoad";
+import { PullToRefreshLoad } from "../components/loadings/pullToRefreshLoad";
 
 import styles from "./home.module.scss";
 
 export function Home() {
+  const [isPageLoading, setIsPageLoading] = useState(true);
+  const [isPulling, setIsPulling] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsPageLoading(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isPageLoading) {
+    return (
+      <div className={styles.loadingWrapper}>
+        <SpinnerLoading/>
+      </div>
+    )
+  }
+
   return (
     <div className={styles.pageWrapper}>
+      <PullToRefreshLoad pulling={isPulling}/>
+
       <section className={styles.hero}>
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>

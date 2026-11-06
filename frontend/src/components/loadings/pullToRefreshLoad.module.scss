@@ -1,0 +1,16 @@
+@use "../variables" as *;
+
+.indicator {
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.3s ease;
+    color: #666;
+    font-size: 0.85rem;
+
+    &:active {
+        height: 40px;
+    }
+}

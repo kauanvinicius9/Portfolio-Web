@@ -8,6 +8,19 @@
   font-family: $font-family;
 }
 
+.loadWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: $background;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;

@@ -1,0 +1,65 @@
+@use "../variables" as *;
+
+* {
+  font-family: $font-family;
+}
+
+.card {
+  background: $bg-card;
+  border: 1px solid $border-color;
+  border-radius: $radius-sm;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 0.4rem;    
+    width: 100%;   
+  }
+
+  &__image {
+    width: 70%;
+    height: 0.9rem;
+    background: #e0e0e0;
+    border-radius: $radius-sm;
+    margin: 0;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+
+  &__name {
+    width: 70%;
+    height: 0.9rem;
+    background: #e0e0e0;
+    border-radius: $radius-sm;
+    margin: 0;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+
+  &__category {
+    width: 40%;
+    height: 0.75rem;
+    background: #e0e0e0;
+    border-radius: $radius-sm;
+    margin: 0;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
