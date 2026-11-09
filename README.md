@@ -48,7 +48,7 @@ del package-lock.json
 del node_modules
 ```
 
-```
+```powershell
 npm cache clean
 ```
 
@@ -60,13 +60,13 @@ npm install
 
 ```ts
 await emailjs.send(
-        "service_x12abcde", // Service
-        "template_xxx123", // Template
-        {
-          name: name,
-          email: email,
-          message: message,
-        },
-        "abc123defXXX" // Public key
-      );
+  "service_x12abcde", // Service
+  "template_xxx123", // Template
+    {
+      name: name,
+      email: email,
+      message: message,
+    },
+      "abc123defXXX" // Public key
+);
 ```
