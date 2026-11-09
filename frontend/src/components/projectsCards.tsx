@@ -13,7 +13,7 @@ export function ProjectCard({ project }: Props) {
         <p className={styles.card__description}>{project.description}</p>
         <img src={project.image} alt="Imagem do projeto" className={styles.card__image} />
         <p className={styles.card__efficiency}>{project.efficiency}</p>
-        <p className={styles.card__skills}>{project.skills}</p>
+        <p className={styles.card__skills}>{project.tools}</p>
         <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.card__button} aria-label="Ver código do projeto">
           Ver projeto
         </a>

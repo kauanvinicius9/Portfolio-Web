@@ -1,55 +1,39 @@
 import type { Projects } from "../types/projects";
 
-import revivaVelasImage from "../assets/projectsImages/revivavelas-image.webp";
-import stockImage from "../assets/projectsImages/stock-image.webp";
-import flowStreamEngineImage from "../assets/projectsImages/flowstream-engine-image.webp";
-import invexImage from "../assets/projectsImages/invex-image.webp";
-import zuriImage from "../assets/projectsImages/zuri-image.webp";
+const images = import.meta.glob<string>("../assets/projectsImages/*.webp", {
+  eager: true,
+  import: "default"
+});
 
-export const projects: Projects[] = [
-  {
-    id: 1,
-    title: "Reviva Velas",
-    description: "Site de velas aromatizadas, difusores e home-sprays",
-    link: "https://github.com/kauanvinicius9/CandleShop",
-    efficiency: "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva. O site está em produção na Vercel indexado na Google Search Console",
-    skills: "Angular - Docker - TypeScript",
-    image: revivaVelasImage
-  },
-  {
-    id: 2,
-    title: "Stock",
-    description: "Gerenciamento de estoque de ferramentas",
-    link: "https://github.com/kauanvinicius9/Stock",
-    efficiency: "Desenvolvido para acompanhamento de estoque virtual de ferramentas, diminuindo a desorganização e a ausência de controle",
-    skills: "Next - FastAPI - SQLite",
-    image: stockImage
-  },
-  {
-    id: 3,
-    title: "FlowStream Engine",
-    description: "Motor automatizado de máquinas de estado",
-    link: "https://github.com/kauanvinicius9/FlowStream-Engine",
-    efficiency: "Desenvolvido para diminuir o controle manual de fluxos complexos usando condicionais extensas. O sistema passa de um estado a outro apenas quando regras estritas forem atendidas",
-    skills: "React - Django - SQLite",
-    image: flowStreamEngineImage
-  },
-  {
-    id: 4,
-    title: "Invex",
-    description: "Simulador de investimentos e acompanhamento financeiro",
-    link: "https://github.com/kauanvinicius9/Invex",
-    efficiency: "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos",
-    skills: "Nuxt - TypeScript",
-    image: invexImage
-  },
-  {
-    id: 5,
-    title: "Zuri",
-    description: "Inteligência Artificial Copiloto - Extensão",
-    link: "https://github.com/kauanvinicius9/Zuri",
-    efficiency: "Desenvolvido para auxiliar o usuário oferecendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral",
-    skills: "React - TypeScript",
-    image: zuriImage
-  }
+const getImage = (file: string): string => {
+  const image = images[`../assets/projectsImages/${file}-image.webp`];
+  if (!image) throw new Error(`Imagem não encontrada: ${file}-image.webp`);
+  return image;
+};
+
+type ProjectRow = [
+  name: Projects["title"],
+  description: Projects["description"],
+  link: Projects["link"],
+  efficiency: Projects["efficiency"],
+  tools: Projects["tools"],
+  file: string
+]
+
+const rows: ProjectRow[] = [
+  ["Reviva Velas", "Site de velas aromatizadas, difusores e home-sprays", "https://github.com/kauanvinicius9/CandleShop", "Desenvolvido para alavancar vendas reais de produtos artesanais utilizando uma vitrine web responsiva e intuitiva. O site está em produção na Vercel indexado na Google Search Console", "Angular - Docker - TypeScript", "revivavelas"],
+  ["Stock", "Gerenciamento de estoque de ferramentas", "https://github.com/kauanvinicius9/Stock", "Desenvolvido para acompanhamento de estoque virtual de ferramentas, diminuindo a desorganização e a ausência de controle", "Next - FastAPI - SQLite", "stock"],
+  ["FlowStream Engine", "Motor automatizado de máquinas de estado", "https://github.com/kauanvinicius9/FlowStream-Engine", "Desenvolvido para diminuir o controle manual de fluxos complexos usando condicionais extensas. O sistema passa de um estado a outro apenas quando regras estritas forem atendidas", "React - Django - SQLite", "flowstream-engine"],
+  ["Invex", "Simulador de investimentos e acompanhamento financeiro", "https://github.com/kauanvinicius9/Invex", "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos", "Nuxt - TypeScript", "invex"],
+  ["Zuri", "Inteligência Artificial Copiloto - Extensão", "https://github.com/kauanvinicius9/Zuri", "Desenvolvido para auxiliar o usuário oferecendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral", "React - TypeScript", "zuri"],
 ];
+
+export const projects: Projects[] = rows.map(([title, description, link, efficiency, tools, file], index) => ({
+  id: index + 1,
+  title,
+  description,
+  link,
+  efficiency,
+  tools,
+  image: getImage(file),
+}))

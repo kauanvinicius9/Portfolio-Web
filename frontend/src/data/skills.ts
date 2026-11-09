@@ -48,7 +48,6 @@ const rows: SkillRow[] = [
   ["Docusaurus", "SSG", "docusaurus"],
 ];
 
-
 export const skills: Skills[] = rows.map(([name, category, file], index) => ({
   id: index + 1,
   name,
