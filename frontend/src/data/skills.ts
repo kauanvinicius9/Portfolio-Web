@@ -27,6 +27,7 @@ import mySQL from "../assets/skillsImages/mysql-image.svg";
 import postman from "../assets/skillsImages/postman-image.svg";
 import canva from "../assets/skillsImages/canva-image.svg";
 import figma from "../assets/skillsImages/figma-image.svg";
+import docusaurus from "../assets/skillsImages/docusaurus-image.svg";
 
 export const skills: Skills[] = [
   {
@@ -190,5 +191,11 @@ export const skills: Skills[] = [
     name: "Postman",
     category: "API Testing",
     image: postman
+  },
+  {
+    id: 28,
+    name: "Docusaurus",
+    category: "SSG",
+    image: docusaurus
   }
 ];
