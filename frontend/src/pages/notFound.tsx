@@ -4,9 +4,7 @@ import { useEffect } from "react";
 
 export const NotFound: React.FC = () => {
     // Título da página
-    useEffect(() => {
-        document.title = "Página Não Encontrada"
-    }, []);
+    useEffect(() => {document.title = "Página Não Encontrada"}, []);
 
     return (
         <div className={styles.container}>

@@ -29,9 +29,7 @@ export function ProjectsSection() {
               <SkeletonCardProjectsLoad/>
             </>
           ) : (
-            projects.map((project: Projects) => (
-            <ProjectCard key={project.id} project={project} />
-            ))
+            projects.map((project: Projects) => (<ProjectCard key={project.id} project={project} />))
           )}
         </div>
       </div>

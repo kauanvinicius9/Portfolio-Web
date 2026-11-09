@@ -7,11 +7,11 @@ import type { Skills } from "../types/skills";
 
 export function SkillsSection() {
   const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 1000);
-
     return () => clearTimeout(timer);
   }, [])
 
@@ -28,9 +28,7 @@ export function SkillsSection() {
               <SkeletonCardSkillsLoad/>
             </>  
           ) : (
-            skills.map((skill: Skills) => (
-            <SkillCard key={skill.id} skill={skill} />
-            ))
+            skills.map((skill: Skills) => (<SkillCard key={skill.id} skill={skill} />))
           )}
         </div>
       </div>

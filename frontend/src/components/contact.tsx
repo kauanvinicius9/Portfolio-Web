@@ -22,7 +22,6 @@ export function Contact() {
         setStatusMessage("");
         setStatusType("");
       }, 3000);
-
       return () => clearTimeout(timer);
     }
   }, [statusMessage]);
@@ -58,7 +57,6 @@ export function Contact() {
 
       setStatusMessage("Mensagem enviada");
       setStatusType("success");
-
       setName("");
       setEmail("");
       setMessage("");
@@ -87,14 +85,10 @@ export function Contact() {
         <textarea className={`${styles.form__input} ${styles['form__input--textarea']}`} placeholder="Sua mensagem" rows={5} value={message} onChange={(e) => setMessage(e.target.value)} required/>
       </div>
 
-      <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()} aria-label="Enviar mensagem">
-        {loading ? "Enviando..." : "Enviar mensagem"}
-      </button>
+      <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()} aria-label="Enviar mensagem">{loading ? "Enviando..." : "Enviar mensagem"}</button>
 
       {statusMessage && (
-        <div className={`${styles.form__alert} ${statusType === "success" ? styles["form__alert--success"] : styles["form__alert--error"]}`}>
-          {statusMessage}
-        </div>
+        <div className={`${styles.form__alert} ${statusType === "success" ? styles["form__alert--success"] : styles["form__alert--error"]}`}>{statusMessage}</div>
       )}
     </form>
   );

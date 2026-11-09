@@ -14,9 +14,7 @@ export function ProjectCard({ project }: Props) {
         <img src={project.image} alt="Imagem do projeto" className={styles.card__image} />
         <p className={styles.card__efficiency}>{project.efficiency}</p>
         <p className={styles.card__skills}>{project.tools}</p>
-        <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.card__button} aria-label="Ver código do projeto">
-          Ver código do projeto
-        </a>
+        <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.card__button} aria-label="Ver código do projeto">Ver código do projeto</a>
       </div>
     </div>
   );
