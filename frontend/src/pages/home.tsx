@@ -58,7 +58,7 @@ export function Home() {
             <p>
               Me chamo Kauan Vinícius, tenho 18 anos e sou Técnico em
               Desenvolvimento de Sistemas formado pelo SENAI Campinas -
-              Roberto Mange. Atualmente, Estou estudando Ciência da Computação na UniMetrocamp Wyden.
+              Roberto Mange.
             </p>
 
             <p>
