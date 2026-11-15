@@ -25,7 +25,6 @@ const rows: ProjectRow[] = [
   ["Stock", "Gerenciamento de estoque de ferramentas", "https://github.com/kauanvinicius9/Stock", "Desenvolvido para acompanhamento de estoque virtual de ferramentas, diminuindo a desorganização e a ausência de controle", "Next - FastAPI - SQLite", "stock"],
   ["FlowStream Engine", "Motor automatizado de máquinas de estado", "https://github.com/kauanvinicius9/FlowStream-Engine", "Desenvolvido para diminuir o controle manual de fluxos complexos usando condicionais extensas. O sistema passa de um estado a outro apenas quando regras estritas forem atendidas", "React - Django - SQLite", "flowstream-engine"],
   ["Invex", "Simulador de investimentos e acompanhamento financeiro", "https://github.com/kauanvinicius9/Invex", "Desenvolvido para simulação real de investimentos com visualizações de dados através de dashboards, podendo melhorar sua organização financeira de forma eficiênte e simples. Seu investimento pode ser calculado com juros simples ou compostos", "Nuxt - TypeScript", "invex"],
-  ["Zuri", "Inteligência Artificial Copiloto - Extensão", "https://github.com/kauanvinicius9/Zuri", "Desenvolvido para auxiliar o usuário oferecendo opções de resumo do site em que ele estiver. Uma extensão do Chrome podendo guardar de forma segura, textos selecionados em uma página web para sincronizar instantaneamente com a abertura do painel lateral", "React - TypeScript", "zuri"],
 ];
 
 export const projects: Projects[] = rows.map(([title, description, link, efficiency, tools, file], index) => ({
