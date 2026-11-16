@@ -1,9 +1,3 @@
-<SKILL.md>
----
-name: setup
-description: Set up Vercel CI for a private GitHub repository linked to Vercel. Use when asked to set up, onboard, enable, or add Vercel CI; choose Vercel CI tasks; add Turborepo through `vercel/turborepo@add` when needed; or upgrade Turborepo for Vercel CI.
----
-
 # Vercel CI Setup
 
 Open one Vercel CI setup pull request that gets this repository's checks running on Vercel CI. For eligible repositories that do not use Turborepo yet, include the minimal validated Turborepo addition needed for the selected CI tasks in that setup pull request, unless the user asks for separate review. Use whatever tools you have.
@@ -48,5 +42,3 @@ When Turborepo is below the documented Vercel CI minimum, upgrade only to the mi
 - Never opt in a persistent task, such as a dev server, even when asked. It never exits, so the run never finishes;explain this and suggest a short task that starts it, checks it, and exits.
 - Never hand-edit a lockfile, change GitHub Actions workflows, enable Vercel CI in a Turborepo-only pull request, or merge any pull request.
 - If nobody can answer questions, do not wait for a reply: use these defaults, or stop and explain the blocker.
-
-</SKILL.md>
