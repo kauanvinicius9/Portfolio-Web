@@ -8,7 +8,7 @@ interface Props {
 export function SkillCard({ skill }: Props) {
   return (
     <div className={styles.card}>
-      <img src={skill.image} alt="Logo da ferramenta" className={styles.card__image}/>
+      <img src={skill.image} alt="Logo da ferramenta" className={styles.card__image} loading="lazy" />
       <div className={styles.card__body}>
         <h3 className={styles.card__name}>{skill.name}</h3>
         <p className={styles.card__category}>{skill.category}</p>
