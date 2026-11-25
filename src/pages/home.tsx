@@ -4,13 +4,11 @@ import { SkillsSection } from "../components/skillsSection";
 import { Contact } from "../components/contact";
 import { Footer } from "../components/footer";
 import { SpinnerLoading } from "../components/loadings/spinnerLoad";
-import { PullToRefreshLoad } from "../components/loadings/pullToRefreshLoad";
 
 import styles from "./home.module.scss";
 
 export function Home() {
   const [isPageLoading, setIsPageLoading] = useState(true);
-  const [isPulling, setIsPulling] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,13 +28,11 @@ export function Home() {
 
   return (
     <div className={styles.pageWrapper}>
-      <PullToRefreshLoad pulling={isPulling}/>
-
       <section className={styles.hero}>
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
             <div className={styles.hero__about}>
-              <img src="/image.jpg" alt="Foto de perfil" className={styles.hero__image} loading="lazy" />
+              <img src="/image.webp" alt="Foto de perfil" className={styles.hero__image} loading="lazy" />
 
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
               <p className={styles.hero__description}>Desenvolvedor Full-Stack | Bosch Brasil</p>
