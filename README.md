@@ -20,7 +20,11 @@ npm install emailjs
 ```
 
 ```ts
-emailjs.send(serviceID, templateID, params)
+emailjs.send(
+  serviceID, 
+  templateID, 
+  params
+)
 ```
 
 ```powershell
@@ -54,6 +58,10 @@ npm cache clean
 
 ```powershell
 npm install
+```
+
+```powershell
+npm run build
 ```
 
 ---
