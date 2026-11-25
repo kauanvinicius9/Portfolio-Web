@@ -36,7 +36,7 @@ export function Home() {
         <div className={styles.hero__body}>
           <div className={styles.hero__content}>
             <div className={styles.hero__about}>
-              <img src="/image.jpg" alt="Foto de perfil" className={styles.hero__image} />
+              <img src="/image.jpg" alt="Foto de perfil" className={styles.hero__image} loading="lazy" />
 
               <h1 className={styles.hero__name}>Kauan Vinícius</h1>
               <p className={styles.hero__description}>Desenvolvedor Full-Stack | Bosch Brasil</p>
