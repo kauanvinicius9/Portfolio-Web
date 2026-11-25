@@ -74,21 +74,25 @@ export function Contact() {
   return (
     <form className={styles.form} onSubmit={sendEmail}>
       <div className={styles.form__group}>
-        <input className={styles.form__input} type="text" placeholder="Seu nome" value={name} onChange={(e) => setName(e.target.value)} required/>
+        <input className={styles.form__input} type="text" placeholder="Seu nome" value={name} onChange={(e) => setName(e.target.value)} required />
       </div>
 
       <div className={styles.form__group}>
-        <input className={styles.form__input} type="email" placeholder="Seu e-mail" value={email} onChange={(e) => setEmail(e.target.value)} required/>
+        <input className={styles.form__input} type="email" placeholder="Seu e-mail" value={email} onChange={(e) => setEmail(e.target.value)} required />
       </div>
 
       <div className={styles.form__group}>
-        <textarea className={`${styles.form__input} ${styles['form__input--textarea']}`} placeholder="Sua mensagem" rows={5} value={message} onChange={(e) => setMessage(e.target.value)} required/>
+        <textarea className={`${styles.form__input} ${styles['form__input--textarea']}`} placeholder="Sua mensagem" rows={5} value={message} onChange={(e) => setMessage(e.target.value)} required />
       </div>
 
-      <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()} aria-label="Enviar mensagem">{loading ? "Enviando..." : "Enviar mensagem"}</button>
+      <button className={styles.form__button} type="submit" disabled={loading || !message.trim() || !email.trim() || !name.trim()} aria-label="Enviar mensagem">
+        {loading ? "Enviando..." : "Enviar mensagem"}
+      </button>
 
       {statusMessage && (
-        <div className={`${styles.form__alert} ${statusType === "success" ? styles["form__alert--success"] : styles["form__alert--error"]}`}>{statusMessage}</div>
+        <div className={`${styles.form__alert} ${statusType === "success" ? styles["form__alert--success"] : styles["form__alert--error"]}`}>
+          {statusMessage}
+        </div>
       )}
     </form>
   );

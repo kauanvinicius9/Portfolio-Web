@@ -13,7 +13,7 @@ export function SkillsSection() {
       setIsLoading(false);
     }, 1000);
     return () => clearTimeout(timer);
-  }, [])
+  }, []);
 
   return (
     <section id="skills" className={styles.hero}>
@@ -23,12 +23,14 @@ export function SkillsSection() {
         <div className={styles.skillGrid}>
           {isLoading ? (
             <>
-              <SkeletonCardSkillsLoad/>
-              <SkeletonCardSkillsLoad/>
-              <SkeletonCardSkillsLoad/>
-            </>  
+              <SkeletonCardSkillsLoad />
+              <SkeletonCardSkillsLoad />
+              <SkeletonCardSkillsLoad />
+            </>
           ) : (
-            skills.map((skill: Skills) => (<SkillCard key={skill.id} skill={skill} />))
+            skills.map((skill: Skills) => (
+              <SkillCard key={skill.id} skill={skill} />
+            ))
           )}
         </div>
       </div>

@@ -14,7 +14,7 @@ export function ProjectsSection() {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [])
+  }, []);
 
   return (
     <section id="projects" className={styles.hero}>
@@ -23,13 +23,15 @@ export function ProjectsSection() {
 
         <div className={styles.cards}>
           {isLoading ? (
-            <>         
-              <SkeletonCardProjectsLoad/>
-              <SkeletonCardProjectsLoad/>
-              <SkeletonCardProjectsLoad/>
+            <>
+              <SkeletonCardProjectsLoad />
+              <SkeletonCardProjectsLoad />
+              <SkeletonCardProjectsLoad />
             </>
           ) : (
-            projects.map((project: Projects) => (<ProjectCard key={project.id} project={project} />))
+            projects.map((project: Projects) => (
+              <ProjectCard key={project.id} project={project} />
+            ))
           )}
         </div>
       </div>
